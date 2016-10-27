@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product: MyString
+  stock_month_start: 1
+  stock_month_received: 1
+  stock_month_end: 1
+  num_delivered_to_ac: 1
+  num_delivered_to_ps: 1
+  num_used: 1
+  num_lost: 1
+  num_close_to_expire: 1
+  num_days_out_of_stock: 1
+
+two:
+  product: MyString
+  stock_month_start: 1
+  stock_month_received: 1
+  stock_month_end: 1
+  num_delivered_to_ac: 1
+  num_delivered_to_ps: 1
+  num_used: 1
+  num_lost: 1
+  num_close_to_expire: 1
+  num_days_out_of_stock: 1

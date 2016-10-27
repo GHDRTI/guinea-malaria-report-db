@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reporting_month: 1
+  reporting_year: 1
+  district_id: 
+
+two:
+  reporting_month: 1
+  reporting_year: 1
+  district_id: 

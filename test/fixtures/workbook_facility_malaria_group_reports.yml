@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  group: MyString
+  registration_method: MyString
+  total_patients_all_causes: 1
+  total_deaths: 1
+  suspect_severe_deaths_male: 1
+  suspect_severe_deaths_female: 1
+  suspect_simple_male: 1
+  suspect_simple_female: 1
+  suspect_severe_male: 1
+  suspect_severe_female: 1
+  tested_microscope: 1
+  tested_rdt: 1
+  confirmed_micoscope: 1
+  confirmed_rdt: 1
+  treated_act_male: 1
+  treated_act_female: 1
+  treated_severe_male: 1
+  treated_severe_female: 1
+  total_referrals: 1
+
+two:
+  group: MyString
+  registration_method: MyString
+  total_patients_all_causes: 1
+  total_deaths: 1
+  suspect_severe_deaths_male: 1
+  suspect_severe_deaths_female: 1
+  suspect_simple_male: 1
+  suspect_simple_female: 1
+  suspect_severe_male: 1
+  suspect_severe_female: 1
+  tested_microscope: 1
+  tested_rdt: 1
+  confirmed_micoscope: 1
+  confirmed_rdt: 1
+  treated_act_male: 1
+  treated_act_female: 1
+  treated_severe_male: 1
+  treated_severe_female: 1
+  total_referrals: 1

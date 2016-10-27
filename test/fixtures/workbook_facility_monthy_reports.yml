@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  workbook_id: 
+  population_total: 1
+  population_covered: 1
+  num_services: 1
+  num_reports_compiled: 1
+  num_pregnant_anc_tested: 1
+  num_pregnant_first_dose_sp: 1
+  num_pregnant_three_doses_sp: 1
+  num_structures: 1
+  num_agents: 1
+  num_local_ngos_cbos: 1
+  compiled_by_name: MyString
+  compiled_by_org: MyString
+  compiled_by_phone: MyString
+  compiled_by_date: 2016-10-18
+  approved_by_name: MyString
+  approved_by_org: MyString
+  approved_by_phone: MyString
+  approved_by_date: 2016-10-18
+
+two:
+  workbook_id: 
+  population_total: 1
+  population_covered: 1
+  num_services: 1
+  num_reports_compiled: 1
+  num_pregnant_anc_tested: 1
+  num_pregnant_first_dose_sp: 1
+  num_pregnant_three_doses_sp: 1
+  num_structures: 1
+  num_agents: 1
+  num_local_ngos_cbos: 1
+  compiled_by_name: MyString
+  compiled_by_org: MyString
+  compiled_by_phone: MyString
+  compiled_by_date: 2016-10-18
+  approved_by_name: MyString
+  approved_by_org: MyString
+  approved_by_phone: MyString
+  approved_by_date: 2016-10-18
