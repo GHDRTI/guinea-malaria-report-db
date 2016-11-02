@@ -1,0 +1,36 @@
+ .container-login {
+  height: 100%;
+  display: table;
+  width: 100%;
+  padding: 0;
+
+  .alert {
+    text-align: left;
+  }
+
+  .login-row {
+    height: 100%; 
+    display: table-cell; 
+    vertical-align: middle;
+
+    .centering {
+      float: none;
+      margin: 0 auto;
+    }
+
+    .panel-login { 
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    form {
+      text-align: right;
+    }
+    form, .login-links {
+      margin-top: 3em;
+    }
+
+  }
+}

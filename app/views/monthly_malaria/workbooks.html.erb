@@ -1,0 +1,49 @@
+<h1>
+  Monthly Malaria Workbooks
+  <small>
+    <a class="btn btn-default" href="<%= url_for(controller: 'workbook_files', action: 'new') %>">
+      <span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span> 
+      Upload Workbook
+    </a>
+  </small>
+<h1>
+
+<hr/>
+
+<%= form_tag({controller: 'monthly_malaria', action: 'search'}, {class: 'form-inline search-form'}) do %>
+  <div class="form-group">
+    <label><span class="glyphicon glyphicon-search form-icon" aria-hidden="true"></span></label>
+    <%= text_field_tag(:q, params[:q], placeholder: 'Search by facility, district, country, or user', class: 'form-control input-sm input-wd') %>
+  </div>
+  <div class="form-group">
+    <label><span class="glyphicon glyphicon-calendar form-icon" aria-hidden="true"></span></label>
+    <%= text_field_tag(:start_date, params[:start_date], placeholder: 'After', class: 'form-control input-sm input-nr', 'data-provide' => "datepicker-inline") %>
+    <%= text_field_tag(:end_date, params[:end_date], placeholder: 'Before', class: 'form-control input-sm input-nr', 'data-provide' => "datepicker-inline") %>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-sm btn-default">Search</button>
+  </div>
+<% end %>
+
+<table class="table table-striped">
+  <thead>
+    <th>District</th>
+    <th>Date</th>
+    <th>Last submission</th>
+    <th>Uploaded by</th>
+    <th>Status</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <% @workbooks.each do |workbook| %>
+      <tr>
+        <td><%= workbook.district.name %></td>
+        <td><%= Date.new(workbook.reporting_year, workbook.reporting_month).strftime('%Y %b') %></td>
+        <td><%= workbook.active_workbook_file.uploaded_at %></td>
+        <td><%= workbook.active_workbook_file.user.name %></td>
+        <td><%= workbook.current_status %></td>
+        <td><%= link_to "View", action: 'workbook', id: workbook.id %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

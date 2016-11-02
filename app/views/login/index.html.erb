@@ -1,0 +1,13 @@
+<%= form_tag(controller: 'login', action: 'send_login') do %>
+  <div class="form-group">
+    <%= text_field_tag(:email, nil, placeholder: 'Email Address', class: 'form-control') %>
+  </div>
+  <% if @error == 'not_found' %>
+    <div class="alert alert-warning" role="alert">
+      User with email '<%= @email %>' not found.
+    </div>
+  <% end %>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Log In</button>
+  </div>
+<% end %>

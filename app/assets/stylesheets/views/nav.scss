@@ -1,0 +1,67 @@
+#sidebar-nav {
+  color: #ffffff;
+  background-color: #007196;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  border-right: 1px solid #ccc;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      color: #ccc !important;
+    }
+  }
+  h1 {
+    margin: 0;
+  }
+
+  .sidebar-section {
+    padding: 0.8em 0;
+  }
+
+  #sidebar-user {
+    .left {
+      float: left;
+      font-size: 18px;
+      padding: 0.5em 1.2em;
+    }
+    .right {
+      float: right;
+      font-size: 18px;
+      padding: 0.5em 1.2em;
+    }
+    .sidebar-user-details {
+      padding: 9px 0 0;
+      .name {
+        font-size: 1.1em;
+        display: block;
+      }
+      .role {
+        font-size: 0.8em;
+      }
+    }
+  }
+  .nav-selection {
+    padding: 0.2em 1.2em;
+    position: relative;
+    &.selected::before {
+      font-family: 'Glyphicons Halflings';
+      content: "\e250";
+      position: absolute;
+      font-size: 10px;
+      right: 5px;
+      top: 50%;
+      bottom: 50%;
+      margin-top: -8px;
+    }
+  }
+  .nav-selection-sub {
+    font-size: 1em;
+    padding-left: 1.5em;
+  }
+}

@@ -1,0 +1,83 @@
+<script type="text/javascript">
+$(function() {
+  $('#workbook-upload-form').find("input:file").each(function(i, elem) {
+    var fileInput    = $(elem);
+    var form         = $(fileInput.parents('form:first'));
+    var submitButton = form.find('input[type="submit"]');
+    var progressBar  = $("#workbook-upload-progress-bar");
+    fileInput.fileupload({
+      fileInput:       fileInput,
+      url:             form.data('url'),
+      type:            'POST',
+      autoUpload:       true,
+      formData:         form.data('form-data'),
+      paramName:        'file', // S3 does not like nested name fields i.e. name="user[avatar_url]"
+      dataType:         'XML',  // S3 returns XML if success_action_status is set to 201
+      replaceFileInput: false,
+      progressall: function (e, data) {
+        var progress = parseInt(data.loaded / data.total * 100, 10);
+        progressBar.css('width', progress + '%')
+      },
+      start: function (e) {
+        $('#workbook-upload-form').hide();
+        $('#uploading').show();
+        $('#workbook-upload-progress-bar').css('width', '0%');
+        $('#error-uploading').hide();
+      },
+      done: function(e, data) {
+        var key = $(data.jqXHR.responseXML).find("Key").text();
+        var url = 'https://' + form.data('host') + '/' + key;
+        var filename = url.split(/(\\|\/)/g).pop()
+        console.log(key);
+        console.log(url);
+        console.log(filename);
+      },
+      fail: function(e, data) {
+        $('#workbook-upload-form').show();
+        $('#uploading').hide();
+        $('#error-uploading').show();
+      }
+    });
+  });
+});
+</script>
+
+<h1>Upload monthly malaria workbook file</h1>
+<!-- Upload a workbook file, when done, load verifying page -->
+<br/>
+<div class="panel panel-default panel-narrow">
+  <div class="panel-body">
+    <p>
+      <% s3_direct_post = @workbook_file.presigned_post %>   
+      <%= form_for(@workbook_file, 
+          html: { 
+            id: 'workbook-upload-form',
+            data: { 
+              'form-data' => (s3_direct_post.fields), 
+              'url' => s3_direct_post.url, 
+              'host' => URI.parse(s3_direct_post.url).host 
+            } 
+          }) do |f| %>
+        <div class="form-group">
+          <%= f.file_field :storage_url %>
+        </div>
+      <% end %>
+
+      <div id="uploading" style="display:none;">
+        <span>Uploading...</span>
+        <div id="workbook-upload-progress" class="progress">
+          <div id="workbook-upload-progress-bar" class="progress-bar" 
+              role="progressbar" aria-valuenow="0" 
+              aria-valuemin="0" aria-valuemax="100">
+          </div>
+        </div>
+      </div>
+
+      <div id="error-uploading" class="alert alert-danger" 
+          style="display:none;" role="alert">
+        Error uploading workbook
+      </div>
+
+    </p>
+  </div>
+</div>

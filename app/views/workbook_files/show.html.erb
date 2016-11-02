@@ -1,0 +1,19 @@
+<% if @workbook_file.status.nil? %>
+  <%= render 'upload_workbook_file' %>
+<% elsif @workbook_file.status == 'verifying' %>
+  <%= render 'verifying_workbook_file' %>
+<% elsif @workbook_file.status == 'invalid' %>
+  <%= render 'workbook_file_errors' %>
+<% elsif @workbook_file.status == 'verified' %>
+  <%= render 'workbook_file_valid' %>
+<% elsif @workbook_file.status == 'importing' %>
+  <%= render 'importing_workbook_file' %>
+<% elsif @workbook_file.status == 'error' %>
+  <%= render 'workbook_file_errors' %>
+<% elsif @workbook_file.status == 'imported' %>
+  <%= render 'workbook_file_imported' %>
+<% elsif @workbook_file.status == 'archived' %>
+  
+<% else %>
+  <p>Error: unknown workbook file state</p>
+<% end %>

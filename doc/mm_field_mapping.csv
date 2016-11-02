@@ -1,0 +1,94 @@
+DataField,English,French,Explanation needed
+month,Month,Mois,
+year,Year,Année,
+population_total,Total Population,Population totale,
+population_covered,Covered Population,Population couverte,
+dps_dcs,,DPS/DCS,District?
+drs_dsvco,,DRS/DSVCO,City?
+num_services,Number of Services,Nbre de structures/services,Structures translation
+num_reports,Number of reports compiled,Nbre de rapports compilés,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+WorkbookFacilityMonthyReport,Cell,Validation Conditions,Warning Conditions
+district,N:3,,
+month,date(D:3).month,"present, year",
+year,date(D:3).year,"present, year",
+facility_name,D:4,present,
+population_total,J:3,,"present, integer >= 0"
+population_covered,J:4,,"present, integer >= 0"
+num_services,U:3,,"present, integer >= 0"
+num_reports_compiled,U:4,,"present, integer >= 0"
+num_pregnant_anc_tested,H:26,,"present, integer >= 0"
+num_pregnant_first_dose_sp,H:27,,"present, integer >= 0"
+num_pregnant_three_doses_sp,H:28,,"present, integer >= 0"
+num_structures,L:29,,"present, integer >= 0"
+num_agents,O:29,,"present, integer >= 0"
+num_local_ngos_cbos,S:29,,"present, integer >= 0"
+compiled_by_name,D:47,,present
+compiled_by_org,D:48,,
+compiled_by_phone,I:47,,
+compiled_by_date,I:48,,
+approved_by_name,O:47,,present
+approved_by_org,O:48,,
+approved_by_phone,U:47,,
+approved_by_date,U:48,,
+,,,
+,,,
+,,,
+WorkbookFacilityMalariaGroupReport,Cell,Validation Conditions,Warning Conditions
+group,"below_five, above_five, pregnant","present, included",
+registration_method,"structure, agent, death","present, included",
+below_five:structure,row 11,,
+below_five:agent,row 12,,
+below_five:death,row 14,,
+above_five:structure,row 16,,
+above_five:agent,row 17,,
+above_five:death,row 19,,
+pregnant:structure,row 21,,
+pregnant:agent,row 22,,
+pregnant:death,row 24,,
+total_patients_all_causes,D:row,,
+suspect_simple_male,E:row,,
+suspect_simple_female,F:row,,
+suspect_severe_male,G:row,,
+suspect_severe_female,F:row,,
+tested_microscope,J:row,,
+tested_rdt,K:row,,
+confirmed_micoscope,M:row,,
+confirmed_rdt,N:row,,
+treated_act_male,P:row,,
+treated_act_female,Q:row,,
+treated_severe_male,R:row,,
+treated_severe_female,S:row,,
+total_referrals,U:row,,
+,,,
+,,,
+,,,
+,,,
+WorkbookFacilityMalariaGroupReport,Cell,Validation Conditions,Warning Conditions
+product,,"present, included",
+rdt,row 34,,
+asaq_infant,row 35,,
+asaq_small_child,row 36,,
+asaq_child,row 37,,
+asaq_adult,row 38,,
+al,row 39,,
+sp,row 40,,
+artesunate_inj,row 41,,
+artemether_inj,row 42,,
+quinine_inj,row 43,,
+quinine_caps,row 44,,
+milda,row 45,,
+stock_month_start,E:row,,
+stock_month_received,G:row,,
+num_delivered_to_ac,I:row,,
+num_delivered_to_ps,K:row,,
+num_used,M:row,,
+num_lost,O:row,,
+num_close_to_expire,S:row,,
+num_days_out_of_stock,U:row,,
+,,,

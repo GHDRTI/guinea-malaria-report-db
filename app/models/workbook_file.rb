@@ -3,7 +3,7 @@ class WorkbookFile < ActiveRecord::Base
   belongs_to :workbook
   belongs_to :user
 
-  STATUSES = %w(uploading verifying invalid verified importing error imported 
+  STATUSES = %w(verifying invalid verified importing error imported 
     archived).map(&:to_sym)
 
   IGNORE_SHEETS_NAMED = ['Rapport Mensuel Palu', 'TOTAL District']

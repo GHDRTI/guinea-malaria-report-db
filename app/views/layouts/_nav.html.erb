@@ -1,0 +1,54 @@
+<div id="sidebar-nav">
+
+  <div id="sidebar-user" class="sidebar-section">
+    <span class="glyphicon glyphicon-user left" aria-hidden="true"></span>
+    <span class="glyphicon glyphicon-cog right" aria-hidden="true"></span>
+    <div class="sidebar-user-details">
+      <span class="name"><%= current_user.name %></span>
+      <!-- <span class="role"></span> -->
+    </div>
+  </div>
+
+  <div id="sidebar-title" class="sidebar-section">
+    <div class="nav-selection <%= 'selected' if section?(:home) %>">
+      <h1><a href="<%= url_for controller: 'home' %>">Stop Palu</a></h1>
+    </div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="nav-selection">
+      <h4><a href="#">Monthly Malaria Workbook</a></h4>
+    </div>
+    <div class="nav-selection nav-selection-sub">
+      <a href="<%= url_for controller: 'monthly_malaria'%>">
+        <span class="glyphicon glyphicon-stats left" aria-hidden="true"></span> 
+        Reporting
+      </a>
+    </div>
+    <div class="nav-selection nav-selection-sub">
+      <a href="<%= url_for controller: 'monthly_malaria', action: 'workbooks' %>">
+        <span class="glyphicon glyphicon-file left" aria-hidden="true"></span> 
+        Workbooks
+      </a>
+    </div>
+  </div>
+
+  <!-- <div class="sidebar-section">
+    <div class="nav-selection">
+      <h4><a href="#">RapidPro Case Management &amp; Stock Data</a></h4>
+    </div>
+    <div class="nav-selection nav-selection-sub">
+      <a href="#">
+        <span class="glyphicon glyphicon-stats left" aria-hidden="true"></span> 
+        Reporting
+      </a>
+    </div>
+    <div class="nav-selection nav-selection-sub">
+      <a href="#">
+        <span class="glyphicon glyphicon-file left" aria-hidden="true"></span> 
+        Workbook Files
+      </a>
+    </div>
+  </div> -->
+
+</div>

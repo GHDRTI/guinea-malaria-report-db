@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+<meta content="IE=edge" http-equiv=X-UA-Compatible>
+<meta content="width=device-width,initial-scale=1" name=viewport>
+<title>StopPalu Database</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<style>
+
+
+#sidebar-nav {
+  color: #ffffff;
+  /*color: #2d2d2d;*/
+  background-color: #007196;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20em;
+  border-right: 1px solid #ccc;
+}
+
+#sidebar-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#sidebar-nav a:hover {
+  text-decoration: none;
+  color: #ccc !important;
+}
+
+.sidebar-section {
+  padding: 0.8em 0;
+  /*border-bottom: 1px solid #ccc;*/
+}
+
+#sidebar-nav h1 {
+  margin: 0;
+}
+
+#sidebar-user .left {
+  float: left;
+  font-size: 34px;
+  padding: 10px;
+}
+#sidebar-user .right {
+  float: right;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#sidebar-user .sidebar-user-details {
+  padding: 5px 0;
+}
+#sidebar-user .sidebar-user-details .name {
+  font-size: 1.3em;
+  display: block;
+}
+
+.nav-selection {
+  padding: 0.2em 1em;
+  position: relative;
+}
+
+.nav-selection-sub {
+  font-size: 1em;
+  padding-left: 1.5em;
+}
+
+.nav-selection.selected::before {
+  font-family: 'Glyphicons Halflings';
+  content: "\e250";
+  position: absolute;
+  font-size: 10px;
+  right: 5px;
+  top: 50%;
+  bottom: 50%;
+  margin-top: -8px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="container-fluid">
+
+  <div id="sidebar-nav">
+
+    <div id="sidebar-user" class="sidebar-section">
+      <span class="glyphicon glyphicon-user left" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-cog right" aria-hidden="true"></span>
+      <div class="sidebar-user-details">
+        <span class="name">Adam Wilson</span>
+        <span class="role">Admin</span>
+      </div>
+    </div>
+
+    <div id="sidebar-title" class="sidebar-section">
+      <div class="nav-selection selected">
+        <h1><a href="#">Stop Palu</a></h1>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="nav-selection">
+        <h4><a href="#">Monthly Malaria Workbook</a></h4>
+      </div>
+      <div class="nav-selection nav-selection-sub">
+        <a href="#">
+          <span class="glyphicon glyphicon-stats left" aria-hidden="true"></span> 
+          Reporting
+        </a>
+      </div>
+      <div class="nav-selection nav-selection-sub selected">
+        <a href="#">
+          <span class="glyphicon glyphicon-file left" aria-hidden="true"></span> 
+          Workbook Files
+        </a>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="nav-selection">
+        <h4><a href="#">RapidPro Case Management &amp; Stock Data</a></h4>
+      </div>
+      <div class="nav-selection nav-selection-sub">
+        <a href="#">
+          <span class="glyphicon glyphicon-stats left" aria-hidden="true"></span> 
+          Reporting
+        </a>
+      </div>
+      <div class="nav-selection nav-selection-sub">
+        <a href="#">
+          <span class="glyphicon glyphicon-file left" aria-hidden="true"></span> 
+          Workbook Files
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</body>
+
+</html>
