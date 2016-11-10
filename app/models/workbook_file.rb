@@ -88,6 +88,10 @@ class WorkbookFile < ActiveRecord::Base
     if IGNORE_SHEETS_EMPTY_CELLS.any? { |cell| sheet.cell(*cell).blank? }
       return true
     end
+    if !import_overrides.blank? && !import_overrides["health_facilities"].blank? &&
+        import_overrides["health_facilities"][name] == 'ignore'
+      return true
+    end
     return false
   end
 
@@ -152,12 +156,14 @@ class WorkbookFile < ActiveRecord::Base
       first_sheet = spreadsheet.sheet(sheet_names_to_validate.first)
       district_name = first_sheet.cell(*CELL_DISTRICT_NAME)
       district = get_import_override("district") || District.named(district_name)
+      if (district.nil?)
+        validations[:errors] << t_err(:unknown_district, district_name: district_name)
+      end
       date = get_import_override("reporting_date") || first_sheet.cell(*CELL_DATE)
       if date.is_a?(Date) && !date.blank?
         if district
           Workbook.assign_workbook_file self, district, date.year, date.month
         else
-          validations[:errors] << t_err(:unknown_district, district_name: district_name)
           self.workbook = nil
         end
       else
@@ -168,7 +174,7 @@ class WorkbookFile < ActiveRecord::Base
       if district && !get_import_override("district")
         sheet_names_to_validate.each do |sheet_name|
           name = spreadsheet.sheet(sheet_name).cell *CELL_DISTRICT_NAME 
-          unless district.is_also_named? name
+          unless district.is_also_named? (name || '').to_s
             validations[:errors] << t_err(:district_not_same, 
               workbook_district_name: district.name,
               sheet_name: sheet_name, 

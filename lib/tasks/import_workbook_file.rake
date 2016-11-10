@@ -12,7 +12,7 @@ namespace :import do
       next
     end
     user = User.find args.user_id.to_i
-    Dir.entries(args.path).select{ |p| p.end_with? ".xls" }.each do |filename|
+    Dir.entries(args.path).select{ |p| p =~ /\.xls[x]*/ }.each do |filename|
       import_workbook_file File.join(args.path, filename), user
     end
   end
@@ -39,13 +39,13 @@ namespace :import do
 
 end
 
-def import_workbook_file path, user, overrides=nil
+def import_workbook_file path, user, overrides={}
   puts "======================================="
   puts "Importing workbook at '#{path}'"
 
   workbook_file = WorkbookFile.create user: user, status: 'uploading', 
     uploaded_at: DateTime.now
-  if overrides
+  unless overrides.blank?
     puts "Using overrides: #{overrides}"
     workbook_file.update_attribute :import_overrides, overrides
   end
@@ -64,12 +64,12 @@ def import_workbook_file path, user, overrides=nil
     puts "Workbook errors:"
     puts JSON.pretty_generate(workbook_file.validation_errors['errors'])
 
-    cli_overrides = {}
+    cli_overrides = {}.merge(overrides || {})
     if errors_has_district_missing? workbook_file.validation_errors['errors']
       cli_overrides.merge! ask_for_district_override(workbook_file)
     end
 
-    # Revalidate once to populate district if missing
+    # Revalidate once to populate date if missing
     unless cli_overrides.empty?
       workbook_file.update_attribute :import_overrides, cli_overrides
       workbook_file.validate!
@@ -78,6 +78,12 @@ def import_workbook_file path, user, overrides=nil
     # Ask for date if missing
     if errors_has_workbook_date_missing? workbook_file.validation_errors['errors']
       cli_overrides.merge! ask_for_date_override(workbook_file)
+    end
+
+    # Revalidate once to populate district if missing
+    unless cli_overrides.empty?
+      workbook_file.update_attribute :import_overrides, cli_overrides
+      workbook_file.validate!
     end
 
     # Ask for facilities if unknown
@@ -179,9 +185,13 @@ end
 def ask_for_health_center_override workbook_file, error
   facility_name = error['values']['facility_name']
   sheet_name = error['values']['sheet_name']
-  puts "Unknown facility '#{facility_name}' on sheet '#{sheet_name}'.  Would you like to specify the facility?"
+  puts "Unknown facility '#{facility_name}' on sheet '#{sheet_name}'.  Would you like to specify the facility or ignore the sheet (y|n|i)?"
   input = STDIN.gets.chomp
-  return {} if input.strip.downcase != 'y'
+  return {} unless %w(y i).include?(input.strip.downcase)
+
+  if input.strip.downcase == 'i'
+    return {sheet_name => 'ignore'}
+  end
 
   if workbook_file.workbook.district.nil?
     puts "Workbook must have a valid district specfied to specify a health facility"

@@ -19,7 +19,11 @@ module HasSpreadsheet extend ActiveSupport::Concern
   end
 
   def load_spreadsheet!
-    Roo::Spreadsheet.open(workbook_file_url, extension: :xls)
+    begin
+      Roo::Spreadsheet.open(workbook_file_url, extension: :xlsx)
+    rescue Zip::Error
+      Roo::Spreadsheet.open(workbook_file_url)
+    end
   end
 
   def workbook_file_bucket_path post=false

@@ -56,6 +56,8 @@ districts_facilities = {
         ['CMC Miniere', 'Miniere']
         'FMG',
         'CMA Dixinn',
+        'CMA Dixinn Gare',
+        'CMADG',
         'Koundian',
         'Kondianakoro',
         'Balandougouba',
@@ -97,7 +99,7 @@ districts_facilities = {
         ['Hopital', 'Hoipital'],
         'Bassia',
         ['Maférinyah', 'Maferinyah', 'Maferinyag'],
-        ['Farmoréah ', 'Farmoreah', 'Farmoriah'],
+        ['Farmoréah ', 'Farmoreah', 'Farmoriah', 'Farémréah'],
         ['Bokariah', 'Bokaria'],
         'Kakossa',
         'Moussayah',
@@ -106,7 +108,7 @@ districts_facilities = {
         'Sikhourou',
         'Kaback'
       ],
-      alternative_names: ['Forécariah']
+      alternative_names: ['Forécariah', 'Forecariah']
     },
     'Fria' => {
       facilities: [
@@ -121,15 +123,16 @@ districts_facilities = {
     },
     'Gaoual' => {
       facilities: [
-        ['Hopital', 'Hôpital', 'HP Gaoual']
+        ['Hopital', 'Hôpital', 'HP Gaoual', 'Gaoual']
         'CSU',
         'Touba',
         'Kakoni',
         'Foulamori',
         'Malanta',
         'Kounsitel',
-        'Wendou Mbour',
-        'Koumbia'
+        ['Wendou Mbour', 'W. M\'Bour'],
+        'Koumbia',
+        'CS Sambailo'
       ]
     },
     'Kaloum' => {
@@ -143,14 +146,14 @@ districts_facilities = {
     },
     'Koundara' => {
       facilities: [
-        ['Hopital', 'Hôpital']
+        ['Hopital', 'Hôpital'],
         'Sareboido',
         'Termesse',
         'Guingan',
         'Youkounkoun',
         'Sambailo',
         'Kamaby',
-        'CSU'
+        ['CSU', 'CSU Koundara']
       ],
       alternative_names: ['KOUNDRA']
     },
@@ -167,23 +170,23 @@ districts_facilities = {
     },
     'Labe' => {
       facilities: [
-        ['Hopital', 'H RL', 'Labé', 'Labe'],
+        ['Hopital', 'H RL', 'Labé', 'Labe', 'Hôpital Régional'],
         'Bowloko',
         'Daka',
         'Dalein',
         ['Dara Labé', 'Dara Labe', 'Daralabé', 'Daralabe'],
         ['Diari', 'CS Diari'],
         'Dionfo',
-        ['Fafabhé', 'Fafabhe', 'CS fafabhe'],
+        ['Fafabhé', 'Fafabhe', 'CS fafabhe', 'Fafabhè'],
         ['Garambé', 'Garambe'],
         ['Hafia', 'CS HAFIA'],
         'Kalan',
-        ['Kourmangui', 'CS Kouramangui'],
-        ['Leysaré', 'Leysare', 'CS LEYSARE'],
+        ['Kourmangui', 'CS Kouramangui', 'Kouramangui'],
+        ['Leysaré', 'Leysare', 'CS LEYSARE', 'Leysarè'],
         ['Lombona', 'Lombonna'],
         'Pellel',
         ['Popodra', 'Popodara',
-        ['Sannou', 'CS Sannou'],
+        ['Sannou', 'CS Sannou', 'Sannoun'],
         'Tountouroun',
         ['CCS Noussy', 'CS noussy', 'Noussy']
       ],
@@ -201,7 +204,7 @@ districts_facilities = {
         'Diountou', 
         'Lafou', 
         'Thianguel Bori', 
-        'Manda Saran', 
+        ['Manda', 'Manda Saran', 
         ['Linsan', 'Linsan Saran']
       ]
     },
@@ -226,19 +229,20 @@ districts_facilities = {
         'Saint Gabriel',
         'Bernay Fotoba',
         ['CSA Siloe', 'C SA Siloe']
-      ]
+      ],
+      alternative_names: ['Mayoto']
     },
     'Mali' => {
       facilities: [
         ['Hopital', 'Hôpital', 'HÔPITAL  Mali'],
-        ['CSU', 'CSU Mali'], 
+        ['CSU', 'CSU Mali', 'MALI CENTRE'], 
         'Fougou',
-        'Balaki', 
+        ['Balaki','BALAKY'], 
         'Donghel Sigon', 
-        'Dougountouny', 
+        ['Dougountouny', 'Dougountounny']
         'Gayah', 
         'Hidayatou', 
-        ['Lebekeren', 'Lébékeren'] ,
+        ['Lebekeren', 'Lébékeren', 'LEBEKERE'],
         ['Madina Wora', 'Madina  wora'],
         ['Salambande', 'Salambandé'],
         'Telire', 
@@ -248,7 +252,7 @@ districts_facilities = {
     },
     'Ratoma' => {
       facilities: [
-        ['CMC Ratoma', 'CMC']
+        ['CMC Ratoma', 'CMC', 'Ratoma']
         'AHS Yattaya',
         'AMBG Clinique',
         'Jean Mermoz',
@@ -261,12 +265,16 @@ districts_facilities = {
         ['Koloma', 'CS Koloma'],
         'Sonfonia',
         'Sulfonai',
-        'Simbaya Gare',
+        ['Simbaya Gare', 'Simbaya Gara', 'CS Gare'],
         ['Kobaya', 'CS Kobaya'],
-        ['Kaba', "D'Kaba", 'CS D,Kaba'],
-        'Wanidara',
+        ['Kaba', "D'Kaba", 'CS D,Kaba', 'Koporo Djene Kaba'],
+        ['Wanidara', 'CS Wanidara'],
         ['Kaporo Fondis', 'Kaporo'],
-        ['Flamboyant', 'Flamboya','Flambayants']
+        ['Flamboyant', 'Flamboya', 'Flambayants', 'Flamboyants'],
+        'OSU',
+        'Cherubins',
+        'Sesir',
+        ['Anasagist','Anastasis']
       ],
       alternative_names: ['DCS Ratoma']
     },
@@ -282,9 +290,9 @@ districts_facilities = {
         'Konah',
         'Kouratongo',
         'Tangaly',
-        ['CSU Tougué', 'Tougué Centre', 'CSU', 'CSU/Tougué']
+        ['CSU Tougué', 'Tougué Centre', 'CSU', 'CSU/Tougué', 'C S U']
       ],
-      alternative_names: ['Tougué']
+      alternative_names: ['Tougué','Touhué','Tougé']
     },
   }
 

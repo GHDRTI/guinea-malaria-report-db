@@ -11,15 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161018205326) do
+ActiveRecord::Schema.define(version: 20161110174000) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "districts", force: :cascade do |t|
     t.text     "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                     null: false
+    t.datetime "updated_at",                     null: false
+    t.text     "alternative_names", default: [],              array: true
   end
 
   create_table "health_facilities", force: :cascade do |t|
@@ -127,10 +128,12 @@ ActiveRecord::Schema.define(version: 20161018205326) do
     t.json     "import_errors"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
+    t.json     "import_overrides"
   end
 
   add_index "workbook_files", ["user_id"], name: "index_workbook_files_on_user_id", using: :btree
   add_index "workbook_files", ["workbook_id"], name: "index_workbook_files_on_workbook_id", using: :btree
+  add_index "workbook_files", ["workbook_id"], name: "index_workbook_files_unique_active", unique: true, where: "((status)::text = 'active'::text)", using: :btree
 
   create_table "workbooks", force: :cascade do |t|
     t.integer  "reporting_month"
@@ -140,6 +143,7 @@ ActiveRecord::Schema.define(version: 20161018205326) do
     t.datetime "updated_at",      null: false
   end
 
+  add_index "workbooks", ["district_id", "reporting_year", "reporting_month"], name: "index_workbook_on_district_year_month", unique: true, using: :btree
   add_index "workbooks", ["district_id"], name: "index_workbooks_on_district_id", using: :btree
 
   add_foreign_key "health_facilities", "districts"
