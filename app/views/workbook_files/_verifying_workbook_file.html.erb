@@ -1,0 +1,19 @@
+<script type="text/javascript">
+$(function() {
+  setInterval(function() {
+    $.get('<%= url_for controller: 'workbook_files', action: 'status', id: @workbook_file.id %>')
+      .done(function(data){
+        if (data != 'verifying') location.reload();
+      }) 
+  }, 3000);
+});
+</script>
+
+<h1>Upload monthly malaria workbook file</h1>
+<br/>
+<div class="panel panel-default panel-narrow lead">
+  <div class="panel-body">
+    <span class="glyphicon glyphicon-refresh gly-spin" aria-hidden="true"></span>
+    Validating workbook...
+  </div>
+</div>

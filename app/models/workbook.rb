@@ -2,7 +2,7 @@ class Workbook < ActiveRecord::Base
   belongs_to :district
 
   has_one :active_workbook_file, -> { 
-    where("status = 'imported'").order('uploaded_at desc').limit(1) 
+    where("status = 'active'").order('uploaded_at desc').limit(1) 
   }, class_name: 'WorkbookFile'
 
   has_one :recent_workbook_file, -> { 
@@ -26,6 +26,15 @@ class Workbook < ActiveRecord::Base
       .order('reporting_year desc, reporting_month desc')
   end
 
+  def self.assign_workbook_file workbook_file, district, year, month
+    workbook = where(district: district, reporting_year: year, 
+      reporting_month: month).first
+    if workbook.nil?
+      workbook = Workbook.create district: district, reporting_year: year, 
+        reporting_month: month
+    end
+    workbook_file.workbook = workbook
+  end
 
   def current_status
     if active_workbook_file

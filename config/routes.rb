@@ -13,5 +13,7 @@ Rails.application.routes.draw do
   get '/malaria/workbooks/:id'  => 'monthly_malaria#workbook'
 
   resources :workbook_files
+  patch '/workbook_files/:id/uploaded'  => 'workbook_files#uploaded'
+  get '/workbook_files/:id/status'      => 'workbook_files#status'
 
 end

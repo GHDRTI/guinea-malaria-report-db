@@ -39,8 +39,8 @@
       <tr>
         <td><%= workbook.district.name %></td>
         <td><%= Date.new(workbook.reporting_year, workbook.reporting_month).strftime('%Y %b') %></td>
-        <td><%= workbook.active_workbook_file.uploaded_at %></td>
-        <td><%= workbook.active_workbook_file.user.name %></td>
+        <td><%= workbook.active_workbook_file.uploaded_at if workbook.active_workbook_file %></td>
+        <td><%= workbook.active_workbook_file.user.name if workbook.active_workbook_file %></td>
         <td><%= workbook.current_status %></td>
         <td><%= link_to "View", action: 'workbook', id: workbook.id %></td>
       </tr>

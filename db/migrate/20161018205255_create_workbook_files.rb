@@ -7,6 +7,7 @@ class CreateWorkbookFiles < ActiveRecord::Migration
       t.text :storage_url
       t.string :status
       t.datetime :uploaded_at
+      t.json :import_overrides
       t.json :validation_errors
       t.json :import_errors
 

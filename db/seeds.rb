@@ -9,7 +9,7 @@
 districts_facilities = {
     'Boffa' => {
       facilities: [
-        'Hopital',
+        ['Hopital', 'Hôpital']
         'CSU',
         'Colia',
         'Douprou',
@@ -22,7 +22,7 @@ districts_facilities = {
     },
     'Boke' => {
       facilities: [
-        ['Hopital', 'Boke'],
+        ['Hopital', 'Boke', 'Hôpital'],
         'Bintimodia',
         'Correrah',
         'Dabiss',
@@ -40,11 +40,11 @@ districts_facilities = {
     },
     'Coyah' => {
       facilities: [
-        'Hopital',
+        ['Hopital', 'Hôpital']
         ['Fily', 'CS Fily'],
         ['Doumbouyah', 'CS Doumbouyah'],
         ['Maneah', 'CS Maneah'],
-        ['Kouriah', 'CS Kouriah'],
+        ['Kouriah', 'CS Kouriah', 'KOURIA'],
         ['Wonkifong', 'CS Wonkifong']
       ]
     },
@@ -53,7 +53,7 @@ districts_facilities = {
         'Macire',
         ['Hafia', 'CS Hafia'],
         ['Hopital Dixinn', 'Dixinn'],
-        'CMC Miniere',
+        ['CMC Miniere', 'Miniere']
         'FMG',
         'CMA Dixinn',
         'Koundian',
@@ -79,32 +79,34 @@ districts_facilities = {
     },
     'Dubreka' => {
       facilities: [
-        'Hopital',
+        ['Hopital', 'Hôpital']
         ['Khorira', 'CS Khorira'],
         'CSU',
         ['Ouassou', 'CS Ouassou'],
-        ['Falessade', 'CS Falessade'],
+        ['Falessade', 'CS Falessade', 'Falessadé'],
         ['Tanene', 'CS Tanene'],
         ['Kondeyah', 'CS Kondeyah'],
         'CMC Kondeyah',
         ['Bady', 'CS Bady'],
         ['Tondon', 'CS Tondon']
-      ]
+      ],
+      alternative_names: ['Dubréka']
     },
-    'Fodecariyah' => {
+    'Forecariyah' => {
       facilities: [
         ['Hopital', 'Hoipital'],
         'Bassia',
-        ['Maférinyah', 'Maferinyah'],
-        ['Farmoréah ', 'Farmoreah'],
-        'Bokariah',
+        ['Maférinyah', 'Maferinyah', 'Maferinyag'],
+        ['Farmoréah ', 'Farmoreah', 'Farmoriah'],
+        ['Bokariah', 'Bokaria'],
         'Kakossa',
         'Moussayah',
         'Benty',
         ['CSU', 'C S U'],
         'Sikhourou',
         'Kaback'
-      ]
+      ],
+      alternative_names: ['Forécariah']
     },
     'Fria' => {
       facilities: [
@@ -119,7 +121,7 @@ districts_facilities = {
     },
     'Gaoual' => {
       facilities: [
-        'Hopital',
+        ['Hopital', 'Hôpital', 'HP Gaoual']
         'CSU',
         'Touba',
         'Kakoni',
@@ -141,7 +143,7 @@ districts_facilities = {
     },
     'Koundara' => {
       facilities: [
-        'Hopital',
+        ['Hopital', 'Hôpital']
         'Sareboido',
         'Termesse',
         'Guingan',
@@ -149,7 +151,8 @@ districts_facilities = {
         'Sambailo',
         'Kamaby',
         'CSU'
-      ]
+      ],
+      alternative_names: ['KOUNDRA']
     },
     'Koubia' => {
       facilities: [
@@ -164,31 +167,31 @@ districts_facilities = {
     },
     'Labe' => {
       facilities: [
-        ['Hopital', 'H RL'],
+        ['Hopital', 'H RL', 'Labé', 'Labe'],
         'Bowloko',
         'Daka',
         'Dalein',
-        ['Dara Labé', 'Dara Labe'],
-        'Diari',
+        ['Dara Labé', 'Dara Labe', 'Daralabé', 'Daralabe'],
+        ['Diari', 'CS Diari'],
         'Dionfo',
-        ['Fafabhé', 'Fafabhe'],
+        ['Fafabhé', 'Fafabhe', 'CS fafabhe'],
         ['Garambé', 'Garambe'],
-        'Hafia',
+        ['Hafia', 'CS HAFIA'],
         'Kalan',
-        'Kourmangui',
-        ['Leysaré', 'Leysare'],
-        'Lombona',
+        ['Kourmangui', 'CS Kouramangui'],
+        ['Leysaré', 'Leysare', 'CS LEYSARE'],
+        ['Lombona', 'Lombonna'],
         'Pellel',
-        'Popodra',
-        'Sannou',
+        ['Popodra', 'Popodara',
+        ['Sannou', 'CS Sannou'],
         'Tountouroun',
-        'CCS Noussy',
-
-      ]
+        ['CCS Noussy', 'CS noussy', 'Noussy']
+      ],
+      alternative_names: ['Labé']
     },
     'Lelouma' => {
       facilities: [
-        ['Hopital', 'LELOUMA'], 
+        ['Hopital', 'LELOUMA', 'HP LELOUMA'], 
         'CSU', 
         'Balaya', 
         'Sagale', 
@@ -199,12 +202,12 @@ districts_facilities = {
         'Lafou', 
         'Thianguel Bori', 
         'Manda Saran', 
-        'Linsan'
+        ['Linsan', 'Linsan Saran']
       ]
     },
     'Matam' => {
       facilities: [
-        'Hopital',
+        ['Hopital', 'Hôpital']
         'Matam',
         'Coleah',
         'Madina',
@@ -227,23 +230,25 @@ districts_facilities = {
     },
     'Mali' => {
       facilities: [
-        'Hopital', 
+        ['Hopital', 'Hôpital', 'HÔPITAL  Mali'],
         ['CSU', 'CSU Mali'], 
+        'Fougou',
         'Balaki', 
         'Donghel Sigon', 
         'Dougountouny', 
         'Gayah', 
         'Hidayatou', 
-        'Lebekeren', 
-        'Madina Wora', 
-        'Salambande', 
+        ['Lebekeren', 'Lébékeren'] ,
+        ['Madina Wora', 'Madina  wora'],
+        ['Salambande', 'Salambandé'],
         'Telire', 
         'Touba',
-        'CSA Yembereing'
+        ['CSA Yembering','CSA Yembereing', 'Yembering', 'Yembereing']
       ]
     },
     'Ratoma' => {
       facilities: [
+        ['CMC Ratoma', 'CMC']
         'AHS Yattaya',
         'AMBG Clinique',
         'Jean Mermoz',
@@ -252,21 +257,22 @@ districts_facilities = {
         'Bon Samaritain',
         'Nongo',
         'ADD Hamdallaye',
-        'ADD Lambandji',
+        ['Lambanyi', 'ADD Lambandji', 'Lambandji',
         ['Koloma', 'CS Koloma'],
+        'Sonfonia',
         'Sulfonai',
         'Simbaya Gare',
         ['Kobaya', 'CS Kobaya'],
         ['Kaba', "D'Kaba", 'CS D,Kaba'],
         'Wanidara',
-        'Kaporo Fondis',
-        'Flambayants',
-        'Lambandji'
-      ]
+        ['Kaporo Fondis', 'Kaporo'],
+        ['Flamboyant', 'Flamboya','Flambayants']
+      ],
+      alternative_names: ['DCS Ratoma']
     },
     'Tougue' => {
       facilities: [
-        'Hopital',
+        ['Hopital', 'Hôpital']
         'Fatako',
         'Fello Koundoua',
         'Kansagui',
@@ -276,15 +282,18 @@ districts_facilities = {
         'Konah',
         'Kouratongo',
         'Tangaly',
-        ['CSU', 'Tougué Centre']
-      ]
+        ['CSU Tougué', 'Tougué Centre', 'CSU', 'CSU/Tougué']
+      ],
+      alternative_names: ['Tougué']
     },
   }
 
 
 districts_facilities.each do |district_name, district_config|
 
-  district = District.create name: district_name
+  alternative_names = district_config[:alternative_names] || []
+  district = District.create name: district_name, 
+    alternative_names: alternative_names
 
   facilities = district_config[:facilities].map do |facility_config|
     facility_name = facility_config.is_a?(String) ? 

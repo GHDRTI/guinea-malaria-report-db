@@ -19,8 +19,11 @@ gem 'roo-xls', '~> 1'
 # aws-sdk: File uploads and storage
 gem 'aws-sdk', '~> 2'
 
-group :development, :test do
+group :development do
   gem 'web-console', '~> 2.0'
+end
+
+group :development, :test do
   gem 'byebug'
 end
 

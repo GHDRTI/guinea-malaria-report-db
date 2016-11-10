@@ -3,7 +3,7 @@ $(function() {
   $('#workbook-upload-form').find("input:file").each(function(i, elem) {
     var fileInput    = $(elem);
     var form         = $(fileInput.parents('form:first'));
-    var submitButton = form.find('input[type="submit"]');
+    // var submitButton = form.find('input[type="submit"]');
     var progressBar  = $("#workbook-upload-progress-bar");
     fileInput.fileupload({
       fileInput:       fileInput,
@@ -27,10 +27,19 @@ $(function() {
       done: function(e, data) {
         var key = $(data.jqXHR.responseXML).find("Key").text();
         var url = 'https://' + form.data('host') + '/' + key;
-        var filename = url.split(/(\\|\/)/g).pop()
-        console.log(key);
-        console.log(url);
-        console.log(filename);
+        var filename = url.split(/(\\|\/)/g).pop();
+        form.append($("<input />", { 
+          type:'hidden', 
+          name: 'workbook_file[storage_url]', 
+          value: url 
+        }));
+        form.append($("<input />", { 
+          type:'hidden', 
+          name: 'workbook_file[filename]', 
+          value: filename 
+        }));
+        $(elem).remove();
+        form.submit();
       },
       fail: function(e, data) {
         $('#workbook-upload-form').show();
@@ -42,6 +51,7 @@ $(function() {
 });
 </script>
 
+
 <h1>Upload monthly malaria workbook file</h1>
 <!-- Upload a workbook file, when done, load verifying page -->
 <br/>
@@ -50,6 +60,8 @@ $(function() {
     <p>
       <% s3_direct_post = @workbook_file.presigned_post %>   
       <%= form_for(@workbook_file, 
+          url: url_for(controller: 'workbook_files', action: 'uploaded', 
+            id: @workbook_file.id),
           html: { 
             id: 'workbook-upload-form',
             data: { 
