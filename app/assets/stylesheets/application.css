@@ -40,6 +40,11 @@ html, body {
   margin-right: 0.5em;
 }
 
+.row .info {
+  text-align: right;
+  font-weight: bold;
+}
+
 .gly-spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;

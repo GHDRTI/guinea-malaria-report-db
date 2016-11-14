@@ -1,0 +1,46 @@
+<h1>
+  Monthly Malaria Workbooks
+</h1>
+
+<hr/>
+
+<div class="well">
+  <div class="row">
+    <div class="col-sm-2 info"></div>
+    <div class="col-sm-10 lead"><span class="label label-success"><%= @workbook_file.status.capitalize %></span></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">Filename</div>
+    <div class="col-sm-10"><%= @workbook_file.filename %></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">District</div>
+    <div class="col-sm-10"><%= @workbook_file.workbook.district.name %></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">Year</div>
+    <div class="col-sm-10"><%= @workbook_file.workbook.reporting_year %></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">Month</div>
+    <div class="col-sm-10"><%= @workbook_file.workbook.reporting_month %></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">Uploaded</div>
+    <div class="col-sm-10"><%= @workbook_file.uploaded_at %></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">Uploaded by</div>
+    <div class="col-sm-10"><%= @workbook_file.user.name %></div>
+  </div>
+  <hr/>
+  <div class="row">
+    <div class="col-sm-2 info"></div>
+    <div class="col-sm-10">
+      <a class='btn btn-primary' href="<%= @workbook_file.workbook_file_url %>">Download</a>
+      <% if @workbook_file.status != 'active' %>
+        <a class='btn btn-default' onclick="javascript:archive()">Activate</a>
+      <% end %>
+    </div>
+  </div>
+</div>

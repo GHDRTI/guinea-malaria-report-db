@@ -1,0 +1,93 @@
+<h1>
+  Monthly Malaria Workbooks
+  <small>
+    <a class="btn btn-default" href="<%= url_for(controller: 'workbook_files', action: 'new') %>">
+      <span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span> 
+      Upload Workbook
+    </a>
+  </small>
+</h1>
+
+<hr/>
+<p>
+  <a href="<%= url_for controller: 'monthly_malaria', action: 'workbooks' %>">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
+    Back to all workbooks
+  </a>
+</p>
+
+<h2>Workbook</h2>
+
+<% if @workbook.district %>
+  <div class="well">
+    <div class="row">
+      <div class="col-sm-2 info">District</div>
+      <div class="col-sm-10"><%= @workbook.district.name %></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 info">Year</div>
+      <div class="col-sm-10"><%= @workbook.reporting_year %></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 info">Month</div>
+      <div class="col-sm-10"><%= @workbook.reporting_month %></div>
+    </div>
+    <% if @workbook.active_workbook_file %>
+      <div class="row">
+        <div class="col-sm-2 info">Active file</div>
+        <div class="col-sm-10">
+          <a href="<%= url_for @workbook.active_workbook_file %>">
+            <%= @workbook.active_workbook_file.filename %>
+          </a>
+          &middot;
+          <a href="<%= @workbook.active_workbook_file.workbook_file_url %>">download</a>
+        </div>
+      </div>
+    <% elsif @workbook.recent_workbook_file %>
+      <div class="row">
+        <div class="col-sm-2 info">Recent file</div>
+        <div class="col-sm-10">
+          <a href="<%= url_for @workbook.recent_workbook_file %>">
+            <%= @workbook.recent_workbook_file.filename %>
+          </a>
+          &middot;
+          <a href="<%= @workbook.recent_workbook_file.workbook_file_url %>">download</a>
+        </div>
+      </div>
+    <% end %>
+  </div>
+<% else %>
+  <div class="alert alert-warning" role="alert">
+    Workbook has no valid files uploaded.
+  </div>
+<% end %>
+
+<hr/>
+
+<h4>Uploaded files</h4>
+
+<table class="table table-striped">
+  <thead>
+    <th>Filename</th>
+    <th>Uploaded Date</th>
+    <th>Uploaded by</th>
+    <th>Status</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <% @workbook.workbook_files.each do |file| %>
+      <tr>
+        <td><a href="<%= url_for file %>"><%= file.filename %></a></td>
+        <td><%= file.uploaded_at %></td>
+        <td><%= file.user.name if file.user %></td>
+        <td><%= file.status %></td>
+        <td>
+          <a href="<%= url_for file %>">view</a> 
+          &middot;
+          <a href="<%= file.workbook_file_url %>">download</a>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+

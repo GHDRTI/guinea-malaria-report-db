@@ -1,0 +1,37 @@
+
+<h1>Upload monthly malaria workbook file</h1>
+<br/>
+
+<div class="well">
+  <p class="lead">
+    Confirm the details of the workbook.  If any information is incorrect, double check the data in the workbook.
+  </p>
+  <div class="row">
+    <div class="col-sm-2 info">Filename</div>
+    <div class="col-sm-10"><%= @workbook_file.filename %></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">District</div>
+    <div class="col-sm-10"><%= @workbook_file.workbook.district.name %></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">Year</div>
+    <div class="col-sm-10"><%= @workbook_file.workbook.reporting_year %></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">Month</div>
+    <div class="col-sm-10"><%= @workbook_file.workbook.reporting_month %></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 info">Uploaded by</div>
+    <div class="col-sm-10"><%= @workbook_file.user.name %></div>
+  </div>
+  <hr/>
+  <div class="row">
+    <div class="col-sm-2 info"></div>
+    <div class="col-sm-10">
+      <a class='btn btn-primary' href="<%= url_for action: 'activate', id: @workbook_file.id %>">Activate Workbook</a>
+      <a class='btn btn-default' href="<%= url_for controller: 'monthly_malaria', action: 'workbook', id: @workbook_file.workbook.id %>">Cancel</a>
+    </div>
+  </div>
+</div>

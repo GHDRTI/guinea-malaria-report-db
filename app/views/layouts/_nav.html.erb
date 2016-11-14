@@ -17,15 +17,15 @@
 
   <div class="sidebar-section">
     <div class="nav-selection">
-      <h4><a href="#">Monthly Malaria Workbook</a></h4>
+      <h4><a href="<%= url_for controller: 'monthly_malaria'%>">Monthly Malaria Workbook</a></h4>
     </div>
-    <div class="nav-selection nav-selection-sub">
+    <div class="nav-selection nav-selection-sub <%= 'selected' if section?(:mm_report) %>">
       <a href="<%= url_for controller: 'monthly_malaria'%>">
         <span class="glyphicon glyphicon-stats left" aria-hidden="true"></span> 
         Reporting
       </a>
     </div>
-    <div class="nav-selection nav-selection-sub">
+    <div class="nav-selection nav-selection-sub  <%= 'selected' if section?(:mm_workbook) %>">
       <a href="<%= url_for controller: 'monthly_malaria', action: 'workbooks' %>">
         <span class="glyphicon glyphicon-file left" aria-hidden="true"></span> 
         Workbooks

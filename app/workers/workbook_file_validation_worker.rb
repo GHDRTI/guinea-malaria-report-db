@@ -5,7 +5,7 @@ class WorkbookFileValidationWorker
 
   def perform workbook_file_id
     @workbook_file = WorkbookFile.find workbook_file_id
-    @workbook_file.validate_file!
+    @workbook_file.validate!
   end
 
 end

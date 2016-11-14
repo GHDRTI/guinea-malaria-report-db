@@ -1,5 +1,6 @@
 class Workbook < ActiveRecord::Base
   belongs_to :district
+  has_many :workbook_files
 
   has_one :active_workbook_file, -> { 
     where("status = 'active'").order('uploaded_at desc').limit(1) 
@@ -14,16 +15,20 @@ class Workbook < ActiveRecord::Base
     where_clauses = []
     where_params = {}
     if !params[:q].blank?
-
+      where_clauses << "(workbook_files.filename ilike :q OR districts.name ilike :q OR users.name ilike :q)"
+      where_params[:q] = "%#{params[:q]}%"
     end
-    if !params[:start_date]
-
+    if !params[:reporting_year].blank?
+      where_clauses << 'reporting_year = :reporting_year'
+      where_params[:reporting_year] = params[:reporting_year]
     end
-    if !params[:end_date]
-
+    if !params[:reporting_month].blank? && params[:reporting_month].to_i > 0
+      where_clauses << 'reporting_month = :reporting_month'
+      where_params[:reporting_month] = params[:reporting_month]
     end
     where(where_clauses.join(" AND "), where_params)
-      .order('reporting_year desc, reporting_month desc')
+      .joins(:district, {:workbook_files => :user})
+      .order('reporting_year desc, reporting_month desc').distinct
   end
 
   def self.assign_workbook_file workbook_file, district, year, month

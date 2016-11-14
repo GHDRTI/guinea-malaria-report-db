@@ -61,7 +61,7 @@ $(function() {
   <div class="form-group group-district">
     <label>District</label>
     <%= select_tag(:district_id, options_for_select(
-          @districts.map{|d| [d.name, d.id]
+          [['All','']] + @districts.map{|d| [d.name, d.id]
         }, selected: params[:district_id]), {class: 'form-control input-sm'}) 
     %>
   </div>
@@ -122,3 +122,9 @@ $(function() {
     <% end %>
   </tbody>
 </table>
+
+
+<a class="btn btn-primary" href="#">
+  <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
+  Download as XLS
+</a>

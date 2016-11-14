@@ -13,12 +13,22 @@
 <%= form_tag({controller: 'monthly_malaria', action: 'search'}, {class: 'form-inline search-form'}) do %>
   <div class="form-group">
     <label><span class="glyphicon glyphicon-search form-icon" aria-hidden="true"></span></label>
-    <%= text_field_tag(:q, params[:q], placeholder: 'Search by facility, district, country, or user', class: 'form-control input-sm input-wd') %>
+    <%= text_field_tag(:q, params[:q], placeholder: 'Search by district, filename, or user', class: 'form-control input-sm input-wd') %>
   </div>
   <div class="form-group">
-    <label><span class="glyphicon glyphicon-calendar form-icon" aria-hidden="true"></span></label>
-    <%= text_field_tag(:start_date, params[:start_date], placeholder: 'After', class: 'form-control input-sm input-nr', 'data-provide' => "datepicker-inline") %>
-    <%= text_field_tag(:end_date, params[:end_date], placeholder: 'Before', class: 'form-control input-sm input-nr', 'data-provide' => "datepicker-inline") %>
+    <label>Year</label>
+    <%= select_tag(:reporting_year, options_for_select([
+          ['All', ''],
+          ['2014', 2014],
+          ['2015', 2015]
+        ], selected: params[:reporting_year]), {class: 'form-control input-sm'}) 
+    %>
+  </div>
+  <div class="form-group">
+    <label>Month</label>
+    <%= select_tag(:reporting_month, options_for_select(
+          (0..12).map{|m| [(I18n.t("date.month_names")[m] || 'All'), m]}, selected: params[:reporting_month]), {class: 'form-control input-sm'}) 
+    %>
   </div>
   <div class="form-group">
     <button type="submit" class="btn btn-sm btn-default">Search</button>

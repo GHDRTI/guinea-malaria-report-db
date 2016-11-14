@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  
+  require 'sidekiq/web'
+  mount Sidekiq::Web => '/sidekiq'
 
   root 'home#index'
 
@@ -16,5 +19,6 @@ Rails.application.routes.draw do
   resources :workbook_files
   patch '/workbook_files/:id/uploaded'  => 'workbook_files#uploaded'
   get '/workbook_files/:id/status'      => 'workbook_files#status'
+  get '/workbook_files/:id/activate'    => 'workbook_files#activate'
 
 end
