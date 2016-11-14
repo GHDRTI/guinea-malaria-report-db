@@ -1,0 +1,124 @@
+<script type="text/javascript">
+
+function changeForm() {
+  var grouping = $('.input-grouping').val();
+  var aggregate = $('.input-aggregate').val();
+  if (grouping == 'district') {
+    $('.group-district').hide();
+  } else {
+    $('.group-district').show();
+  }
+  if (aggregate == 'all') {
+    $('.group-year').hide();
+    $('.group-month').hide();
+  } else if (aggregate == 'year') {
+    $('.group-year').show();
+    $('.group-month').hide();
+  } else if (aggregate == 'month') {
+    $('.group-year').show();
+    $('.group-month').show();
+  }
+}
+
+$(function() {
+  $('.form-control').change(changeForm);
+  changeForm();
+});
+
+</script>
+
+<h1>
+  Monthly Malaria Reports
+  <small>
+    <a class="btn btn-default" href="<%= url_for(controller: 'workbook_files', action: 'new') %>">
+      <span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span> 
+      Upload Workbook
+    </a>
+  </small>
+</h1>
+
+<hr/>
+
+<%= form_tag({controller: 'monthly_malaria', action: 'report'}, 
+    {class: 'form-inline search-form'}) do %>
+  <div class="form-group group-grouping">
+    <label>Report Type</label>
+    <%= select_tag(:grouping, options_for_select([
+        ['District', 'district'],
+        ['Health Facility', 'district,health_facility']
+      ], selected: params[:grouping]), {class: 'form-control input-sm input-grouping'}) 
+    %>
+  </div>
+  <div class="form-group group-aggregate">
+    <label>Dates Aggregate</label>
+    <%= select_tag(:aggregate, options_for_select([
+        ['All', 'all'],
+        ['Year', 'year'],
+        ['Month', 'month']
+      ], selected: params[:aggregate]), {class: 'form-control input-sm input-aggregate'}) 
+    %>
+  </div>
+  <div class="form-group group-district">
+    <label>District</label>
+    <%= select_tag(:district_id, options_for_select(
+          @districts.map{|d| [d.name, d.id]
+        }, selected: params[:district_id]), {class: 'form-control input-sm'}) 
+    %>
+  </div>
+  <div class="form-group group-year">
+    <label>Year</label>
+    <%= select_tag(:reporting_year, options_for_select([
+          ['2014', 2014],
+          ['2015', 2015]
+        ], selected: params[:reporting_year]), {class: 'form-control input-sm'}) 
+    %>
+  </div>
+  <div class="form-group group-month">
+    <label>Month</label>
+    <%= select_tag(:reporting_month, options_for_select(
+          (1..12).map{|m| [I18n.t("date.month_names")[m], m]}, selected: params[:reporting_month]), {class: 'form-control input-sm'}) 
+    %>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-sm btn-default">Report</button>
+  </div>
+<% end %>
+
+<table class="table table-striped">
+  <thead>
+    <th>District</th>
+    <% if params[:grouping] == 'district,health_facility' %>
+      <th>Facility</th>
+    <% end %>
+    <th class="numeric">Total Patients</th>
+    <th class="numeric">Suspected</th>
+    <th class="numeric">Tested</th>
+    <th class="numeric">Positive</th>
+    <th class="numeric">Negative</th>
+    <th class="numeric">Treated</th>
+    <th class="numeric">Pregnant ANC</th>
+    <th class="numeric">Pregnant 1st Dose SP</th>
+    <th class="numeric">Pregnant 3 Doses SP</th>
+    <th class="numeric">MILDA Distributed</th>
+  </thead>
+  <tbody>
+    <% @reports.each do |report| %>
+      <tr>
+        <td><%= report.district_name %></td>
+        <% if params[:grouping] == 'district,health_facility' %>
+          <td><%= report.health_facility_name %></td>
+        <% end %>
+        <td class="numeric"><%= number_with_delimiter report.total_patients_all_causes, delimiter: ',' %></td>
+        <td class="numeric"><%= number_with_delimiter report.suspected_cases, delimiter: ',' %></td>
+        <td class="numeric"><%= number_with_delimiter report.total_tested, delimiter: ',' %></td>
+        <td class="numeric"><%= number_with_delimiter report.total_tested_positive, delimiter: ',' %></td>
+        <td class="numeric"><%= number_with_delimiter report.total_tested_negative, delimiter: ',' %></td>
+        <td class="numeric"><%= number_with_delimiter report.total_treated, delimiter: ',' %></td>
+        <td class="numeric"><%= number_with_delimiter report.num_pregnant_anc_tested, delimiter: ',' %></td>
+        <td class="numeric"><%= number_with_delimiter report.num_pregnant_first_dose_sp, delimiter: ',' %></td>
+        <td class="numeric"><%= number_with_delimiter report.num_pregnant_three_doses_sp, delimiter: ',' %></td>
+        <td class="numeric"><%= number_with_delimiter report.milda_distributed, delimiter: ',' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

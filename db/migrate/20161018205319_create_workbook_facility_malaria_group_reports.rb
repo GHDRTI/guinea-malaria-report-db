@@ -7,8 +7,6 @@ class CreateWorkbookFacilityMalariaGroupReports < ActiveRecord::Migration
       t.string :registration_method
       t.integer :total_patients_all_causes
       t.integer :total_deaths
-      t.integer :suspect_severe_deaths_male
-      t.integer :suspect_severe_deaths_female
       t.integer :suspect_simple_male
       t.integer :suspect_simple_female
       t.integer :suspect_severe_male

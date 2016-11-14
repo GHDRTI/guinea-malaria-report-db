@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/logout'     => 'login#logout'
 
   get '/malaria'                => 'monthly_malaria#index'
+  post '/malaria'               => 'monthly_malaria#report'
   get '/malaria/workbooks'      => 'monthly_malaria#workbooks'
   post '/malaria/workbooks'     => 'monthly_malaria#search'
   get '/malaria/workbooks/:id'  => 'monthly_malaria#workbook'

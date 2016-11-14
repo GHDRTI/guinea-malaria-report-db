@@ -151,6 +151,62 @@ Reporting views, these tables are views derived from current reporting informati
     2. If no previous non-archived data will be included in the view's calculations, the user should be informed.
 
 
+# Monthly Malaria Report Types
+
+Report types:
+
+District Report 
+  - all years, particular year
+  - year/month
+
+Facility Report
+  - all districts, district
+
+## Monthly Case Report
+  
+Total Patients: 
+sum(`fmgr`.`total_patients_all_causes`)
+
+
+Suspected Cases:
+sum(`fmgr`.`suspect_simple_male`) + sum(`fmgr`.`suspect_simple_female`) + sum(`fmgr`.`suspect_severe_male`) + sum(`fmgr`.`suspect_severe_female`)
+
+Total Tested:
+sum(`fmgr`.`tested_microscope`) + sum(`fmgr`.`tested_rdt`)
+
+Total Tested Positive:
+sum(`fmgr`.`confirmed_microscope`) + sum(`fmgr`.`confirmed_rdt`)
+
+Total Tested Negative:
+(sum(`fmgr`.`tested_microscope`) - sum(`fmgr`.`confirmed_microscope`)) + (sum(`fmgr`.`tested_rdt`) - sum(`fmgr`.`confirmed_rdt`))
+
+Total Treated:
+sum(`fmgr`.`treated_act_male`) + sum(`fmgr`.`treated_act_female`) + sum(`fmgr`.`treated_severe_male`) + sum(`fmgr`.`treated_severe_female`)
+
+Total Pregnant Women ANC Tested:
+`fmr`.`num_pregnant_anc_tested`
+
+Total Pregnant Women First Dose SP:
+`fmr`.`num_pregnant_first_dose_sp`
+
+Total Pregnant Women 3 Doses SP:
+`fmr`.`num_pregnant_three_doses_sp`
+
+Date Submitted:
+`fmr`.`approved_by_date`
+
+Number MILDA Distributed
+where(`product` = 'milda'): (`stock_month_start` + `stock_month_received`) - (`num_delivered_to_ac` + `num_delivered_to_ps` + `num_used` + `num_lost`)
+
+
+
+
+### Facility Monthly Case Report
+
+### District Monthly Case
+
+
+
 # Models
 
     $ rails generate model user name:text email:text login_key:string login_key_expires:datetime last_login_time:datetime last_login_ip:string

@@ -29,6 +29,17 @@ html, body {
   max-width: 450px;
 }
 
+.table th.numeric {
+  text-align: right;
+}
+.table td.numeric {
+  text-align: right;
+}
+
+.form-inline  .form-group {
+  margin-right: 0.5em;
+}
+
 .gly-spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;
