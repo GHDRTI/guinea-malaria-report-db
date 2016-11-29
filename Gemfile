@@ -19,6 +19,10 @@ gem 'roo-xls', '~> 1'
 # aws-sdk: File uploads and storage
 gem 'aws-sdk', '~> 2'
 
+group :production do
+	gem 'rails_12factor'
+end 
+
 group :development do
   gem 'web-console', '~> 2.0'
 end
