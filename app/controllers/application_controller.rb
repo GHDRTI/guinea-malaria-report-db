@@ -3,6 +3,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  force_ssl if: :use_ssl?
+  
   before_filter :require_user
 
   def require_user
@@ -23,6 +25,10 @@ class ApplicationController < ActionController::Base
 
   def section section
     @section = section
+  end
+
+  def use_ssl?
+    ENV['RAILS_ENV'] != 'development' 
   end
 
 end
