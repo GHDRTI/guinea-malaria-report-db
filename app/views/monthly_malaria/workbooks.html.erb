@@ -45,7 +45,23 @@
     <th></th>
   </thead>
   <tbody>
+    <% 
+      current_year = -1
+      current_month = -1
+    %>
     <% @workbooks.each do |workbook| %>
+      <%
+        if current_year != workbook.reporting_year || 
+            current_month != workbook.reporting_month
+          current_year = workbook.reporting_year
+          current_month = workbook.reporting_month
+      %>
+        <tr>
+          <td colspan="6" class="info text-uppercase strong">
+            <%= Date.new(current_year, current_month).strftime('%Y %B') %>
+          </td>
+        </tr>
+      <% end %>
       <tr>
         <td><%= workbook.district.name %></td>
         <td><%= Date.new(workbook.reporting_year, workbook.reporting_month).strftime('%Y %b') %></td>
