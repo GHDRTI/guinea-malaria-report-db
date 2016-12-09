@@ -1,6 +1,7 @@
 class District < ActiveRecord::Base
 
   def self.named name
+    return nil if name.blank?
     where("lower(name) = :name OR :name = ANY(lower(alternative_names::text)::text[])", 
       name: name.mb_chars.strip.downcase).first
   end  

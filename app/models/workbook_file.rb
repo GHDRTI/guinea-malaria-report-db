@@ -3,6 +3,7 @@ class WorkbookFile < ActiveRecord::Base
   
   belongs_to :workbook
   belongs_to :user
+  has_one :workbook_facility_monthly_report
 
   STATUSES = %w(uploading verifying invalid verified importing error imported 
     active archived).map(&:to_sym)
@@ -59,6 +60,23 @@ class WorkbookFile < ActiveRecord::Base
       WorkbookFile.where("id != :id and workbook_id = :workbook_id and status = 'active'", 
         id: id, workbook_id: workbook_id).update_all(status: 'archived')
       update_attribute(:status, 'active')
+    end
+  end
+
+  def reimport!
+    WorkbookFile.transaction do
+      if workbook_facility_monthly_report
+        workbook_facility_monthly_report.workbook_facility_inventory_reports.each do |r|
+          r.destroy
+        end
+        workbook_facility_monthly_report.workbook_facility_malaria_group_reports.each do |r|
+          r.destroy
+        end
+        workbook_facility_monthly_report.destroy
+        do_import
+      else
+        "Workbook File [#{id}] does not have a workbook_facility_monthly_report for some reason"
+      end
     end
   end
 

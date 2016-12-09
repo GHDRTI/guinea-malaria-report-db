@@ -7,13 +7,23 @@ class WorkbookFacilityInventoryReport < ActiveRecord::Base
     :asaq_small_child,
     :asaq_child,
     :asaq_adult,
-    :al,
     :sp,
     :artesunate_inj,
     :artemether_inj,
     :quinine_inj,
     :quinine_caps,
     :milda,
+  ]
+
+  AL_PRODUCTS = [
+    :al
+  ]
+
+  AL_PRODUCTS_AGES = [
+    :al_infant,
+    :al_small_child,
+    :al_child,
+    :al_adult
   ]
 
   ROW_MAPPING = {
@@ -23,6 +33,10 @@ class WorkbookFacilityInventoryReport < ActiveRecord::Base
     asaq_child: 37,
     asaq_adult: 38,
     al: 39,
+    al_infant: 39,
+    al_small_child: 40,
+    al_child: 41,
+    al_adult: 42,
     sp: 40,
     artesunate_inj: 41,
     artemether_inj: 42,
@@ -35,6 +49,16 @@ class WorkbookFacilityInventoryReport < ActiveRecord::Base
     props = {workbook_facility_monthly_report: report, product: product}
     where(props).first || WorkbookFacilityInventoryReport.new(props)
   end
+
+  def self.sheet_products sheet
+    # If cell B39 has a number, the AL products have ages
+    if sheet.cell('B', 39) =~ /\d/
+      return PRODUCTS + AL_PRODUCTS_AGES
+    else
+      return PRODUCTS + AL_PRODUCTS
+    end
+  end
+
 
   def apply_sheet! sheet
     row = ROW_MAPPING[product.to_sym]

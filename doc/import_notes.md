@@ -1,5 +1,61 @@
 ## Import Errors
 
+### 2014
+
+    Rapport Fevrier 2014/Rapport Palu fevrier 2014_Gaoual.xls
+
+Is broken.
+
+
+    Rapport Fevrier 2014/Rapport Palu Février 2014_DPS Labe.xls
+
+Hopital sheet specifies January as the month, but the data is different from the January file.  Is it just a mis-labelling?
+
+
+    Rapport Fevrier 2014/Rapport palu_février 2014_DPS Forecariah.xls
+
+Sheet Bassia has reporting date '3/10/14'
+
+
+    Rapport Avril 2014/Rapport Palu_Avril 2014_DPS Dinguiraye_08 Mai (1).xls
+
+Is broken.
+
+
+    Rapport juillet 2014/DPS Gaoual (12).xls
+
+Is broken.
+
+
+    9. Rapports septembre 2014/Rapport palu_septembre 2014_DPS Gaoual_14 Octobre.xls
+
+Is broken.
+
+
+    9. Rapports septembre 2014/Rapport Palu_Septembre 2014_DPS KOUBIA_10 Octobre.xls
+
+Is broken.
+
+
+    10. Rapports octobre 2014/Rapport Palu_OCTOBRE 2014_DPS Fria_14 Novembre.xls
+
+Is broken
+
+
+    10. Rapports octobre 2014/Rapport Palu_Octobre 2014_DPS Gaoual_15 Novembre.xls
+
+Is broken.
+
+
+    10. Rapports octobre 2014/Rapport Palu_Octobre 2014_DPS Koubia_13 Novembre.xls
+
+Is broken.
+
+
+    11. Rapports novembre 2014/Rapport Palu_Novembre 2014_DPS Labe_14 Decembre.xls
+
+Daka tab specifies Bowloko as the facility, but it has different data.
+
 ### 2015
 
 Ratoma's Health Facility naming is of low quality.  It is very difficult to identify the facility the reports are representing, and names are frequently spelled differently and written in different ways.  Each facility has up to 10 different spellings/written names.

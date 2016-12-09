@@ -3,6 +3,8 @@ class WorkbookFacilityMonthlyReport < ActiveRecord::Base
 
   belongs_to :workbook_file
   belongs_to :health_facility
+  has_many :workbook_facility_inventory_reports
+  has_many :workbook_facility_malaria_group_reports
   
   CELL_FACILITY_NAME = ['D', 4]
 
@@ -65,7 +67,7 @@ class WorkbookFacilityMonthlyReport < ActiveRecord::Base
     end
 
     # Apply workbook to Inventory Reports
-    WorkbookFacilityInventoryReport::PRODUCTS.each do |product|
+    WorkbookFacilityInventoryReport.sheet_products(sheet).each do |product|
       inventory_report = WorkbookFacilityInventoryReport.report_for self, product
       inventory_report.apply_sheet! sheet
     end
