@@ -51,4 +51,8 @@ class Workbook < ActiveRecord::Base
     end
   end
 
+  def dhis2_period
+    "#{reporting_year.to_s}#{reporting_month.to_s.rjust(2, '0')}"
+  end
+
 end

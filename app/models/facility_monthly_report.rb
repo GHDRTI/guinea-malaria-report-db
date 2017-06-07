@@ -1,10 +1,26 @@
 class FacilityMonthlyReport < ActiveRecord::Base
 
-  has_many :facility_inventory_report
-  has_many :facility_malaria_group_report
+  has_many :facility_inventory_reports, 
+    foreign_key: 'workbook_facility_monthly_report_id', 
+    class_name: 'FacilityInventoryReport'
+  has_many :facility_malaria_group_reports, 
+    foreign_key: 'workbook_facility_monthly_report_id', 
+    class_name: 'FacilityMalariaGroupReport'
+
+  belongs_to :health_facility
+  belongs_to :workbook_file
 
   DEFAULT_SORTS = [{name: 'district_name', dir: 'asc'}]
 
+  ELEMENT_DHIS2_MAPPING = {
+    num_pregnant_anc_tested: 'hAvUxVyMvrN',
+    num_pregnant_first_dose_sp: 'F0ne7Z8cMze',
+    num_pregnant_three_doses_sp: 'nPFA2Jcgn0d',
+    date_report_completed: 'OudJWfdmthW',
+    date_report_submitted: 'mOg7hIbKT0H'
+  }
+
+  self.primary_key = 'id'
 
   def self.case_report params={}
     grouping = params[:grouping] || ['district']
@@ -17,6 +33,51 @@ class FacilityMonthlyReport < ActiveRecord::Base
       #{order_by_clause params}
     )
     find_by_sql [q, *wheres[:params]]
+  end
+
+
+  def dhis2_elements
+    elements = dhis2_report_elements
+    facility_inventory_reports.each do |r|
+      elements += r.dhis2_elements
+    end
+    facility_malaria_group_reports.each do |r|
+      elements += r.dhis2_elements
+    end
+    return elements
+  end
+
+  def dhis2_report_elements
+    [
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:num_pregnant_anc_tested],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: num_pregnant_anc_tested || nil,
+        followUp: false
+      },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:num_pregnant_anc_tested],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: num_pregnant_anc_tested || 0,
+        followUp: false
+      },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:num_pregnant_first_dose_sp],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: num_pregnant_first_dose_sp || 0,
+        followUp: false
+      },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:num_pregnant_three_doses_sp],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: num_pregnant_three_doses_sp || 0,
+        followUp: false
+      }
+    ]
   end
 
   private

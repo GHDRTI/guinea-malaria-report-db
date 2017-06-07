@@ -9,4 +9,8 @@ class HealthFacility < ActiveRecord::Base
       .first
   end
 
+  def dhis2_id
+    "FAC#{id.to_s.rjust(8, '0')}"
+  end
+
 end

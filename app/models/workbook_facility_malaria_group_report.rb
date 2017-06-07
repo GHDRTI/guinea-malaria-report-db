@@ -48,7 +48,7 @@ class WorkbookFacilityMalariaGroupReport < ActiveRecord::Base
     self.suspect_simple_male          = sheet.cell('E', row)
     self.suspect_simple_female        = sheet.cell('F', row)
     self.suspect_severe_male          = sheet.cell('G', row)
-    self.suspect_severe_female        = sheet.cell('F', row)
+    self.suspect_severe_female        = sheet.cell('H', row)
     self.tested_microscope            = sheet.cell('J', row)
     self.tested_rdt                   = sheet.cell('K', row)
     self.confirmed_microscope         = sheet.cell('M', row)

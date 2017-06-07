@@ -109,3 +109,40 @@ Is not a directory: is a link to a share on RTISTOPPALU-PC, not accessible curre
 
 Several dates in this workbook are November 2015.  The November workbooks are not available to verify that the data is not just a duplicate of the actual November data.  Every workbook in December 2015 should be manually double-checked against the November workbooks to verify that the data is not entered twice.
 
+
+### 2016
+
+    FEVRIER2016/Copie de DPS Gaoual (4).xls
+
+CS Foulamory is defined twice dated Fev/2016: once on sheet CS Foulamory and once on sheet CS 9.  The data are different on the two sheets.  Data on sheet CS 9 was ignored when imported.
+
+
+    FEVRIER2016/Copie de fervier.xls RATOMA.xls
+
+Entire workbook is a duplicate of January data.  Was not imported.
+
+
+    FEVRIER2016/Copie de Rapport palu  DPS Coyah  Janvier 2016.xls
+
+Workbook is the January file.  Was not imported.
+
+
+    JUILLET 2016/Copie de Rapport Palu  mois de Juillet 2015 DPS For.xls
+
+Workbook is the July 2015 file.  Was not imported.
+
+
+    AOUT 2016/Copie de Rapport Palu  mois de Aout  2015 DPS For.xls
+
+Workbook is the August 2015 file.  Was not imported.
+
+
+    SEPT206/Copie de Rapport Palu  mois de Septem  2015 DPS For.xls
+
+Workbook is the September 2015 file.  Was not imported.
+
+
+    DECE2016/Copie de DPS Gaoual (2).xls
+
+First two sheets are dated Jan 2017.  Are those the correct dates for those facilities?  File was not imported.
+
