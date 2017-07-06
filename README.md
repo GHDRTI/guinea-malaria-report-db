@@ -1,3 +1,27 @@
+# Getting Started
+
+Set local environment variables
+
+```
+export MAGIC_LINK_HOST="localhost:3000"
+export EMAILER_FROM="ict@rti.org"
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+export S3_WORKBOOK_FILE_PATH=
+export S3_BUCKET=
+```
+
+then
+
+```
+rake db:create
+rake db:migrate
+rails s
+```
+open http://localhost:3000
+
+
+
 # Workbook Upload Use Cases 
 
 ## User adds a new valid workbook file
