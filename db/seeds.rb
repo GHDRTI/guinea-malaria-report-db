@@ -9,7 +9,7 @@
 districts_facilities = {
     'Boffa' => {
       facilities: [
-        ['Hopital', 'Hôpital']
+        ['Hopital', 'Hôpital'],
         'CSU',
         'Colia',
         'Douprou',
@@ -40,7 +40,7 @@ districts_facilities = {
     },
     'Coyah' => {
       facilities: [
-        ['Hopital', 'Hôpital']
+        ['Hopital', 'Hôpital'],
         ['Fily', 'CS Fily'],
         ['Doumbouyah', 'CS Doumbouyah'],
         ['Maneah', 'CS Maneah'],
@@ -53,7 +53,7 @@ districts_facilities = {
         'Macire',
         ['Hafia', 'CS Hafia'],
         ['Hopital Dixinn', 'Dixinn'],
-        ['CMC Miniere', 'Miniere']
+        ['CMC Miniere', 'Miniere'],
         'FMG',
         'CMA Dixinn',
         'CMA Dixinn Gare',
@@ -81,7 +81,7 @@ districts_facilities = {
     },
     'Dubreka' => {
       facilities: [
-        ['Hopital', 'Hôpital']
+        ['Hopital', 'Hôpital'],
         ['Khorira', 'CS Khorira'],
         'CSU',
         ['Ouassou', 'CS Ouassou'],
@@ -123,7 +123,7 @@ districts_facilities = {
     },
     'Gaoual' => {
       facilities: [
-        ['Hopital', 'Hôpital', 'HP Gaoual', 'Gaoual']
+        ['Hopital', 'Hôpital', 'HP Gaoual', 'Gaoual'],
         'CSU',
         'Touba',
         'Kakoni',
@@ -185,7 +185,7 @@ districts_facilities = {
         ['Leysaré', 'Leysare', 'CS LEYSARE', 'Leysarè'],
         ['Lombona', 'Lombonna'],
         'Pellel',
-        ['Popodra', 'Popodara',
+        ['Popodra', 'Popodara'],
         ['Sannou', 'CS Sannou', 'Sannoun'],
         'Tountouroun',
         ['CCS Noussy', 'CS noussy', 'Noussy']
@@ -204,13 +204,13 @@ districts_facilities = {
         'Diountou', 
         'Lafou', 
         'Thianguel Bori', 
-        ['Manda', 'Manda Saran', 
+        ['Manda', 'Manda Saran'], 
         ['Linsan', 'Linsan Saran']
       ]
     },
     'Matam' => {
       facilities: [
-        ['Hopital', 'Hôpital']
+        ['Hopital', 'Hôpital'],
         'Matam',
         'Coleah',
         'Madina',
@@ -239,7 +239,7 @@ districts_facilities = {
         'Fougou',
         ['Balaki','BALAKY'], 
         'Donghel Sigon', 
-        ['Dougountouny', 'Dougountounny']
+        ['Dougountouny', 'Dougountounny'],
         'Gayah', 
         'Hidayatou', 
         ['Lebekeren', 'Lébékeren', 'LEBEKERE'],
@@ -252,7 +252,7 @@ districts_facilities = {
     },
     'Ratoma' => {
       facilities: [
-        ['CMC Ratoma', 'CMC', 'Ratoma']
+        ['CMC Ratoma', 'CMC', 'Ratoma'],
         'AHS Yattaya',
         'AMBG Clinique',
         'Jean Mermoz',
@@ -261,7 +261,7 @@ districts_facilities = {
         'Bon Samaritain',
         'Nongo',
         'ADD Hamdallaye',
-        ['Lambanyi', 'ADD Lambandji', 'Lambandji',
+        ['Lambanyi', 'ADD Lambandji', 'Lambandji'],
         ['Koloma', 'CS Koloma'],
         'Sonfonia',
         'Sulfonai',
@@ -280,7 +280,7 @@ districts_facilities = {
     },
     'Tougue' => {
       facilities: [
-        ['Hopital', 'Hôpital']
+        ['Hopital', 'Hôpital'],
         'Fatako',
         'Fello Koundoua',
         'Kansagui',
