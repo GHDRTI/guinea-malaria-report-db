@@ -5,10 +5,14 @@ Set local environment variables
 ```
 export MAGIC_LINK_HOST="localhost:3000"
 export EMAILER_FROM="ict@rti.org"
-export AWS_ACCESS_KEY_ID=
-export AWS_SECRET_ACCESS_KEY=
+export AWS_ACCESS_KEY_ID=YOUR_KEY
+export AWS_SECRET_ACCESS_KEY=YOUR_ACCESS_KEY
 export S3_WORKBOOK_FILE_PATH=
 export S3_BUCKET=
+export EMAILER_HOST=
+export EMAILER_PORT=
+export EMAILER_USERNAME=
+export EMAILER_PASSWORD=
 ```
 
 then
@@ -16,6 +20,7 @@ then
 ```
 rake db:create
 rake db:migrate
+rake db:seed
 rails s
 ```
 open http://localhost:3000
