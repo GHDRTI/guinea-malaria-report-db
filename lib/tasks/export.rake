@@ -45,6 +45,14 @@ namespace :export do
     puts({"dataValues": elements}.to_json)
   end
 
+  task :report_value, [:report_id] => :environment do |task, args|
+    elements = []
+    FacilityMonthlyReport.where('id = ?', args.report_id).each do |report|
+      elements += report.dhis2_elements
+    end
+    puts({"dataValues": elements}.to_json)
+  end
+
   def district_to_json district
     {
       "name": district.name,
