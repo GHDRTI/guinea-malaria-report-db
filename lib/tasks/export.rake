@@ -37,6 +37,14 @@ namespace :export do
     puts({"dataValues": elements}.to_json)
   end
 
+  task :reporting_period, [:month, :year] => :environment do |task, args|
+    elements = []
+    FacilityMonthlyReport.joins(:workbook_file => :workbook).where(workbooks: { reporting_month: args.month, reporting_year: args.year }).each do |report|
+      elements += report.dhis2_elements
+    end
+    puts({"dataValues": elements}.to_json)
+  end
+
   task :values_pregnant_extras => :environment do
     elements = []
     FacilityMonthlyReport.all.each do |report|
