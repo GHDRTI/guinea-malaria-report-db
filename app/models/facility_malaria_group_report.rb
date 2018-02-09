@@ -145,6 +145,7 @@ class FacilityMalariaGroupReport < ActiveRecord::Base
   def field_to_attr_dissag field
     g = group.to_sym
     r = registration_method.to_sym
+
     if field == :total_patients_all_causes && !total_patients_all_causes.nil?
       if r == :death
         return {
@@ -205,55 +206,55 @@ class FacilityMalariaGroupReport < ActiveRecord::Base
           category: DHIS2_DISAGGREGATIONS[:female][g][r][:severe],
           value: 0
         }
-    elsif field == :tested_microscope && !tested_microscope.nil?
+    elsif field == :tested_microscope && !tested_microscope.nil? && r != :death
       return {
         element: ELEMENT_DHIS2_MAPPING[:tested_cases],
         category: DHIS2_DISAGGREGATIONS[g][r][:by_microscope],
         value: tested_microscope
       }
-    elsif field == :tested_rdt && !tested_rdt.nil?
+    elsif field == :tested_rdt && !tested_rdt.nil? && r != :death
       return {
         element: ELEMENT_DHIS2_MAPPING[:tested_cases],
         category: DHIS2_DISAGGREGATIONS[g][r][:by_rdt],
         value: tested_rdt
       }
-    elsif field == :confirmed_microscope && !confirmed_microscope.nil?
+    elsif field == :confirmed_microscope && !confirmed_microscope.nil? && r != :death
       return {
         element: ELEMENT_DHIS2_MAPPING[:confirmed_cases],
         category: DHIS2_DISAGGREGATIONS[g][r][:by_microscope],
         value: confirmed_microscope
       }
-    elsif field == :confirmed_rdt && !confirmed_rdt.nil?
+    elsif field == :confirmed_rdt && !confirmed_rdt.nil? && r != :death
       return {
         element: ELEMENT_DHIS2_MAPPING[:confirmed_cases],
         category: DHIS2_DISAGGREGATIONS[g][r][:by_rdt],
         value: confirmed_rdt
       }
-    elsif field == :treated_act_male && !treated_act_male.nil?
+    elsif field == :treated_act_male && !treated_act_male.nil? && r != :death
       return {
         element: ELEMENT_DHIS2_MAPPING[:cases_treated_act],
         category: DHIS2_DISAGGREGATIONS[:male][g][r][:value],
         value: treated_act_male
       }
-    elsif field == :treated_act_female && !treated_act_female.nil?
+    elsif field == :treated_act_female && !treated_act_female.nil? && r != :death
       return {
         element: ELEMENT_DHIS2_MAPPING[:cases_treated_act],
         category: DHIS2_DISAGGREGATIONS[:female][g][r][:value],
         value: treated_act_female
       }
-    elsif field == :treated_severe_male && !treated_severe_male.nil?
+    elsif field == :treated_severe_male && !treated_severe_male.nil? && r != :death
       return {
         element: ELEMENT_DHIS2_MAPPING[:severe_cases_treated],
         category: DHIS2_DISAGGREGATIONS[:male][g][r][:value],
         value: treated_severe_male
       }
-    elsif field == :treated_severe_female && !treated_severe_female.nil?
+    elsif field == :treated_severe_female && !treated_severe_female.nil? && r != :death
       return {
         element: ELEMENT_DHIS2_MAPPING[:severe_cases_treated],
         category: DHIS2_DISAGGREGATIONS[:female][g][r][:value],
         value: treated_severe_female
       }
-    elsif field == :total_referrals && !total_referrals.nil?
+    elsif field == :total_referrals && !total_referrals.nil? && r != :death
       return {
         element: ELEMENT_DHIS2_MAPPING[:cases_referred],
         category: DHIS2_DISAGGREGATIONS[g][r][:value],
