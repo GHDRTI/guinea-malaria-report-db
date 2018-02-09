@@ -14,7 +14,7 @@ gem 'jbuilder', '~> 2.0'
 
 # roo: Excel file parsing
 gem 'roo', '~> 2.5.1'
-gem 'roo-xls', '~> 1'
+gem 'roo-xls', '~> 1.1.0'
 
 # aws-sdk: File uploads and storage
 gem 'aws-sdk', '~> 2'
