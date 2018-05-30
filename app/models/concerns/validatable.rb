@@ -5,7 +5,8 @@ module Validatable extend ActiveSupport::Concern
     unknown_facility: "Unknown facility '$facility_name' in district '$district_name'",
     invalid_workbook_month: "Invalid workbook month & year from '$date', must be date type and not empty",
     district_not_same: "Workbook first reportable sheet specified district '$workbook_district_name', but sheet $sheet_name specified district '$sheet_district_name'",
-    invalid_date_sheet: "Invalid date '$date' in sheet '$sheet_name'" 
+    invalid_date_sheet: "Invalid date '$date' in sheet '$sheet_name'" ,
+    empty_malaria_report: "This is an completely empty malaria report"
   }
 
   def t_err code, args
