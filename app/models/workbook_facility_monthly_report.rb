@@ -37,7 +37,7 @@ class WorkbookFacilityMonthlyReport < ActiveRecord::Base
     self.num_reports_compiled           = sheet.cell('U', 4)
     self.num_pregnant_anc_tested        = sheet.cell('H', 26)
     self.num_pregnant_first_dose_sp     = sheet.cell('H', 27)
-    self.num_pregnant_three_doses_sp    = sheet.cell('H', 28)
+    self.num_pregnant_three_doses_sp    = sheet.cell('H', 29)
     self.num_structures                 = sheet.cell('L', 29)
     self.num_agents                     = sheet.cell('O', 29)
     self.num_local_ngos_cbos            = sheet.cell('S', 29)
@@ -47,6 +47,12 @@ class WorkbookFacilityMonthlyReport < ActiveRecord::Base
     self.approved_by_name               = sheet.cell('O', 47)
     self.approved_by_org                = sheet.cell('O', 48)
     self.approved_by_phone              = sheet.cell('U', 47)
+
+    self.num_pregnant_second_dose_sp    = sheet.cell('H', 28)
+    self.num_pregnant_fourth_dose_sp    = sheet.cell('H', 30)
+    self.num_awareness_session          = sheet.cell('H', 31)
+    self.llin_dist_cpn                  = sheet.cell('H', 32)
+    self.llin_dist_pev                  = sheet.cell('H', 33)
 
     self.compiled_by_date               = sheet.cell('I', 48)
     if !compiled_by_date.blank? && !is_a_date?(compiled_by_date)

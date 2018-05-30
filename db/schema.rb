@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161110174000) do
+ActiveRecord::Schema.define(version: 20180530220836) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -68,6 +68,8 @@ ActiveRecord::Schema.define(version: 20161110174000) do
     t.string   "registration_method"
     t.integer  "total_patients_all_causes"
     t.integer  "total_deaths"
+    t.integer  "suspect_severe_deaths_male"
+    t.integer  "suspect_severe_deaths_female"
     t.integer  "suspect_simple_male"
     t.integer  "suspect_simple_female"
     t.integer  "suspect_severe_male"
@@ -110,6 +112,11 @@ ActiveRecord::Schema.define(version: 20161110174000) do
     t.date     "approved_by_date"
     t.datetime "created_at",                  null: false
     t.datetime "updated_at",                  null: false
+    t.integer  "num_pregnant_second_dose_sp"
+    t.integer  "num_pregnant_fourth_dose_sp"
+    t.integer  "num_awareness_session"
+    t.integer  "llin_dist_cpn"
+    t.integer  "llin_dist_pev"
   end
 
   add_index "workbook_facility_monthly_reports", ["health_facility_id"], name: "index_wfmr_on_health_facility_id", using: :btree
@@ -139,6 +146,7 @@ ActiveRecord::Schema.define(version: 20161110174000) do
     t.integer  "district_id"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
+    t.datetime "end_date"
   end
 
   add_index "workbooks", ["district_id", "reporting_year", "reporting_month"], name: "index_workbook_on_district_year_month", unique: true, using: :btree
