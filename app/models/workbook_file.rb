@@ -18,7 +18,7 @@ class WorkbookFile < ActiveRecord::Base
     'SS Armees',
     /Rapport Palu/,
     /Feuil/,
-    /^CS /
+    /^CS [0-9]/
   ]
   # make sure that there is a date, heath facility and cases tested for RDT
   IGNORE_SHEETS_EMPTY_CELLS = [ ['D',3], ['D',4], ['K',11] ]
@@ -106,6 +106,7 @@ class WorkbookFile < ActiveRecord::Base
   end
 
   def ignore_sheet? name, sheet
+    
     IGNORE_SHEETS_NAMED.each do |ignore_name|
       if ignore_name.is_a? Regexp
         return true if ignore_name.match(name.strip)
@@ -154,7 +155,9 @@ class WorkbookFile < ActiveRecord::Base
           spreadsheet.sheets.each do |sheet_name|
             sheet = spreadsheet.sheet(sheet_name)
             if ignore_sheet?(sheet_name, sheet)
-              puts "WorkbookFile[#{id}]: Ignoring worksheet '#{sheet_name}'"
+              puts "WorkbookFile[#{id}]: Ignoring worksheet '#{sheet_name}' because its special"
+            elsif IGNORE_SHEETS_EMPTY_CELLS.any? { |cell| sheet.cell(*cell).blank? }
+              puts "WorkbookFile[#{id}]: Ignoring worksheet '#{sheet_name}' because its empty"
             else
               puts "WorkbookFile[#{id}]: Importing worksheet '#{sheet_name}'"
               WorkbookFacilityMonthlyReport.import_sheet! self, sheet, sheet_name
@@ -211,25 +214,21 @@ class WorkbookFile < ActiveRecord::Base
         end
       end
 
-      
 
       sheet_names_to_validate.each do |sheet_name|
         sheet = spreadsheet.sheet(sheet_name)
-        
+
         if workbook && workbook.district
           # Find facility in detected district
           facility_name = sheet.cell(*WorkbookFacilityMonthlyReport::CELL_FACILITY_NAME).to_s
           facility = get_health_facility_override(sheet_name) ||
             HealthFacility.district_named(workbook.district, facility_name)
-          
+
+          # these are warnings not errors
           if IGNORE_SHEETS_EMPTY_CELLS.any? { |cell| sheet.cell(*cell).blank? }
-            validations[:errors] << t_err(:empty_malaria_report, 
-                    district_name: workbook.district.name, 
-                    facility_name: facility_name,
-                    sheet_name: sheet_name)
             next
           end
-
+          
           unless facility
             validations[:errors] << t_err(:unknown_facility, 
               district_name: workbook.district.name, 
@@ -250,6 +249,14 @@ class WorkbookFile < ActiveRecord::Base
       warnings = []
       sheet_names_to_validate.each do |sheet_name|
         sheet = spreadsheet.sheet(sheet_name)
+        facility_name = sheet.cell(*WorkbookFacilityMonthlyReport::CELL_FACILITY_NAME).to_s
+          
+        if IGNORE_SHEETS_EMPTY_CELLS.any? { |cell| sheet.cell(*cell).blank? }
+            warnings << t_err(:empty_malaria_report, 
+                    district_name: workbook.district.name, 
+                    facility_name: facility_name,
+                    sheet_name: sheet_name)
+        end
 
         # Validate dates
         WARNINGS_CELL_DATES.each do |cell|
