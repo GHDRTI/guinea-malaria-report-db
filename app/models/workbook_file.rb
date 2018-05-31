@@ -167,7 +167,6 @@ class WorkbookFile < ActiveRecord::Base
     # Validate the file.  If valid, assign or create the workbook
     def do_validations
       
-
       validations = {
         errors: [],
         warnings: []
@@ -179,6 +178,7 @@ class WorkbookFile < ActiveRecord::Base
       }
       spreadsheet = load_spreadsheet!
       sheet_names_to_validate = importable_sheet_names spreadsheet
+
 
       # Find district, month, year and assign workbook
       first_sheet = spreadsheet.sheet(sheet_names_to_validate.first)
@@ -210,6 +210,8 @@ class WorkbookFile < ActiveRecord::Base
           end
         end
       end
+
+      
 
       sheet_names_to_validate.each do |sheet_name|
         sheet = spreadsheet.sheet(sheet_name)

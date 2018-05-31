@@ -17,7 +17,12 @@ class FacilityMonthlyReport < ActiveRecord::Base
     num_pregnant_first_dose_sp: 'F0ne7Z8cMze',
     num_pregnant_three_doses_sp: 'nPFA2Jcgn0d',
     date_report_completed: 'OudJWfdmthW',
-    date_report_submitted: 'mOg7hIbKT0H'
+    date_report_submitted: 'mOg7hIbKT0H',
+    num_pregnant_second_dose_sp: 'BM1boUJ85Pn',
+    num_pregnant_fourth_dose_sp: 'ypyyaHIC2Aw',
+    num_awareness_session: 'NwZYQfNezOc',
+    llin_dist_cpn: 'wJ1ozdMtQ6d',
+    llin_dist_pev: 'IrY6QtOugnE'
   }
 
   self.primary_key = 'id'
@@ -72,6 +77,41 @@ class FacilityMonthlyReport < ActiveRecord::Base
       },
       {
         dataElement: ELEMENT_DHIS2_MAPPING[:num_pregnant_three_doses_sp],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: num_pregnant_three_doses_sp || 0,
+        followUp: false
+      },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:num_pregnant_second_dose_sp],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: num_pregnant_three_doses_sp || 0,
+        followUp: false
+      },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:num_pregnant_fourth_dose_sp],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: num_pregnant_three_doses_sp || 0,
+        followUp: false
+      },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:num_awareness_session],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: num_pregnant_three_doses_sp || 0,
+        followUp: false
+      },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:llin_dist_cpn],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: num_pregnant_three_doses_sp || 0,
+        followUp: false
+      },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:llin_dist_pev],
         period: workbook_file.workbook.dhis2_period,
         orgUnit: health_facility.dhis2_id,
         value: num_pregnant_three_doses_sp || 0,
