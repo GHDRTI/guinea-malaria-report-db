@@ -1,3 +1,8 @@
+
+
+# Overview
+[![asciicast](https://asciinema.org/a/ylX5MVB7e5iGF3JdvXf02egWa.png)](https://asciinema.org/a/ylX5MVB7e5iGF3JdvXf02egWa)
+
 # Getting Started
 
 Set local environment variables
