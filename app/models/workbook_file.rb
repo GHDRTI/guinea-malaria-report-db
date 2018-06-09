@@ -18,6 +18,7 @@ class WorkbookFile < ActiveRecord::Base
     'SS Armees',
     /Rapport Palu/,
     /Feuil/,
+    /SSA/,
     /^CS [0-9]/
   ]
   # make sure that there is a date, heath facility and cases tested for RDT
@@ -252,8 +253,15 @@ class WorkbookFile < ActiveRecord::Base
         facility_name = sheet.cell(*WorkbookFacilityMonthlyReport::CELL_FACILITY_NAME).to_s
           
         if IGNORE_SHEETS_EMPTY_CELLS.any? { |cell| sheet.cell(*cell).blank? }
+            
+            if workbook.nil?
+              district = 'unknown' 
+            else
+              district = workbook.district.name
+            end
+
             warnings << t_err(:empty_malaria_report, 
-                    district_name: workbook.district.name, 
+                    district_name: district, 
                     facility_name: facility_name,
                     sheet_name: sheet_name)
         end
