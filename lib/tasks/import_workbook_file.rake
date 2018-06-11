@@ -199,6 +199,7 @@ def ask_for_health_center_override workbook_file, error
   end
 
   HealthFacility.where(district: workbook_file.workbook.district)
+      .where(end_date: nil)
       .order("name asc").each do |health_facility|
     puts "  #{health_facility.id}) #{health_facility.name}"
   end
