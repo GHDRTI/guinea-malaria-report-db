@@ -9,19 +9,10 @@
 	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
 	<style name="Column header" fontName="Arial" fontSize="14" isBold="true"/>
 	<style name="Detail" fontName="Arial" fontSize="12"/>
-	<parameter name="periods" class="java.lang.String"/>
-	<parameter name="periods_iso" class="java.lang.String"/>
-	<parameter name="period_name" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[SELECT healthfacility.uid, healthfacility.name, healthfacility.district, healthfacility.region
 FROM _view_healthfacilities healthfacility
-LEFT JOIN analytics_2018 analytics
-    ON healthfacility.uid = analytics.uidlevel4
-    AND analytics.dx = 'FmShhQ6Z8GR' /* patients consulted*/
-    AND analytics.co = 'Pyyy4k05NMD' /*  Under 5 years old, at the structure (on site) */
-    AND analytics.monthly = '201804'
-WHERE analytics.value is NULL
-ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;;]]>
+WHERE healthfacility.code IS NULL;]]>
 	</queryString>
 	<field name="uid" class="java.lang.String"/>
 	<field name="name" class="java.lang.String"/>
@@ -35,12 +26,8 @@ ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;;]]>
 			<staticText>
 				<reportElement style="Title" x="3" y="7" width="537" height="63" uuid="6f9c1004-6140-4588-9c4f-d75824835765"/>
 				<textElement verticalAlignment="Middle"/>
-				<text><![CDATA[RAPPORT MENSUEL MANQUANT SUR LE PALUDISME]]></text>
+				<text><![CDATA[Codes de centre de santé manquants]]></text>
 			</staticText>
-			<textField>
-				<reportElement style="SubTitle" x="7" y="75" width="158" height="30" uuid="7de340e2-406e-49cc-9cbf-b988932c77b0"/>
-				<textFieldExpression><![CDATA[$P{period_name}]]></textFieldExpression>
-			</textField>
 		</band>
 	</title>
 	<pageHeader>
@@ -116,4 +103,3 @@ ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;;]]>
 		<band splitType="Stretch"/>
 	</summary>
 </jasperReport>
-sperReport>
