@@ -6,6 +6,7 @@ class HealthFacility < ActiveRecord::Base
     where("district_id = :district_id", district_id: district.id) 
       .where("lower(name) = :name OR :name = ANY(lower(alternative_names::text)::text[])", 
         name: name.mb_chars.strip.downcase)
+      .where(end_date: nil)
       .first
   end
 
