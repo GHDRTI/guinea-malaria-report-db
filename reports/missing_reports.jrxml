@@ -116,4 +116,3 @@ ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;;]]>
 		<band splitType="Stretch"/>
 	</summary>
 </jasperReport>
-sperReport>
