@@ -18,10 +18,11 @@ FROM _view_healthfacilities healthfacility
 LEFT JOIN analytics_2018 analytics
     ON healthfacility.uid = analytics.uidlevel4
     AND analytics.dx = 'FmShhQ6Z8GR' /* patients consulted*/
-    AND analytics.co = 'Pyyy4k05NMD' /*  Under 5 years old, at the structure (on site) */
-    AND analytics.monthly = '201804'
+    AND (analytics.co = 'hTTSJHNRJrD' /*  Under 5 years old, at the structure (on site) */
+       OR analytics.co = 'Pyyy4k05NMD') /*  Over 5 years old, at the structure (on site) */
+    AND analytics.monthly = '$P!{periods_iso}'
 WHERE analytics.value is NULL
-ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;;]]>
+ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;]]>
 	</queryString>
 	<field name="uid" class="java.lang.String"/>
 	<field name="name" class="java.lang.String"/>
