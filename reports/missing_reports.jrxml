@@ -13,7 +13,7 @@
 	<parameter name="periods_iso" class="java.lang.String"/>
 	<parameter name="period_name" class="java.lang.String"/>
 	<queryString>
-		<![CDATA[SELECT healthfacility.uid, healthfacility.name, healthfacility.district, healthfacility.region
+		<![CDATA[SELECT healthfacility.uid, healthfacility.name, healthfacility.district, healthfacility.region,healthfacility.ownership
 FROM _view_healthfacilities healthfacility
 LEFT JOIN analytics_2018 analytics
     ON healthfacility.uid = analytics.uidlevel4
@@ -28,6 +28,7 @@ ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;]]>
 	<field name="name" class="java.lang.String"/>
 	<field name="district" class="java.lang.String"/>
 	<field name="region" class="java.lang.String"/>
+	<field name="ownership" class="java.lang.String"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -67,6 +68,10 @@ ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;]]>
 				<reportElement style="Column header" x="320" y="10" width="100" height="26" uuid="1aab6183-a1f5-4a23-9e65-be64bf7fe34a"/>
 				<text><![CDATA[Région]]></text>
 			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="427" y="12" width="100" height="26" uuid="19d29a39-1b98-4b61-9bde-b4c30d0552cc"/>
+				<text><![CDATA[Propriété]]></text>
+			</staticText>
 		</band>
 	</columnHeader>
 	<detail>
@@ -80,8 +85,12 @@ ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;]]>
 				<textFieldExpression><![CDATA[$F{district}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="320" y="10" width="100" height="17" uuid="1c6e3e62-3294-4f40-a1c3-e66af3231b1d"/>
+				<reportElement x="314" y="4" width="100" height="17" uuid="1c6e3e62-3294-4f40-a1c3-e66af3231b1d"/>
 				<textFieldExpression><![CDATA[$F{region}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="436" y="5" width="100" height="17" uuid="82e4ffae-0769-4bfe-a2cc-c80d0ca2fcd2"/>
+				<textFieldExpression><![CDATA[$F{ownership}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
