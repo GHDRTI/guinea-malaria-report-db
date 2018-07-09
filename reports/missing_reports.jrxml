@@ -13,14 +13,14 @@
 	<parameter name="periods_iso" class="java.lang.String"/>
 	<parameter name="period_name" class="java.lang.String"/>
 	<queryString>
-		<![CDATA[SELECT healthfacility.uid, healthfacility.name, healthfacility.district, healthfacility.region,healthfacility.ownership
+		<![CDATA[SELECT healthfacility.uid, healthfacility.name, healthfacility.district, healthfacility.region, healthfacility.ownership
 FROM _view_healthfacilities healthfacility
-LEFT JOIN analytics_2018 analytics
-    ON healthfacility.uid = analytics.uidlevel4
+LEFT JOIN _view_analytics analytics
+    ON healthfacility.uid = analytics.facility_uid
     AND analytics.dx = 'FmShhQ6Z8GR' /* patients consulted*/
     AND (analytics.co = 'hTTSJHNRJrD' /*  Under 5 years old, at the structure (on site) */
        OR analytics.co = 'Pyyy4k05NMD') /*  Over 5 years old, at the structure (on site) */
-    AND analytics.monthly = '$P!{periods_iso}'
+    AND analytics.month = '$P!{periods_iso}'
 WHERE analytics.value is NULL
 ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;]]>
 	</queryString>
