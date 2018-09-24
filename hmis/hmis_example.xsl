@@ -7,7 +7,9 @@ element is to be processed and which is used for output purpose only
 xmlns:xsl = "http://www.w3.org/1999/XSL/Transform"
 xmlns:dxf="http://dhis2.org/schema/dxf/2.0">  
 
-<xsl:variable name="data" select="document('orgUnits.xml')/orgUnits/orgUnit"/>
+<!-- Load up the lookup tables: -->
+<xsl:variable name="orgUnits" select="document('orgUnits.xml')/orgUnits/orgUnit"/>
+<xsl:variable name="dataElements" select="document('dataElements.xml')/dataElements/dataElement"/>
 
 <!-- xsl template declaration:  
 template tells the xlst processor about the section of xml 
@@ -31,8 +33,8 @@ tell processor to process the entire document with this template.
 			<xsl:value-of select="@period"/>	
 		</xsl:attribute>
 		<xsl:attribute name="orgUnit">
-			<!-- Do look up here -->
-			<xsl:value-of select="$data[@key = @orgUnit]/@value"/>	
+			<xsl:variable name="currentOrgUnit" select="@orgUnit"/>
+			<xsl:value-of select="$orgUnits[@hmisUID = $currentOrgUnit]/@projectUID"/>
 		</xsl:attribute>
 		<xsl:apply-templates/>
 	</dataValueSet>
@@ -41,16 +43,23 @@ tell processor to process the entire document with this template.
 <xsl:template match="dxf:dataValue">
   <dataValue>
   <xsl:attribute name="dataElement">
-		<xsl:value-of select="@dataElement"/>	
+  	    
+  		<!-- Look up the project data element -->
+  	    <xsl:variable name="currentDataElement" select="@dataElement"/>
+  	    <xsl:variable name="currentCategoryOptionCombo" select="@categoryOptionCombo"/>
+  	    <xsl:value-of select="$dataElements[@hmisUID = $currentDataElement] and $dataElements[@hmisCategoryOptionCombo = $currentCategoryOptionCombo]/@projectUID"/>
 	</xsl:attribute>
 	<xsl:attribute name="period">
 		<xsl:value-of select="@period"/>	
 	</xsl:attribute>
 	<xsl:attribute name="orgUnit">
-		<xsl:value-of select="@orgUnit"/>	
+		<xsl:variable name="currentOrgUnit" select="@orgUnit"/>
+		<xsl:value-of select="$orgUnits[@hmisUID = $currentOrgUnit]/@projectUID"/>	
 	</xsl:attribute>
 	<xsl:attribute name="categoryOptionCombo">
-		<xsl:value-of select="@categoryOptionCombo"/>	
+		<!-- Look up the project category combo option -->
+		<xsl:variable name="currentCategoryOptionCombo" select="@categoryOptionCombo"/>
+		<xsl:value-of select="$dataElements[@hmisCategoryOptionCombo = $currentCategoryOptionCombo]/@projectUID"/>
 	</xsl:attribute>
 	<xsl:attribute name="attributeOptionCombo">
 		<xsl:value-of select="@attributeOptionCombo"/>	

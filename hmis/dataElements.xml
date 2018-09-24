@@ -1,0 +1,14 @@
+<dataElements>
+<!-- Patients Consulted on Site -->	
+<dataElement hmisUID="luipiCKVB47" hmisCategoryOptionCombo="vWneublYhOH" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="Pyyy4k05NMD"/>
+<dataElement hmisUID="luipiCKVB47" hmisCategoryOptionCombo="ldSKD4qkziO" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="hTTSJHNRJrD"/>
+
+<!-- Patients Consulted by Agent-->	
+<dataElement hmisUID="R9INGXgdKHN" hmisCategoryOptionCombo="vWneublYhOH" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="Pyyy4k05NMD"/>
+<dataElement hmisUID="R9INGXgdKHN" hmisCategoryOptionCombo="ldSKD4qkziO" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="hTTSJHNRJrD"/>
+
+<!-- Pregnant women consulted on site -->	
+<dataElement hmisUID="E6T6Hl6vJxo" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="py1lfmaC6uz"/>
+
+
+</dataElements>
