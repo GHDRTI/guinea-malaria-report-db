@@ -61,7 +61,8 @@ tell processor to process the entire document with this template.
 	</xsl:attribute>
 	<xsl:attribute name="categoryOptionCombo">
 		<!-- Look up the project category combo option -->
-		<xsl:value-of select="$dataElements[@hmisCategoryOptionCombo = $currentCategoryOptionCombo]/@projectCategoryOptionCombo"/>
+
+		 <xsl:value-of select="$dataElements[@hmisUID = $currentDataElement and @hmisCategoryOptionCombo = $currentCategoryOptionCombo]/@projectCategoryOptionCombo"/>
 	</xsl:attribute>
 	<xsl:attribute name="attributeOptionCombo">
 		<xsl:value-of select="@attributeOptionCombo"/>	
