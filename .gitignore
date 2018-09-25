@@ -18,3 +18,5 @@
 
 **/.DS_STORE
 .env
+
+output.xml
