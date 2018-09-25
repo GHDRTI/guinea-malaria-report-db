@@ -21,10 +21,13 @@ tell processor to process the entire document with this template.
   <xsl:apply-templates/>
 </xsl:template>
 
+<xsl:template match="*/text()[not(normalize-space())]" />
+
 <xsl:template match="dxf:dataValueSet">
 	<dataValueSet>
 		<xsl:attribute name="dataSet">
-			<xsl:value-of select="@dataSet"/>	
+			<!-- the dataset uid from Stop Plau-->
+			<xsl:text>k2ednnpKPCw</xsl:text>	
 		</xsl:attribute>
 		<xsl:attribute name="completeDate">
 			<xsl:value-of select="@completeDate"/>	
@@ -41,13 +44,13 @@ tell processor to process the entire document with this template.
 </xsl:template>
 
 <xsl:template match="dxf:dataValue">
+  <xsl:variable name="currentDataElement" select="@dataElement"/>
+  <xsl:variable name="currentCategoryOptionCombo" select="@categoryOptionCombo"/>
+  <xsl:if test="$dataElements[@hmisUID = $currentDataElement]">
   <dataValue>
   <xsl:attribute name="dataElement">
-  	    
   		<!-- Look up the project data element -->
-  	    <xsl:variable name="currentDataElement" select="@dataElement"/>
-  	    <xsl:variable name="currentCategoryOptionCombo" select="@categoryOptionCombo"/>
-  	    <xsl:value-of select="$dataElements[@hmisUID = $currentDataElement] and $dataElements[@hmisCategoryOptionCombo = $currentCategoryOptionCombo]/@projectUID"/>
+  	    <xsl:value-of select="$dataElements[@hmisUID = $currentDataElement]/@projectUID"/>
 	</xsl:attribute>
 	<xsl:attribute name="period">
 		<xsl:value-of select="@period"/>	
@@ -58,8 +61,7 @@ tell processor to process the entire document with this template.
 	</xsl:attribute>
 	<xsl:attribute name="categoryOptionCombo">
 		<!-- Look up the project category combo option -->
-		<xsl:variable name="currentCategoryOptionCombo" select="@categoryOptionCombo"/>
-		<xsl:value-of select="$dataElements[@hmisCategoryOptionCombo = $currentCategoryOptionCombo]/@projectUID"/>
+		<xsl:value-of select="$dataElements[@hmisCategoryOptionCombo = $currentCategoryOptionCombo]/@projectCategoryOptionCombo"/>
 	</xsl:attribute>
 	<xsl:attribute name="attributeOptionCombo">
 		<xsl:value-of select="@attributeOptionCombo"/>	
@@ -74,6 +76,7 @@ tell processor to process the entire document with this template.
 		<xsl:value-of select="@followUp"/>	
 	</xsl:attribute>
  </dataValue>
+ </xsl:if>
 </xsl:template>
 
 </xsl:stylesheet>
