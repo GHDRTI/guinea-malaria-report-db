@@ -1,14 +1,83 @@
 <dataElements>
-<!-- Patients Consulted on Site: < 5, >= 5 -->	
+
+<!-- 
+
+	Patients Consulted 
+
+-->
+
+
+<!-- on Site: < 5, >= 5 -->	
 <dataElement hmisUID="luipiCKVB47" hmisCategoryOptionCombo="vWneublYhOH" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="Pyyy4k05NMD"/>
 <dataElement hmisUID="luipiCKVB47" hmisCategoryOptionCombo="ldSKD4qkziO" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="hTTSJHNRJrD"/>
 
-<!-- Patients Consulted by Agent < 5, >= 5 -->	
+<!--  by Agent < 5, >= 5 -->	
 <dataElement hmisUID="R9INGXgdKHN" hmisCategoryOptionCombo="vWneublYhOH" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="AgCYNOA6VIN"/>
 <dataElement hmisUID="R9INGXgdKHN" hmisCategoryOptionCombo="ldSKD4qkziO" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="a2L8HdWI8eN"/>
 
 <!-- Pregnant women consulted on site -->	
 <dataElement hmisUID="E6T6Hl6vJxo" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="py1lfmaC6uz"/>
 
+
+<!-- 
+	
+	Cases Suspected - Simple 
+
+-->
+
+<!-- By Agent, Females < 5 -->
+<dataElement hmisUID="hEzTEvEy2Qo" hmisCategoryOptionCombo="InVOmW0IqKa" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="ELdrd653D8d"/>
+
+<!-- By Structure, Females < 5 -->
+<dataElement hmisUID="lOcvVwulcR0" hmisCategoryOptionCombo="InVOmW0IqKa" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="ta2YZa73xVT"/>
+
+
+<!-- By Agent, Females >= 5 -->
+<dataElement hmisUID="hEzTEvEy2Qo" hmisCategoryOptionCombo="NiYuVFcZp5R" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="WiWmRyQdSRw"/>
+
+<!-- By Structure, Females >= 5 -->
+<dataElement hmisUID="lOcvVwulcR0" hmisCategoryOptionCombo="NiYuVFcZp5R" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="q7AOvcPROE9"/>
+
+
+<!-- By Structure, Pregnant women -->
+
+<dataElement hmisUID="n64UFGB7GN0" hmisCategoryOptionCombo="XGqqCoXNbny" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="z79NVF2tE3A"/>
+
+<!-- By Agent, Males < 5 -->
+
+<dataElement hmisUID="hEzTEvEy2Qo" hmisCategoryOptionCombo="bzOU7jTPugw" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="Yc3rNNTfNpx"/>
+
+<!-- By Structure, Males < 5 -->
+
+<dataElement hmisUID="lOcvVwulcR0" hmisCategoryOptionCombo="bzOU7jTPugw" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="J6qg36Eu1nV"/>
+
+<!-- By Agent Males >= 5 -->
+
+<dataElement hmisUID="hEzTEvEy2Qo" hmisCategoryOptionCombo="tfmFXouuZfd" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="Yi0tSxTT2x6"/>
+
+<!-- By Structure Males >= 5 -->
+
+<dataElement hmisUID="lOcvVwulcR0" hmisCategoryOptionCombo="tfmFXouuZfd" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="WHoGFquOKhq"/>
+
+
+<!-- 
+
+	Cases Suspected - Grave 
+	<dataElement hmisUID="" hmisCategoryOptionCombo="" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo=""/>
+
+-->
+
+<!-- Females < 5 -->
+
+
+<!-- Females >= 5 -->
+
+
+<!-- Pregnant women -->
+
+
+<!-- Males < 5 -->
+
+<!-- Females >= 5 -->
 
 </dataElements>
