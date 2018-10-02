@@ -221,4 +221,27 @@
 <dataElement hmisUID="eun3eeNkTXK" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="xA3a48dewoN" projectCategoryOptionCombo="mdIr1MXnmEE"/>
 
 
+<!-- 
+
+	Severe Cases Treated
+	
+-->
+
+
+<!-- By Structure, Females < 5 -->
+<dataElement hmisUID="V1iTGoDWTy2" hmisCategoryOptionCombo="InVOmW0IqKa" projectUID="waEPPJt6i2w" projectCategoryOptionCombo="DuTndxFrb2I"/>
+
+<!-- By Structure, Females >= 5 -->
+<dataElement hmisUID="V1iTGoDWTy2" hmisCategoryOptionCombo="H4Kkg704dwZ" projectUID="waEPPJt6i2w" projectCategoryOptionCombo="GTc6GzQn9vJ"/>
+
+<!-- By Structure, Pregnant women -->
+<dataElement hmisUID="OTpFPeMdU7H" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="waEPPJt6i2w" projectCategoryOptionCombo="mPRYxJ7B3sp"/>
+
+<!-- By Structure, Males < 5 -->
+<dataElement hmisUID="V1iTGoDWTy2" hmisCategoryOptionCombo="QpF17oBBHtv" projectUID="waEPPJt6i2w" projectCategoryOptionCombo="WDat8LGPNQS"/>
+
+<!-- By Structure Males >= 5 -->
+<dataElement hmisUID="V1iTGoDWTy2" hmisCategoryOptionCombo="aYPmc5mue8I" projectUID="waEPPJt6i2w" projectCategoryOptionCombo="CLBnWnadQ9E"/>
+
+
 </dataElements>
