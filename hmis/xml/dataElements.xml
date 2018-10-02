@@ -196,5 +196,29 @@
 <dataElement hmisUID="JPUCOxp5uW0" hmisCategoryOptionCombo="aYPmc5mue8I" projectUID="bjYtgZobniH" projectCategoryOptionCombo="CLBnWnadQ9E"/>
 
 
+<!-- 
+
+	Cases Referred
+	
+-->
+
+<!-- By Agent, < 5 -->
+<dataElement hmisUID="PUCkOLDg2O4" hmisCategoryOptionCombo="vWneublYhOH" projectUID="xA3a48dewoN" projectCategoryOptionCombo="AgCYNOA6VIN"/>
+
+<!-- By Structure,  < 5 -->
+<dataElement hmisUID="cA58MUGeZQ1" hmisCategoryOptionCombo="vWneublYhOH" projectUID="xA3a48dewoN" projectCategoryOptionCombo="Pyyy4k05NMD"/>
+
+<!-- By Agent,  >= 5 -->
+<dataElement hmisUID="PUCkOLDg2O4" hmisCategoryOptionCombo="ldSKD4qkziO" projectUID="xA3a48dewoN" projectCategoryOptionCombo="a2L8HdWI8eN"/>
+
+<!-- By Structure,  >= 5 -->
+<dataElement hmisUID="cA58MUGeZQ1" hmisCategoryOptionCombo="ldSKD4qkziO" projectUID="xA3a48dewoN" projectCategoryOptionCombo="hTTSJHNRJrD"/>
+
+<!-- By Structure, Pregnant  -->
+<dataElement hmisUID="yaiUbjs0yNR" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="xA3a48dewoN" projectCategoryOptionCombo="py1lfmaC6uz"/>
+
+<!-- By Agent, Pregnant  -->
+<dataElement hmisUID="eun3eeNkTXK" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="xA3a48dewoN" projectCategoryOptionCombo="mdIr1MXnmEE"/>
+
 
 </dataElements>
