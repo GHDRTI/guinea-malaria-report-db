@@ -8,9 +8,6 @@
   <orgUnit hmisUID="Ci0P4OySWGz" projectUID="FAC00000006"/>
   <orgUnit hmisUID="kM65X9dP5WS" projectUID="FAC00000002"/>
   <orgUnit hmisUID="D37scsqqBLs" projectUID="FAC00000001"/>
-  <orgUnit hmisUID="pChTVBEAPJJ" projectUID="DIS00000011"/>
-  <orgUnit hmisUID="Motdz3Bql7L" projectUID="DIS00000009"/>
-  <orgUnit hmisUID="fxtOlL8b8mb" projectUID="DIS00000002"/>
   <orgUnit hmisUID="DqCRkk7x0CV" projectUID="FAC00000023"/>
   <orgUnit hmisUID="R9iI89aX5jj" projectUID="FAC00000018"/>
   <orgUnit hmisUID="ODHrXQVESbK" projectUID="FAC00000019"/>
@@ -25,12 +22,6 @@
   <orgUnit hmisUID="SE7ua3imFwx" projectUID="FAC00000015"/>
   <orgUnit hmisUID="DaMkJM4hF0y" projectUID="FAC00000016"/>
   <orgUnit hmisUID="gVyPXXmmEh6" projectUID="FAC00000017"/>
-  <orgUnit hmisUID="L1Gr2bAsR4T" projectUID="DIS00000001"/>
-  <orgUnit hmisUID="cbst9kz3DHp" projectUID="DIS00000010"/>
-  <orgUnit hmisUID="CoKlGkkiN4a" projectUID="DIS00000015"/>
-  <orgUnit hmisUID="jIFb011EBWB" projectUID="DIS00000016"/>
-  <orgUnit hmisUID="gHO8qPxfLdl" projectUID="DIS00000004"/>
-  <orgUnit hmisUID="D5WJbugzg9L" projectUID="DIS00000018"/>
   <orgUnit hmisUID="Bi3hy0HssQa" projectUID="FAC00000028"/>
   <orgUnit hmisUID="LQDdxRnJlWA" projectUID="FAC00000029"/>
   <orgUnit hmisUID="X36TUCzthgW" projectUID="FAC00000024"/>
@@ -97,9 +88,6 @@
   <orgUnit hmisUID="hzXwSpvQEqL" projectUID="FAC00000091"/>
   <orgUnit hmisUID="FqG9O7Rl41T" projectUID="FAC00000092"/>
   <orgUnit hmisUID="ie3fGBEEPXs" projectUID="FAC00000201"/>
-  <orgUnit hmisUID="CXHCAlP68L5" projectUID="DIS00000007"/>
-  <orgUnit hmisUID="KnR8IiGoSxQ" projectUID="DIS00000003"/>
-  <orgUnit hmisUID="VyZGMioVY5z" projectUID="DIS00000006"/>
   <orgUnit hmisUID="mCitkPSnRwJ" projectUID="FAC00000105"/>
   <orgUnit hmisUID="EwryfoG5tbb" projectUID="FAC00000106"/>
   <orgUnit hmisUID="Ph6d03qcthy" projectUID="FAC00000107"/>
@@ -118,13 +106,10 @@
   <orgUnit hmisUID="mH6TfrrS1X0" projectUID="FAC00000109"/>
   <orgUnit hmisUID="O7jK8mkC0pg" projectUID="FAC00000110"/>
   <orgUnit hmisUID="EEP89UQ08xm" projectUID="FAC00000111"/>
-  <orgUnit hmisUID="HC3N6HbSdfg" projectUID="DIS00000012"/>
   <orgUnit hmisUID="LiYfnAp2P0E" projectUID="FAC00000119"/>
   <orgUnit hmisUID="evrbgyg9e1L" projectUID="FAC00000120"/>
   <orgUnit hmisUID="AJbCdZOwxHF" projectUID="FAC00000124"/>
-  <orgUnit hmisUID="zJZspSfD06r" projectUID="DIS00000017"/>
   <orgUnit hmisUID="p5xjuzz8UZA" projectUID="FAC00000108"/>
-  <orgUnit hmisUID="XraGmJ5tF7e" projectUID="DIS00000019"/>
   <orgUnit hmisUID="YMefJBrmn4y" projectUID="FAC00000125"/>
   <orgUnit hmisUID="Jjdgyyjordl" projectUID="FAC00000126"/>
   <orgUnit hmisUID="NPAeEXVObH1" projectUID="FAC00000116"/>
@@ -134,8 +119,6 @@
   <orgUnit hmisUID="T4YVt2J1EEM" projectUID="FAC00000117"/>
   <orgUnit hmisUID="vLvfEE6ewRQ" projectUID="FAC00000121"/>
   <orgUnit hmisUID="cOiftjBTEaS" projectUID="FAC00000123"/>
-  <orgUnit hmisUID="GuePjEvd6OH" projectUID="DIS00000014"/>
-  <orgUnit hmisUID="E1AAcXV9PxL" projectUID="DIS00000013"/>
   <orgUnit hmisUID="Ah8kNbFM2G7" projectUID="FAC00000113"/>
   <orgUnit hmisUID="r1cAXDMToBm" projectUID="FAC00000114"/>
   <orgUnit hmisUID="VtkBIan9Ueu" projectUID="FAC00000115"/>
