@@ -7,12 +7,16 @@
 -->
 
 
-<!-- on Site: < 5, >= 5 -->	
+<!-- on Site < 5, >= 5 -->	
 <dataElement hmisUID="luipiCKVB47" hmisCategoryOptionCombo="vWneublYhOH" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="Pyyy4k05NMD"/>
+
+<!-- on Site, >= 5 -->	
 <dataElement hmisUID="luipiCKVB47" hmisCategoryOptionCombo="ldSKD4qkziO" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="hTTSJHNRJrD"/>
 
 <!--  by Agent < 5, >= 5 -->	
 <dataElement hmisUID="R9INGXgdKHN" hmisCategoryOptionCombo="vWneublYhOH" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="AgCYNOA6VIN"/>
+
+<!--  by Agent >= 5 -->
 <dataElement hmisUID="R9INGXgdKHN" hmisCategoryOptionCombo="ldSKD4qkziO" projectUID="FmShhQ6Z8GR" projectCategoryOptionCombo="a2L8HdWI8eN"/>
 
 <!-- Pregnant women consulted on site -->	
@@ -64,7 +68,6 @@
 
 	Cases Suspected - Grave 
 	
-
 -->
 
 <!-- By Agent, Females < 5 -->
@@ -73,33 +76,62 @@
 <!-- By Structure, Females < 5 -->
 <dataElement hmisUID="lOcvVwulcR0" hmisCategoryOptionCombo="JN7CZ0uvdIg" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="U1LK0zGEZ34"/>
 
-
 <!-- By Agent, Females >= 5 -->
 <dataElement hmisUID="hEzTEvEy2Qo" hmisCategoryOptionCombo="xsOfSmBRzYD" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="ppnUrlU5ftK"/>
 
 <!-- By Structure, Females >= 5 -->
 <dataElement hmisUID="lOcvVwulcR0" hmisCategoryOptionCombo="xsOfSmBRzYD" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="PfadgWAn53n"/>
 
-
 <!-- By Structure, Pregnant women -->
-
 <dataElement hmisUID="n64UFGB7GN0" hmisCategoryOptionCombo="fnIKAr0BqO2" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="K03piv0D058"/>
 
 <!-- By Agent, Males < 5 -->
-
 <dataElement hmisUID="hEzTEvEy2Qo" hmisCategoryOptionCombo="BYxQsKxVf37" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="XtybUBClBZ7"/>
 
 <!-- By Structure, Males < 5 -->
-
 <dataElement hmisUID="lOcvVwulcR0" hmisCategoryOptionCombo="BYxQsKxVf37" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="zF6vshnGUzS"/>
 
 <!-- By Agent Males >= 5 -->
-
 <dataElement hmisUID="hEzTEvEy2Qo" hmisCategoryOptionCombo="fDfPdxodPKk" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="tretksnl5dC"/>
 
 <!-- By Structure Males >= 5 -->
-
 <dataElement hmisUID="lOcvVwulcR0" hmisCategoryOptionCombo="fDfPdxodPKk" projectUID="yKwOfmrjzZn" projectCategoryOptionCombo="BeGPctkVt03"/>
+
+
+<!-- 
+
+	Cases Tested
+	
+
+-->
+
+
+<!-- By Agent, RDT < 5 -->
+<dataElement hmisUID="nNpjVjv5MPZ" hmisCategoryOptionCombo="PCmjuGoIUzu" projectUID="ike0ycQxIym" projectCategoryOptionCombo="OmtqmwJ7txz"/>
+
+<!-- By Structure, RDT < 5 -->
+<dataElement hmisUID="EH1aOtaF9UH" hmisCategoryOptionCombo="PCmjuGoIUzu" projectUID="ike0ycQxIym" projectCategoryOptionCombo="G4YHG5Yl8e1"/>
+
+<!-- By Agent, RDT >= 5 -->
+<dataElement hmisUID="nNpjVjv5MPZ" hmisCategoryOptionCombo="CQlh6yjL5tQ" projectUID="ike0ycQxIym" projectCategoryOptionCombo="hfokSylMOVP"/>
+
+<!-- By Structure, RDT >= 5 -->
+<dataElement hmisUID="EH1aOtaF9UH" hmisCategoryOptionCombo="CQlh6yjL5tQ" projectUID="ike0ycQxIym" projectCategoryOptionCombo="nXWAJzXBQWJ"/>
+
+<!-- By Structure, Pregnant women, RTD -->
+<dataElement hmisUID="jQqBsnxB6dG" hmisCategoryOptionCombo="U7greWKtYoh" projectUID="ike0ycQxIym" projectCategoryOptionCombo="ksI9EPccMjd"/>
+
+<!-- By Structure, Pregnant women, Microscopy -->
+<dataElement hmisUID="jQqBsnxB6dG" hmisCategoryOptionCombo="hfvBcxSKWXT" projectUID="ike0ycQxIym" projectCategoryOptionCombo=""/>
+
+<!-- By Structure, Microscopy < 5 -->
+<dataElement hmisUID="EH1aOtaF9UH" hmisCategoryOptionCombo="vSY3Jy8alDS" projectUID="ike0ycQxIym" projectCategoryOptionCombo="SIuZ3OPsuzn"/>
+
+<!-- By Structure Microscopy >= 5 -->
+<dataElement hmisUID="EH1aOtaF9UH" hmisCategoryOptionCombo="DJxLwxLdJgm" projectUID="ike0ycQxIym" projectCategoryOptionCombo="iSKqqDcVR9t"/>
+
+
+
 
 
 
