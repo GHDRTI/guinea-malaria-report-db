@@ -294,22 +294,22 @@
 <!--   # Of people reached by awareness sessions: -->
 
 <!-- Female, By Structure -->
-<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="mvx6cnNdQfr" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="GdmxBWk4UN0"/>
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="mvx6cnNdQfr" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="BJbMAMLbmrN"/>
 
 <!-- Female, By Agent -->
-<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="e0Prlq7F3lN" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="zsGhL41fz6W"/>
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="e0Prlq7F3lN" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="jLY5IwMwpE1"/>
 
 <!-- Female, ONG -->
-<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="KBKWCCJyAhI" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="p1JGjpaU6ZX"/>
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="KBKWCCJyAhI" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="nJtRSNhf7Xj"/>
 
 <!-- Male, By Structure -->
-<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="ArA5dKeuk3A" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="jxqU58nZeXJ"/>
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="ArA5dKeuk3A" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="YdeLdd0JnqQ"/>
 
 <!-- Male, By Agent -->
-<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="uwO53ORLTbV" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="kOvpgXItelN"/>
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="uwO53ORLTbV" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="srgSpiQAwt1"/>
 
 <!-- Male, ONG -->
-<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="CWzCPzol5KA" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="xfS9XqsoebT"/>
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="CWzCPzol5KA" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="cy6QeVxCdnb"/>
 
 
 <!--   Number of LLINs distributed during ANC:  -->
