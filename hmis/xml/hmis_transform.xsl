@@ -1,97 +1,70 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<dataValueSet xmlns="http://dhis2.org/schema/dxf/2.0" dataSet="TL7xWT7zMNN" completeDate="2018-10-01T16:12:15.210+0000" period="201807" orgUnit="TYUmXUgHSRk">
-    <dataValue dataElement="lOcvVwulcR0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="bzOU7jTPugw" attributeOptionCombo="HllvX50cXC0" value="87" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:35.877+0000" followUp="false"/>
-    <dataValue dataElement="lOcvVwulcR0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="BYxQsKxVf37" attributeOptionCombo="HllvX50cXC0" value="6" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:41.374+0000" followUp="false"/>
-    <dataValue dataElement="lOcvVwulcR0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="gvsvZDDUEQv" attributeOptionCombo="HllvX50cXC0" value="72" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:38.162+0000" followUp="false"/>
-    <dataValue dataElement="lOcvVwulcR0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="JN7CZ0uvdIg" attributeOptionCombo="HllvX50cXC0" value="8" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:42.065+0000" followUp="false"/>
-    <dataValue dataElement="lOcvVwulcR0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="tfmFXouuZfd" attributeOptionCombo="HllvX50cXC0" value="88" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:19.539+0000" followUp="false"/>
-    <dataValue dataElement="lOcvVwulcR0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="fDfPdxodPKk" attributeOptionCombo="HllvX50cXC0" value="6" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:25.293+0000" followUp="false"/>
-    <dataValue dataElement="lOcvVwulcR0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="NiYuVFcZp5R" attributeOptionCombo="HllvX50cXC0" value="105" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:21.643+0000" followUp="false"/>
-    <dataValue dataElement="lOcvVwulcR0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="xsOfSmBRzYD" attributeOptionCombo="HllvX50cXC0" value="7" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:25.981+0000" followUp="false"/>
-    <dataValue dataElement="hEzTEvEy2Qo" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="bzOU7jTPugw" attributeOptionCombo="HllvX50cXC0" value="16" storedBy="Adakadidia" lastUpdated="2018-10-01T15:47:13.659+0000" followUp="false"/>
-    <dataValue dataElement="hEzTEvEy2Qo" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="gvsvZDDUEQv" attributeOptionCombo="HllvX50cXC0" value="26" storedBy="Adakadidia" lastUpdated="2018-10-01T15:47:14.904+0000" followUp="false"/>
-    <dataValue dataElement="hEzTEvEy2Qo" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="tfmFXouuZfd" attributeOptionCombo="HllvX50cXC0" value="53" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:55.734+0000" followUp="false"/>
-    <dataValue dataElement="hEzTEvEy2Qo" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="NiYuVFcZp5R" attributeOptionCombo="HllvX50cXC0" value="69" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:57.677+0000" followUp="false"/>
-    <dataValue dataElement="luipiCKVB47" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="vWneublYhOH" attributeOptionCombo="HllvX50cXC0" value="283" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:34.542+0000" followUp="false"/>
-    <dataValue dataElement="luipiCKVB47" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="ldSKD4qkziO" attributeOptionCombo="HllvX50cXC0" value="329" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:19.088+0000" followUp="false"/>
-    <dataValue dataElement="R9INGXgdKHN" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="vWneublYhOH" attributeOptionCombo="HllvX50cXC0" value="43" storedBy="Adakadidia" lastUpdated="2018-10-01T15:47:11.720+0000" followUp="false"/>
-    <dataValue dataElement="R9INGXgdKHN" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="ldSKD4qkziO" attributeOptionCombo="HllvX50cXC0" value="122" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:54.283+0000" followUp="false"/>
-    <dataValue dataElement="EH1aOtaF9UH" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="PCmjuGoIUzu" attributeOptionCombo="HllvX50cXC0" value="173" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:49.064+0000" followUp="false"/>
-    <dataValue dataElement="EH1aOtaF9UH" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="CQlh6yjL5tQ" attributeOptionCombo="HllvX50cXC0" value="206" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:32.977+0000" followUp="false"/>
-    <dataValue dataElement="nNpjVjv5MPZ" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="PCmjuGoIUzu" attributeOptionCombo="HllvX50cXC0" value="42" storedBy="Adakadidia" lastUpdated="2018-10-01T15:47:17.761+0000" followUp="false"/>
-    <dataValue dataElement="nNpjVjv5MPZ" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="CQlh6yjL5tQ" attributeOptionCombo="HllvX50cXC0" value="122" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:01.802+0000" followUp="false"/>
-    <dataValue dataElement="Aps3ZQoFjs4" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="PCmjuGoIUzu" attributeOptionCombo="HllvX50cXC0" value="99" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:54.585+0000" followUp="false"/>
-    <dataValue dataElement="Aps3ZQoFjs4" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="CQlh6yjL5tQ" attributeOptionCombo="HllvX50cXC0" value="147" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:37.809+0000" followUp="false"/>
-    <dataValue dataElement="jeeDrRedEkY" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="PCmjuGoIUzu" attributeOptionCombo="HllvX50cXC0" value="31" storedBy="Adakadidia" lastUpdated="2018-10-01T15:47:22.741+0000" followUp="false"/>
-    <dataValue dataElement="jeeDrRedEkY" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="CQlh6yjL5tQ" attributeOptionCombo="HllvX50cXC0" value="90" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:08.764+0000" followUp="false"/>
-    <dataValue dataElement="JPUCOxp5uW0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="QpF17oBBHtv" attributeOptionCombo="HllvX50cXC0" value="44" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:58.049+0000" followUp="false"/>
-    <dataValue dataElement="JPUCOxp5uW0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="InVOmW0IqKa" attributeOptionCombo="HllvX50cXC0" value="43" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:59.646+0000" followUp="false"/>
-    <dataValue dataElement="JPUCOxp5uW0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="aYPmc5mue8I" attributeOptionCombo="HllvX50cXC0" value="64" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:39.986+0000" followUp="false"/>
-    <dataValue dataElement="JPUCOxp5uW0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="H4Kkg704dwZ" attributeOptionCombo="HllvX50cXC0" value="70" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:43.684+0000" followUp="false"/>
-    <dataValue dataElement="yVBqUvZYTWb" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="QpF17oBBHtv" attributeOptionCombo="HllvX50cXC0" value="9" storedBy="Adakadidia" lastUpdated="2018-10-01T15:47:25.375+0000" followUp="false"/>
-    <dataValue dataElement="yVBqUvZYTWb" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="InVOmW0IqKa" attributeOptionCombo="HllvX50cXC0" value="22" storedBy="Adakadidia" lastUpdated="2018-10-01T15:47:28.656+0000" followUp="false"/>
-    <dataValue dataElement="yVBqUvZYTWb" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="aYPmc5mue8I" attributeOptionCombo="HllvX50cXC0" value="33" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:10.251+0000" followUp="false"/>
-    <dataValue dataElement="yVBqUvZYTWb" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="H4Kkg704dwZ" attributeOptionCombo="HllvX50cXC0" value="57" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:12.982+0000" followUp="false"/>
-    <dataValue dataElement="V1iTGoDWTy2" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="aYPmc5mue8I" attributeOptionCombo="HllvX50cXC0" value="3" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:45.963+0000" followUp="false"/>
-    <dataValue dataElement="V1iTGoDWTy2" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="H4Kkg704dwZ" attributeOptionCombo="HllvX50cXC0" value="3" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:46.584+0000" followUp="false"/>
-    <dataValue dataElement="AXPaMiOmzVj" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="74" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:55.592+0000" followUp="false"/>
-    <dataValue dataElement="IGNkgBmHt5R" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="74" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:56.147+0000" followUp="false"/>
-    <dataValue dataElement="xLsD01hILMo" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="82" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:57.456+0000" followUp="false"/>
-    <dataValue dataElement="puqUTGuDgPI" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="100" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:59.539+0000" followUp="false"/>
-    <dataValue dataElement="jvHi0PqdwAR" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="57" storedBy="Adakadidia" lastUpdated="2018-10-01T15:50:03.202+0000" followUp="false"/>
-    <dataValue dataElement="FrNFbHm9Yrf" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="ArA5dKeuk3A" attributeOptionCombo="HllvX50cXC0" value="55" storedBy="Adakadidia" lastUpdated="2018-10-01T15:50:06.444+0000" followUp="false"/>
-    <dataValue dataElement="FrNFbHm9Yrf" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="uwO53ORLTbV" attributeOptionCombo="HllvX50cXC0" value="480" storedBy="Adakadidia" lastUpdated="2018-10-01T15:50:11.695+0000" followUp="false"/>
-    <dataValue dataElement="FrNFbHm9Yrf" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="CWzCPzol5KA" attributeOptionCombo="HllvX50cXC0" value="22" storedBy="Adakadidia" lastUpdated="2018-10-01T15:50:15.123+0000" followUp="false"/>
-    <dataValue dataElement="FrNFbHm9Yrf" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="mvx6cnNdQfr" attributeOptionCombo="HllvX50cXC0" value="242" storedBy="Adakadidia" lastUpdated="2018-10-01T15:50:08.101+0000" followUp="false"/>
-    <dataValue dataElement="FrNFbHm9Yrf" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="e0Prlq7F3lN" attributeOptionCombo="HllvX50cXC0" value="697" storedBy="Adakadidia" lastUpdated="2018-10-01T15:50:13.773+0000" followUp="false"/>
-    <dataValue dataElement="FrNFbHm9Yrf" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="KBKWCCJyAhI" attributeOptionCombo="HllvX50cXC0" value="48" storedBy="Adakadidia" lastUpdated="2018-10-01T15:50:16.439+0000" followUp="false"/>
-    <dataValue dataElement="XRbrFeJfnkg" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="54" storedBy="Adakadidia" lastUpdated="2018-10-01T15:50:19.709+0000" followUp="false"/>
-    <dataValue dataElement="eGJ4FSuGkRE" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="40" storedBy="Adakadidia" lastUpdated="2018-10-01T15:50:21.514+0000" followUp="false"/>
-    <dataValue dataElement="Z7IackHaUe0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="1982" storedBy="Adakadidia" lastUpdated="2018-10-01T15:51:06.301+0000" followUp="false"/>
-    <dataValue dataElement="GlsfOnOzYX6" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="327" storedBy="Adakadidia" lastUpdated="2018-10-01T15:51:30.360+0000" followUp="false"/>
-    <dataValue dataElement="W0zMsAuSBsq" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="399" storedBy="Adakadidia" lastUpdated="2018-10-01T15:51:39.565+0000" followUp="false"/>
-    <dataValue dataElement="NoaWJ4i103B" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="266" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:05.984+0000" followUp="false"/>
-    <dataValue dataElement="ZDIO0ICweXC" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="435" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:21.563+0000" followUp="false"/>
-    <dataValue dataElement="CIrAg2UVByU" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="2919" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:36.601+0000" followUp="false"/>
-    <dataValue dataElement="kha8I24CZ9S" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="319" storedBy="Adakadidia" lastUpdated="2018-10-01T15:53:06.761+0000" followUp="false"/>
-    <dataValue dataElement="TaBzXRHV2Sz" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="297" storedBy="Adakadidia" lastUpdated="2018-10-01T15:54:30.574+0000" followUp="false"/>
-    <dataValue dataElement="turjNOU3cJI" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="535" storedBy="Adakadidia" lastUpdated="2018-10-01T15:51:13.855+0000" followUp="false"/>
-    <dataValue dataElement="z89RO6DZzYS" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="80" storedBy="Adakadidia" lastUpdated="2018-10-01T15:51:30.375+0000" followUp="false"/>
-    <dataValue dataElement="LcbhboIUhxx" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="79" storedBy="Adakadidia" lastUpdated="2018-10-01T15:51:41.541+0000" followUp="false"/>
-    <dataValue dataElement="OIhAsmSetGc" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="52" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:06.338+0000" followUp="false"/>
-    <dataValue dataElement="W78dYdiBGul" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="138" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:23.406+0000" followUp="false"/>
-    <dataValue dataElement="jSImsxEwBaI" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="939" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:37.929+0000" followUp="false"/>
-    <dataValue dataElement="h9elo5l7Ghh" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="36" storedBy="Adakadidia" lastUpdated="2018-10-01T15:53:07.254+0000" followUp="false"/>
-    <dataValue dataElement="yQFHY0Qboww" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="94" storedBy="Adakadidia" lastUpdated="2018-10-01T15:54:32.596+0000" followUp="false"/>
-    <dataValue dataElement="sAjR4OTmPq3" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="200" storedBy="Adakadidia" lastUpdated="2018-10-01T15:51:17.055+0000" followUp="false"/>
-    <dataValue dataElement="AXBtaCvC9hM" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="31" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:58.002+0000" followUp="false"/>
-    <dataValue dataElement="IMSz6LZFkSQ" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="31" storedBy="Adakadidia" lastUpdated="2018-10-01T15:54:09.859+0000" followUp="false"/>
-    <dataValue dataElement="XaaRgHxcpye" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="31" storedBy="Adakadidia" lastUpdated="2018-10-01T15:54:23.760+0000" followUp="false"/>
-    <dataValue dataElement="jiLjcv7vYSd" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="31" storedBy="Adakadidia" lastUpdated="2018-10-01T15:54:51.291+0000" followUp="false"/>
-    <dataValue dataElement="xG4jxLHFS5E" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="31" storedBy="Adakadidia" lastUpdated="2018-10-01T15:54:56.645+0000" followUp="false"/>
-    <dataValue dataElement="bnYkvRTrV06" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="31" storedBy="Adakadidia" lastUpdated="2018-10-01T15:55:01.313+0000" followUp="false"/>
-    <dataValue dataElement="iVSUTVguHie" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="331" storedBy="Adakadidia" lastUpdated="2018-10-01T15:53:43.454+0000" followUp="false"/>
-    <dataValue dataElement="pe6DQbZrVHv" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="41" storedBy="Adakadidia" lastUpdated="2018-10-01T15:51:34.890+0000" followUp="false"/>
-    <dataValue dataElement="XbW8ymcgg47" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="36" storedBy="Adakadidia" lastUpdated="2018-10-01T15:51:49.361+0000" followUp="false"/>
-    <dataValue dataElement="zNRVuR1QRuA" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="25" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:14.219+0000" followUp="false"/>
-    <dataValue dataElement="TFJndJj5rTi" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="61" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:29.110+0000" followUp="false"/>
-    <dataValue dataElement="YX3q4Zf07Ne" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="618" storedBy="Adakadidia" lastUpdated="2018-10-01T15:52:45.849+0000" followUp="false"/>
-    <dataValue dataElement="iDmc4XFQFVQ" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="33" storedBy="Adakadidia" lastUpdated="2018-10-01T15:53:53.621+0000" followUp="false"/>
-    <dataValue dataElement="KprajNV6Psn" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="108" storedBy="Adakadidia" lastUpdated="2018-10-01T15:54:41.970+0000" followUp="false"/>
-    <dataValue dataElement="A1V0bGtTXPP" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="DIALLO Rouguiatou" storedBy="Adakadidia" lastUpdated="2018-10-01T15:55:28.952+0000" followUp="false"/>
-    <dataValue dataElement="O7QRnUm5byz" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="Agent PV" storedBy="Adakadidia" lastUpdated="2018-10-01T15:56:20.533+0000" followUp="false"/>
-    <dataValue dataElement="vRQhxQM2nxD" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="623442090" storedBy="Adakadidia" lastUpdated="2018-10-01T15:55:39.960+0000" followUp="false"/>
-    <dataValue dataElement="LcvtGJi9O2x" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="Sandouno Saa Martin" storedBy="Adakadidia" lastUpdated="2018-10-01T15:55:55.774+0000" followUp="false"/>
-    <dataValue dataElement="YxdLN1TMTrl" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="CCS" storedBy="Adakadidia" lastUpdated="2018-10-01T15:56:29.197+0000" followUp="false"/>
-    <dataValue dataElement="YX9j0LBJmtO" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="622458663" storedBy="Adakadidia" lastUpdated="2018-10-01T15:56:03.967+0000" followUp="false"/>
-    <dataValue dataElement="n64UFGB7GN0" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="XGqqCoXNbny" attributeOptionCombo="HllvX50cXC0" value="6" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:21.692+0000" followUp="false"/>
-    <dataValue dataElement="E6T6Hl6vJxo" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="7" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:21.090+0000" followUp="false"/>
-    <dataValue dataElement="jQqBsnxB6dG" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="U7greWKtYoh" attributeOptionCombo="HllvX50cXC0" value="6" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:26.589+0000" followUp="false"/>
-    <dataValue dataElement="azpNCbgSjF3" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="U7greWKtYoh" attributeOptionCombo="HllvX50cXC0" value="2" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:30.190+0000" followUp="false"/>
-    <dataValue dataElement="TLa3MtZmPXw" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="2" storedBy="Adakadidia" lastUpdated="2018-10-01T15:49:32.466+0000" followUp="false"/>
-    <dataValue dataElement="cA58MUGeZQ1" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="vWneublYhOH" attributeOptionCombo="HllvX50cXC0" value="12" storedBy="Adakadidia" lastUpdated="2018-10-01T15:47:06.979+0000" followUp="false"/>
-    <dataValue dataElement="cA58MUGeZQ1" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="ldSKD4qkziO" attributeOptionCombo="HllvX50cXC0" value="7" storedBy="Adakadidia" lastUpdated="2018-10-01T15:48:51.038+0000" followUp="false"/>
-    <dataValue dataElement="PUCkOLDg2O4" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="vWneublYhOH" attributeOptionCombo="HllvX50cXC0" value="2" storedBy="Adakadidia" lastUpdated="2018-10-01T15:47:30.426+0000" followUp="false"/>
-    <dataValue dataElement="Qzg2VZDo5Yv" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="2" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:29.244+0000" followUp="false"/>
-    <dataValue dataElement="oCVl7gmMmed" period="201807" orgUnit="TYUmXUgHSRk" categoryOptionCombo="HllvX50cXC0" attributeOptionCombo="HllvX50cXC0" value="2" storedBy="Adakadidia" lastUpdated="2018-10-01T15:46:30.733+0000" followUp="false"/>
-</dataValueSet>
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!-- xsl stylesheet declaration with xsl namespace: 
+Namespace tells the xlst processor about which 
+element is to be processed and which is used for output purpose only 
+--> 
+<xsl:stylesheet version = "1.0" 
+xmlns:xsl = "http://www.w3.org/1999/XSL/Transform"
+xmlns:dxf="http://dhis2.org/schema/dxf/2.0">  
+
+<!-- Load up the lookup tables: -->
+<xsl:variable name="orgUnits" select="document('orgUnits.xml')/orgUnits/orgUnit"/>
+<xsl:variable name="dataElements" select="document('dataElements.xml')/dataElements/dataElement"/>
+
+<!-- xsl template declaration:  
+template tells the xlst processor about the section of xml 
+document which is to be formatted. It takes an XPath expression. 
+In our case, it is matching document root element and will 
+tell processor to process the entire document with this template. 
+--> 
+<xsl:template match="/">
+  <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="*/text()[not(normalize-space())]" />
+
+<xsl:template match="dxf:dataValueSet">
+	<dataValueSet>
+		<!-- when getting a datavalueSet with an orgUnitGroup (rather than the orgUnit), the dataValueSet doens't have any attributes. such as orgunit, completeDate, period, etc-->
+		<xsl:apply-templates/>
+	</dataValueSet>
+</xsl:template>
+
+<xsl:template match="dxf:dataValue">
+  <xsl:variable name="currentDataElement" select="@dataElement"/>
+  <xsl:variable name="currentCategoryOptionCombo" select="@categoryOptionCombo"/>
+  <xsl:variable name="currentOrgUnit" select="@orgUnit"/>
+
+  <!-- only include data elements and org units that are in the mapping file -->
+  <xsl:if test="$dataElements[@hmisUID = $currentDataElement] and $orgUnits[@hmisUID = $currentOrgUnit]" >
+  <dataValue>
+  <xsl:attribute name="dataElement">
+  	    <xsl:value-of select="$dataElements[@hmisUID = $currentDataElement]/@projectUID"/>
+	</xsl:attribute>
+	<xsl:attribute name="period">
+		<xsl:value-of select="@period"/>	
+	</xsl:attribute>
+	<xsl:attribute name="orgUnit">
+		<xsl:value-of select="$orgUnits[@hmisUID = $currentOrgUnit]/@projectUID"/>	
+	</xsl:attribute>
+	<xsl:attribute name="categoryOptionCombo">
+		<!-- Look up the project category combo option -->
+		 <xsl:value-of select="$dataElements[@hmisUID = $currentDataElement and @hmisCategoryOptionCombo = $currentCategoryOptionCombo]/@projectCategoryOptionCombo"/>
+	</xsl:attribute>
+	<xsl:attribute name="attributeOptionCombo">
+		<xsl:value-of select="@attributeOptionCombo"/>	
+	</xsl:attribute>
+	<xsl:attribute name="value">
+		<xsl:value-of select="@value"/>	
+	</xsl:attribute>
+	<xsl:attribute name="lastUpdated">
+		<xsl:value-of select="@lastUpdated"/>	
+	</xsl:attribute>
+	<xsl:attribute name="followUp">
+		<xsl:value-of select="@followUp"/>	
+	</xsl:attribute>
+ </dataValue>
+ </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
