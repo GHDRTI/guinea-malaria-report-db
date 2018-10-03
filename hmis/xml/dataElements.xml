@@ -284,4 +284,47 @@
 
 
 
+<!--  Total number of pregnant women having made the 1st APN (1st contact): -->
+<dataElement hmisUID="AXPaMiOmzVj" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="Cu9lpIYHVy8" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!--  Number of pregnant women who received the first dose of MS: -->
+<dataElement hmisUID="IGNkgBmHt5R" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="F0ne7Z8cMze" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!--  Number of pregnant women who received the 2nd dose of MS: -->
+<dataElement hmisUID="xLsD01hILMo" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="BM1boUJ85Pn" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!--  Number of pregnant women who received 3 doses of MS:  -->
+<dataElement hmisUID="puqUTGuDgPI" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="vvYAWDPabHe" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!--   No. of pregnant women who received at least 4 doses of MS: -->
+<dataElement hmisUID="jvHi0PqdwAR" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="ypyyaHIC2Aw" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!--   # Of people reached by awareness sessions: -->
+
+<!-- Female, By Structure -->
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="mvx6cnNdQfr" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="GdmxBWk4UN0"/>
+
+<!-- Female, By Agent -->
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="e0Prlq7F3lN" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="zsGhL41fz6W"/>
+
+<!-- Female, ONG -->
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="KBKWCCJyAhI" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="p1JGjpaU6ZX"/>
+
+<!-- Male, By Structure -->
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="ArA5dKeuk3A" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="jxqU58nZeXJ"/>
+
+<!-- Male, By Agent -->
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="uwO53ORLTbV" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="kOvpgXItelN"/>
+
+<!-- Male, ONG -->
+<dataElement hmisUID="FrNFbHm9Yrf" hmisCategoryOptionCombo="CWzCPzol5KA" projectUID="NwZYQfNezOc" projectCategoryOptionCombo="xfS9XqsoebT"/>
+
+
+<!--   Number of LLINs distributed during ANC:  -->
+<dataElement hmisUID="XRbrFeJfnkg" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="wJ1ozdMtQ6d" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!--   Number of LLINs distributed during EPI: -->
+<dataElement hmisUID="eGJ4FSuGkRE" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="IrY6QtOugnE" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+
 </dataElements>
