@@ -244,4 +244,44 @@
 <dataElement hmisUID="V1iTGoDWTy2" hmisCategoryOptionCombo="aYPmc5mue8I" projectUID="waEPPJt6i2w" projectCategoryOptionCombo="CLBnWnadQ9E"/>
 
 
+
+<!-- 
+
+	Total Deaths
+	
+-->
+
+<!--  < 5 -->
+<dataElement hmisUID="tltQT6CApTX" hmisCategoryOptionCombo="vWneublYhOH" projectUID="qTUlwvb6MSK" projectCategoryOptionCombo="B5E0y3ds8Lw"/>
+
+<!--  >= 5 -->
+<dataElement hmisUID="tltQT6CApTX" hmisCategoryOptionCombo="ldSKD4qkziO" projectUID="qTUlwvb6MSK" projectCategoryOptionCombo="AWOdwyIPq97"/>
+
+<!--  Pregnant ladies -->
+<dataElement hmisUID="W1rhRVySrw6" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="qTUlwvb6MSK" projectCategoryOptionCombo="el8gaWXsBfr"/>
+
+
+<!-- 
+
+	Total Deaths from Malaria
+	
+-->
+
+<!--  Female, < 5 -->
+<dataElement hmisUID="jg7S0wWTM9J" hmisCategoryOptionCombo="InVOmW0IqKa" projectUID="xQO8Ih3iypf" projectCategoryOptionCombo="H45kYod8uU3"/>
+
+<!--  Female, >= 5 -->
+<dataElement hmisUID="jg7S0wWTM9J" hmisCategoryOptionCombo="H4Kkg704dwZ" projectUID="xQO8Ih3iypf" projectCategoryOptionCombo="IIOvZ8QAOe7"/>
+
+<!--  Male, < 5 -->
+<dataElement hmisUID="jg7S0wWTM9J" hmisCategoryOptionCombo="QpF17oBBHtv" projectUID="xQO8Ih3iypf" projectCategoryOptionCombo="Ko736JDuMpS"/>
+
+<!--  Male, >= 5 -->
+<dataElement hmisUID="jg7S0wWTM9J" hmisCategoryOptionCombo="aYPmc5mue8I" projectUID="xQO8Ih3iypf" projectCategoryOptionCombo="vy4Dft3Ve0F"/>
+
+<!--  Pregnant ladies -->
+<dataElement hmisUID="I6edvH2rEn3" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="xQO8Ih3iypf" projectCategoryOptionCombo="uVoAqEeSGCQ"/>
+
+
+
 </dataElements>
