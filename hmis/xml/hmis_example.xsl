@@ -25,20 +25,7 @@ tell processor to process the entire document with this template.
 
 <xsl:template match="dxf:dataValueSet">
 	<dataValueSet>
-		<xsl:attribute name="dataSet">
-			<!-- the dataset uid from Stop Plau-->
-			<xsl:text>k2ednnpKPCw</xsl:text>	
-		</xsl:attribute>
-		<xsl:attribute name="completeDate">
-			<xsl:value-of select="@completeDate"/>	
-		</xsl:attribute>
-		<xsl:attribute name="period">
-			<xsl:value-of select="@period"/>	
-		</xsl:attribute>
-		<xsl:attribute name="orgUnit">
-			<xsl:variable name="currentOrgUnit" select="@orgUnit"/>
-			<xsl:value-of select="$orgUnits[@hmisUID = $currentOrgUnit]/@projectUID"/>
-		</xsl:attribute>
+		<!-- when getting a datavalueSet with an orgUnitGroup (rather than the orgUnit), the dataValueSet doens't have any attributes. such as orgunit, completeDate, period, etc-->
 		<xsl:apply-templates/>
 	</dataValueSet>
 </xsl:template>
@@ -46,22 +33,22 @@ tell processor to process the entire document with this template.
 <xsl:template match="dxf:dataValue">
   <xsl:variable name="currentDataElement" select="@dataElement"/>
   <xsl:variable name="currentCategoryOptionCombo" select="@categoryOptionCombo"/>
-  <xsl:if test="$dataElements[@hmisUID = $currentDataElement]">
+  <xsl:variable name="currentOrgUnit" select="@orgUnit"/>
+
+  <!-- only include data elements and org units that are in the mapping file -->
+  <xsl:if test="$dataElements[@hmisUID = $currentDataElement] and $orgUnits[@hmisUID = $currentOrgUnit]" >
   <dataValue>
   <xsl:attribute name="dataElement">
-  		<!-- Look up the project data element -->
   	    <xsl:value-of select="$dataElements[@hmisUID = $currentDataElement]/@projectUID"/>
 	</xsl:attribute>
 	<xsl:attribute name="period">
 		<xsl:value-of select="@period"/>	
 	</xsl:attribute>
 	<xsl:attribute name="orgUnit">
-		<xsl:variable name="currentOrgUnit" select="@orgUnit"/>
 		<xsl:value-of select="$orgUnits[@hmisUID = $currentOrgUnit]/@projectUID"/>	
 	</xsl:attribute>
 	<xsl:attribute name="categoryOptionCombo">
 		<!-- Look up the project category combo option -->
-
 		 <xsl:value-of select="$dataElements[@hmisUID = $currentDataElement and @hmisCategoryOptionCombo = $currentCategoryOptionCombo]/@projectCategoryOptionCombo"/>
 	</xsl:attribute>
 	<xsl:attribute name="attributeOptionCombo">
