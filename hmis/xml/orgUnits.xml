@@ -33,7 +33,7 @@
   <orgUnit hmisUID="GSff1umHFb7" projectUID="FAC00000044"/>
   <orgUnit hmisUID="WwhuivA3Ssx" projectUID="FAC00000045"/>
   <orgUnit hmisUID="YFzJ1ZyztRF" projectUID="FAC00000049"/>
-  <orgUnit hmisUID="qgE5wMbSBSS" projectUID="FAC00000050"/>
+  <orgUnit hmisUID="qgE5wMbSBSS" projectUID="FAC00000050"/> <!-- Hôpital Dinguiraye -->
   <orgUnit hmisUID="uqtBeX0fI3P" projectUID="FAC00000046"/>
   <orgUnit hmisUID="FVy3nWfxJKb" projectUID="FAC00000047"/>
   <orgUnit hmisUID="TKRwgCJ1DHJ" projectUID="FAC00000048"/>
@@ -46,7 +46,7 @@
   <orgUnit hmisUID="QgDGybwwJQ1" projectUID="FAC00000056"/>
   <orgUnit hmisUID="jt38nFb9Nao" projectUID="FAC00000055"/>
   <orgUnit hmisUID="eM8XLZt9eST" projectUID="FAC00000057"/>
-  <orgUnit hmisUID="Tr2cfRzLZuY" projectUID="FAC00000058"/>
+  <orgUnit hmisUID="iFsNfOvlaFb" projectUID="FAC00000058"/> <!-- Centre de Santé Rural Kondeyah -->
   <orgUnit hmisUID="hwqhGQbaAx3" projectUID="FAC00000059"/>
   <orgUnit hmisUID="Z7wbff4TpEa" projectUID="FAC00000060"/>
   <orgUnit hmisUID="qflVNnOZGE7" projectUID="FAC00000051"/>
@@ -131,7 +131,7 @@
   <orgUnit hmisUID="yoffldQd0YO" projectUID="FAC00000132"/>
   <orgUnit hmisUID="XOVnz4HjuB0" projectUID="FAC00000133"/>
   <orgUnit hmisUID="gS9qLI4XpL6" projectUID="FAC00000134"/>
-  <orgUnit hmisUID="ZRk0mZdC4ZR" projectUID="FAC00000135"/>
+  <orgUnit hmisUID="ZRk0mZdC4ZR" projectUID="FAC00000135"/> <!-- CS Rural Lafou -->
   <orgUnit hmisUID="rj26APWCwre" projectUID="FAC00000136"/>
   <orgUnit hmisUID="t960ZbiFmVI" projectUID="FAC00000127"/>
   <orgUnit hmisUID="RlAJ6qFo8bg" projectUID="FAC00000164"/>
@@ -167,7 +167,7 @@
   <orgUnit hmisUID="D5A8918ucWJ" projectUID="FAC00000149"/>
   <orgUnit hmisUID="uokCsIy5JeT" projectUID="FAC00000172"/>
   <orgUnit hmisUID="eKfXJXHB7Mv" projectUID="FAC00000174"/>
-  <orgUnit hmisUID="hMml53bAa3D" projectUID="FAC00000175"/>
+  <orgUnit hmisUID="maE8twIq691" projectUID="FAC00000175"/> <!-- CS Lambanyi -->
   <orgUnit hmisUID="gcx7MsXj4KK" projectUID="FAC00000176"/>
   <orgUnit hmisUID="ut3JllHDOTJ" projectUID="FAC00000220"/>
   <orgUnit hmisUID="lAFZUBYXXaw" projectUID="FAC00000218"/>
@@ -188,7 +188,7 @@
   <orgUnit hmisUID="ipSkZ3o2tLU" projectUID="FAC00000212"/>
   <orgUnit hmisUID="h2kQtnnP1HP" projectUID="FAC00000204"/>
   <orgUnit hmisUID="ceewkrugF71" projectUID="FAC00000205"/>
-  <orgUnit hmisUID="hKHDMMRvoiP" projectUID="FAC00000206"/>
+  <orgUnit hmisUID="k21n5SeV9td" projectUID="FAC00000206"/> <!-- CM Chérubins -->
   <orgUnit hmisUID="oivOmoE4eBn" projectUID="FAC00000178"/>
   <orgUnit hmisUID="lAFZUBYXXaw" projectUID="FAC00000167"/>
   <orgUnit hmisUID="KpZXd1KQRmK" projectUID="FAC00000169"/>
@@ -203,4 +203,24 @@
   <orgUnit hmisUID="aKxyFEzUzl5" projectUID="FAC00000193"/>
   <orgUnit hmisUID="jwNS648Ny7J" projectUID="FAC00000194"/>
   <orgUnit hmisUID="eOazGU11seA" projectUID="FAC00000195"/>
+  <orgUnit hmisUID="tc64nAbPjy7" projectUID="FAC00000245"/>
+  <orgUnit hmisUID="AHQOjQ8Fnjp" projectUID="FAC00000216"/>
+  <orgUnit hmisUID="psXEj3k7sww" projectUID="FAC00000239"/>
+  <orgUnit hmisUID="LSdejPq33sK" projectUID="FAC00000241"/>
+  <orgUnit hmisUID="FqG9O7Rl41T" projectUID="FAC00000237"/> <!-- Coronthie -->
+  <orgUnit hmisUID="PPab61t3EKZ" projectUID="FAC00000252"/> <!-- ASFEGMASSI -->
+  <orgUnit hmisUID="PDWjOCTmhf3" projectUID="FAC00000238"/> <!-- CARAD -->
+  <orgUnit hmisUID="wYLFdrzGgz2" projectUID="FAC00000240"/> <!-- Sangoyah -->
+  <orgUnit hmisUID="msdOtKckc4y" projectUID="FAC00000243"/> <!-- Gbessia Cité L'air -->
+  <orgUnit hmisUID="Udl1XSyUbbs" projectUID="FAC00000246"/> <!-- Dianfouna -->
+  <orgUnit hmisUID="SvWBXueEkix" projectUID="FAC00000253"/> <!-- CM Rocher -->
+  <orgUnit hmisUID="AVOL0xGSl3Z" projectUID="FAC00000170"/> <!-- Bomboly -->
+  <orgUnit hmisUID="qKV4BU3qoXa" projectUID="FAC00000171"/> <!-- La Solidarite -->  
+  <orgUnit hmisUID="aoZGZUriz3o" projectUID="FAC00000213"/> <!-- Anastasis Nongo -->  
+  <orgUnit hmisUID="HeYaLCkARpm" projectUID="FAC00000224"/> <!-- Kalima Sonfonia -->
+  <orgUnit hmisUID="Sgu8va2LUPU" projectUID="FAC00000249"/> <!-- Centre de Santé Rural Sanoyah -->
+  <orgUnit hmisUID="zUy4kJaTgha" projectUID="FAC00000234"/> <!-- Centre de Santé Urbain Ansoumania -->
+  <orgUnit hmisUID="wPOknJTIuSl" projectUID="FAC00000235"/> <!-- Centre de Santé Urbain Mafoudia -->
+  
+
 </orgUnits>
