@@ -61,11 +61,11 @@ ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;]]>
 				<text><![CDATA[Nom du centre de santé]]></text>
 			</staticText>
 			<staticText>
-				<reportElement style="Column header" x="190" y="10" width="85" height="26" uuid="fec9764e-a6ef-4ac0-b58e-12a24a89faad"/>
+				<reportElement style="Column header" x="226" y="10" width="85" height="26" uuid="fec9764e-a6ef-4ac0-b58e-12a24a89faad"/>
 				<text><![CDATA[District]]></text>
 			</staticText>
 			<staticText>
-				<reportElement style="Column header" x="320" y="10" width="100" height="26" uuid="1aab6183-a1f5-4a23-9e65-be64bf7fe34a"/>
+				<reportElement style="Column header" x="339" y="10" width="80" height="26" uuid="1aab6183-a1f5-4a23-9e65-be64bf7fe34a"/>
 				<text><![CDATA[Région]]></text>
 			</staticText>
 			<staticText>
@@ -77,15 +77,15 @@ ORDER BY healthfacility.region, healthfacility.district, healthfacility.uid;]]>
 	<detail>
 		<band height="27" splitType="Stretch">
 			<textField>
-				<reportElement x="3" y="4" width="177" height="17" uuid="83e4cc4c-5a19-45fc-8079-4875740dfe6a"/>
+				<reportElement x="3" y="4" width="207" height="17" uuid="83e4cc4c-5a19-45fc-8079-4875740dfe6a"/>
 				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="187" y="4" width="100" height="17" uuid="82ada55f-13ae-44b7-9d21-63abade845fd"/>
+				<reportElement x="223" y="4" width="100" height="17" uuid="82ada55f-13ae-44b7-9d21-63abade845fd"/>
 				<textFieldExpression><![CDATA[$F{district}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="314" y="4" width="100" height="17" uuid="1c6e3e62-3294-4f40-a1c3-e66af3231b1d"/>
+				<reportElement x="341" y="4" width="76" height="17" uuid="1c6e3e62-3294-4f40-a1c3-e66af3231b1d"/>
 				<textFieldExpression><![CDATA[$F{region}]]></textFieldExpression>
 			</textField>
 			<textField>
