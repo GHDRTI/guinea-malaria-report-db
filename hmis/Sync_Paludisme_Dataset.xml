@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template encoding-version="1.2">
     <description></description>
-    <groupId>229ae748-0166-1000-7867-249853e252a7</groupId>
-    <name>Sync Paludisme Dataset</name>
+    <groupId>69edbd96-0166-1000-dac7-e51eba2fec12</groupId>
+    <name>Sync Paludisme Dataset3</name>
     <snippet>
         <processGroups>
-            <id>41b5326a-d340-358c-0000-000000000000</id>
-            <parentGroupId>5aaa31e0-4182-3d3e-0000-000000000000</parentGroupId>
+            <id>7c7f6eb8-d1e0-3e54-0000-000000000000</id>
+            <parentGroupId>39f91abb-4b06-3d58-0000-000000000000</parentGroupId>
             <position>
                 <x>0.0</x>
                 <y>0.0</y>
@@ -14,13 +14,35 @@
             <comments></comments>
             <contents>
                 <connections>
-                    <id>c226fad9-a3f7-3bdf-0000-000000000000</id>
-                    <parentGroupId>41b5326a-d340-358c-0000-000000000000</parentGroupId>
+                    <id>1f8660a0-2c08-3e3a-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
                     <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
                     <backPressureObjectThreshold>10000</backPressureObjectThreshold>
                     <destination>
-                        <groupId>41b5326a-d340-358c-0000-000000000000</groupId>
-                        <id>23aee60c-f60f-3076-0000-000000000000</id>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>eacdf480-9f97-3a9c-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>failure</selectedRelationships>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>2c63900a-99b7-3c1d-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>92f5512a-fb4b-3e87-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>af1faa6a-c668-3cda-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </destination>
                     <flowFileExpiration>0 sec</flowFileExpiration>
@@ -28,20 +50,20 @@
                     <name></name>
                     <selectedRelationships>Response</selectedRelationships>
                     <source>
-                        <groupId>41b5326a-d340-358c-0000-000000000000</groupId>
-                        <id>353fa4d6-7c3a-3be9-0000-000000000000</id>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>fd9cd1ed-10bd-3219-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </source>
                     <zIndex>0</zIndex>
                 </connections>
                 <connections>
-                    <id>3336b659-b0f0-32cc-0000-000000000000</id>
-                    <parentGroupId>41b5326a-d340-358c-0000-000000000000</parentGroupId>
+                    <id>d38224b5-6933-37c3-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
                     <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
                     <backPressureObjectThreshold>10000</backPressureObjectThreshold>
                     <destination>
-                        <groupId>41b5326a-d340-358c-0000-000000000000</groupId>
-                        <id>64ba5b2d-a8db-33c9-0000-000000000000</id>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>122df0ca-d2ae-3dc9-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </destination>
                     <flowFileExpiration>0 sec</flowFileExpiration>
@@ -49,23 +71,460 @@
                     <name>output</name>
                     <selectedRelationships>Response</selectedRelationships>
                     <source>
-                        <groupId>41b5326a-d340-358c-0000-000000000000</groupId>
-                        <id>353fa4d6-7c3a-3be9-0000-000000000000</id>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>fd9cd1ed-10bd-3219-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </source>
                     <zIndex>0</zIndex>
                 </connections>
-                <processors>
-                    <id>23aee60c-f60f-3076-0000-000000000000</id>
-                    <parentGroupId>41b5326a-d340-358c-0000-000000000000</parentGroupId>
+                <connections>
+                    <id>d9c80121-7d20-3ec6-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>2c63900a-99b7-3c1d-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>af1faa6a-c668-3cda-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>db5c8c9b-33c3-3b46-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>cdbbc261-2aca-321f-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>failure</selectedRelationships>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>7c7f6eb8-d1e0-3e54-0000-000000000000</groupId>
+                        <id>af1faa6a-c668-3cda-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <labels>
+                    <id>286f54f8-7249-36ed-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
                     <position>
-                        <x>783.4909659409263</x>
-                        <y>271.4946521420464</y>
+                        <x>1564.579123120368</x>
+                        <y>567.0347436669243</y>
+                    </position>
+                    <height>43.519927978515625</height>
+                    <label>Send a friendly note</label>
+                    <style>
+                        <entry>
+                            <key>font-size</key>
+                            <value>12px</value>
+                        </entry>
+                    </style>
+                    <width>159.214599609375</width>
+                </labels>
+                <labels>
+                    <id>39690902-4947-3075-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1566.8785416913165</x>
+                        <y>48.85796149376256</y>
+                    </position>
+                    <height>45.528717041015625</height>
+                    <label>Import the transformed data</label>
+                    <style>
+                        <entry>
+                            <key>font-size</key>
+                            <value>12px</value>
+                        </entry>
+                    </style>
+                    <width>175.0296630859375</width>
+                </labels>
+                <labels>
+                    <id>860253ef-eac3-3e81-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>703.5796055193807</x>
+                        <y>-30.46078405192668</y>
+                    </position>
+                    <height>57.4993896484375</height>
+                    <label>Get the Monthly Malaria dataset from the 
+Ministry of Health for a given reporting period.
+You will need to provide a password here</label>
+                    <style>
+                        <entry>
+                            <key>font-size</key>
+                            <value>12px</value>
+                        </entry>
+                    </style>
+                    <width>265.35369873046875</width>
+                </labels>
+                <labels>
+                    <id>c61ef3a1-6f4a-3c42-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1146.7139707655315</x>
+                        <y>34.929139940718244</y>
+                    </position>
+                    <height>57.499420166015625</height>
+                    <label>Transform the results to an import 
+file compatible with the project database</label>
+                    <style>
+                        <entry>
+                            <key>font-size</key>
+                            <value>12px</value>
+                        </entry>
+                    </style>
+                    <width>234.8829345703125</width>
+                </labels>
+                <processors>
+                    <id>122df0ca-d2ae-3dc9-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>327.0</x>
+                        <y>402.30174687922124</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
                         <group>org.apache.nifi</group>
-                        <version>1.6.0</version>
+                        <version>1.7.1</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Directory</key>
+<value>
+    <name>Directory</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Conflict Resolution Strategy</key>
+<value>
+    <name>Conflict Resolution Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Create Missing Directories</key>
+<value>
+    <name>Create Missing Directories</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Maximum File Count</key>
+<value>
+    <name>Maximum File Count</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Last Modified Time</key>
+<value>
+    <name>Last Modified Time</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Permissions</key>
+<value>
+    <name>Permissions</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Owner</key>
+<value>
+    <name>Owner</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Group</key>
+<value>
+    <name>Group</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Directory</key>
+<value>/opt/nifi/output</value>
+                            </entry>
+                            <entry>
+<key>Conflict Resolution Strategy</key>
+<value>fail</value>
+                            </entry>
+                            <entry>
+<key>Create Missing Directories</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>Maximum File Count</key>
+                            </entry>
+                            <entry>
+<key>Last Modified Time</key>
+                            </entry>
+                            <entry>
+<key>Permissions</key>
+                            </entry>
+                            <entry>
+<key>Owner</key>
+                            </entry>
+                            <entry>
+<key>Group</key>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PutFile</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.PutFile</type>
+                </processors>
+                <processors>
+                    <id>2c63900a-99b7-3c1d-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1584.3091537958387</x>
+                        <y>128.87276831151428</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.1</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>URL</key>
+<value>
+    <name>URL</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Max Batch Size</key>
+<value>
+    <name>Max Batch Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Max Data to Post per Second</key>
+<value>
+    <name>Max Data to Post per Second</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SSL Context Service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+    <name>SSL Context Service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Username</key>
+<value>
+    <name>Username</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Password</key>
+<value>
+    <name>Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Send as FlowFile</key>
+<value>
+    <name>Send as FlowFile</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Use Chunked Encoding</key>
+<value>
+    <name>Use Chunked Encoding</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Compression Level</key>
+<value>
+    <name>Compression Level</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Connection Timeout</key>
+<value>
+    <name>Connection Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Data Timeout</key>
+<value>
+    <name>Data Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Attributes to Send as HTTP Headers (Regex)</key>
+<value>
+    <name>Attributes to Send as HTTP Headers (Regex)</name>
+</value>
+                            </entry>
+                            <entry>
+<key>User Agent</key>
+<value>
+    <name>User Agent</name>
+</value>
+                            </entry>
+                            <entry>
+<key>proxy-configuration-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.proxy.ProxyConfigurationService</identifiesControllerService>
+    <name>proxy-configuration-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Proxy Host</key>
+<value>
+    <name>Proxy Host</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Proxy Port</key>
+<value>
+    <name>Proxy Port</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Content-Type</key>
+<value>
+    <name>Content-Type</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>URL</key>
+<value>https://stoppaludhis2.rti-ghd.org/api/26/dataValueSets</value>
+                            </entry>
+                            <entry>
+<key>Max Batch Size</key>
+<value>100 MB</value>
+                            </entry>
+                            <entry>
+<key>Max Data to Post per Second</key>
+                            </entry>
+                            <entry>
+<key>SSL Context Service</key>
+                            </entry>
+                            <entry>
+<key>Username</key>
+<value>adam704a</value>
+                            </entry>
+                            <entry>
+<key>Password</key>
+                            </entry>
+                            <entry>
+<key>Send as FlowFile</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>Use Chunked Encoding</key>
+                            </entry>
+                            <entry>
+<key>Compression Level</key>
+<value>0</value>
+                            </entry>
+                            <entry>
+<key>Connection Timeout</key>
+<value>30 sec</value>
+                            </entry>
+                            <entry>
+<key>Data Timeout</key>
+<value>30 sec</value>
+                            </entry>
+                            <entry>
+<key>Attributes to Send as HTTP Headers (Regex)</key>
+                            </entry>
+                            <entry>
+<key>User Agent</key>
+<value>Apache-HttpClient/4.5.5 (Java/1.8.0_162)</value>
+                            </entry>
+                            <entry>
+<key>proxy-configuration-service</key>
+                            </entry>
+                            <entry>
+<key>Proxy Host</key>
+                            </entry>
+                            <entry>
+<key>Proxy Port</key>
+                            </entry>
+                            <entry>
+<key>Content-Type</key>
+<value>application/xml</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PostHTTP</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.PostHTTP</type>
+                </processors>
+                <processors>
+                    <id>af1faa6a-c668-3cda-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>943.2730699704889</x>
+                        <y>108.39005214354972</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.1</version>
                     </bundle>
                     <config>
                         <bulletinLevel>WARN</bulletinLevel>
@@ -109,6 +568,7 @@
                         <properties>
                             <entry>
 <key>XSLT file name</key>
+<value>/opt/hmis_sync/hmis_transform.xsl</value>
                             </entry>
                             <entry>
 <key>indent-output</key>
@@ -132,6 +592,7 @@
                         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
                     <name>TransformXml</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
@@ -146,16 +607,365 @@
                     <type>org.apache.nifi.processors.standard.TransformXml</type>
                 </processors>
                 <processors>
-                    <id>353fa4d6-7c3a-3be9-0000-000000000000</id>
-                    <parentGroupId>41b5326a-d340-358c-0000-000000000000</parentGroupId>
+                    <id>cdbbc261-2aca-321f-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
                     <position>
-                        <x>256.49302041158626</x>
-                        <y>8.108989204763134</y>
+                        <x>918.2730699704889</x>
+                        <y>391.3900521435497</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
                         <group>org.apache.nifi</group>
-                        <version>1.6.0</version>
+                        <version>1.7.1</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Directory</key>
+<value>
+    <name>Directory</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Conflict Resolution Strategy</key>
+<value>
+    <name>Conflict Resolution Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Create Missing Directories</key>
+<value>
+    <name>Create Missing Directories</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Maximum File Count</key>
+<value>
+    <name>Maximum File Count</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Last Modified Time</key>
+<value>
+    <name>Last Modified Time</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Permissions</key>
+<value>
+    <name>Permissions</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Owner</key>
+<value>
+    <name>Owner</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Group</key>
+<value>
+    <name>Group</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Directory</key>
+<value>/opt/hmis_sync/transformed</value>
+                            </entry>
+                            <entry>
+<key>Conflict Resolution Strategy</key>
+<value>fail</value>
+                            </entry>
+                            <entry>
+<key>Create Missing Directories</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>Maximum File Count</key>
+                            </entry>
+                            <entry>
+<key>Last Modified Time</key>
+                            </entry>
+                            <entry>
+<key>Permissions</key>
+                            </entry>
+                            <entry>
+<key>Owner</key>
+                            </entry>
+                            <entry>
+<key>Group</key>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PutFile</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.PutFile</type>
+                </processors>
+                <processors>
+                    <id>eacdf480-9f97-3a9c-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1617.4331882561519</x>
+                        <y>622.9020374357754</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.1</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>SMTP Hostname</key>
+<value>
+    <name>SMTP Hostname</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Port</key>
+<value>
+    <name>SMTP Port</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Username</key>
+<value>
+    <name>SMTP Username</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Password</key>
+<value>
+    <name>SMTP Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Auth</key>
+<value>
+    <name>SMTP Auth</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP TLS</key>
+<value>
+    <name>SMTP TLS</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Socket Factory</key>
+<value>
+    <name>SMTP Socket Factory</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP X-Mailer Header</key>
+<value>
+    <name>SMTP X-Mailer Header</name>
+</value>
+                            </entry>
+                            <entry>
+<key>attribute-name-regex</key>
+<value>
+    <name>attribute-name-regex</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Content Type</key>
+<value>
+    <name>Content Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>From</key>
+<value>
+    <name>From</name>
+</value>
+                            </entry>
+                            <entry>
+<key>To</key>
+<value>
+    <name>To</name>
+</value>
+                            </entry>
+                            <entry>
+<key>CC</key>
+<value>
+    <name>CC</name>
+</value>
+                            </entry>
+                            <entry>
+<key>BCC</key>
+<value>
+    <name>BCC</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Subject</key>
+<value>
+    <name>Subject</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Message</key>
+<value>
+    <name>Message</name>
+</value>
+                            </entry>
+                            <entry>
+<key>email-ff-content-as-message</key>
+<value>
+    <name>email-ff-content-as-message</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Attach File</key>
+<value>
+    <name>Attach File</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Include All Attributes In Message</key>
+<value>
+    <name>Include All Attributes In Message</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>SMTP Hostname</key>
+<value>smtp.sparkpostmail.com</value>
+                            </entry>
+                            <entry>
+<key>SMTP Port</key>
+<value>587</value>
+                            </entry>
+                            <entry>
+<key>SMTP Username</key>
+<value>SMTP_Injection</value>
+                            </entry>
+                            <entry>
+<key>SMTP Password</key>
+                            </entry>
+                            <entry>
+<key>SMTP Auth</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>SMTP TLS</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>SMTP Socket Factory</key>
+<value>javax.net.ssl.SSLSocketFactory</value>
+                            </entry>
+                            <entry>
+<key>SMTP X-Mailer Header</key>
+<value>NiFi</value>
+                            </entry>
+                            <entry>
+<key>attribute-name-regex</key>
+                            </entry>
+                            <entry>
+<key>Content Type</key>
+<value>text/plain</value>
+                            </entry>
+                            <entry>
+<key>From</key>
+<value>noreply@rti-ghd.org</value>
+                            </entry>
+                            <entry>
+<key>To</key>
+<value>adamatlast@gmail.com</value>
+                            </entry>
+                            <entry>
+<key>CC</key>
+<value>apreston@rti.org</value>
+                            </entry>
+                            <entry>
+<key>BCC</key>
+                            </entry>
+                            <entry>
+<key>Subject</key>
+<value>Message from NiFi</value>
+                            </entry>
+                            <entry>
+<key>Message</key>
+<value>This message is to inform you that Malaira Monthly data has been syncronized with the Stop Palu database. For more infomration, please contact Adam Preston.
+
+Regards,
+Adam Preston</value>
+                            </entry>
+                            <entry>
+<key>email-ff-content-as-message</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>Attach File</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>Include All Attributes In Message</key>
+<value>false</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PutEmail</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.PutEmail</type>
+                </processors>
+                <processors>
+                    <id>fd9cd1ed-10bd-3219-0000-000000000000</id>
+                    <parentGroupId>7c7f6eb8-d1e0-3e54-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>327.2701603041644</x>
+                        <y>-22.0</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.1</version>
                     </bundle>
                     <config>
                         <bulletinLevel>WARN</bulletinLevel>
@@ -221,6 +1031,13 @@
 <key>Basic Authentication Password</key>
 <value>
     <name>Basic Authentication Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>proxy-configuration-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.proxy.ProxyConfigurationService</identifiesControllerService>
+    <name>proxy-configuration-service</name>
 </value>
                             </entry>
                             <entry>
@@ -336,7 +1153,7 @@
                             </entry>
                             <entry>
 <key>Remote URL</key>
-<value>https://dhis2.sante.gov.gn/dhis/api/26/dataValueSets.xml?dataSet=TL7xWT7zMNN&amp;period=201807&amp;orgUnit=DqCRkk7x0CV</value>
+<value>https://dhis2.sante.gov.gn/dhis/api/26/dataValueSets.xml?dataSet=TL7xWT7zMNN&amp;period=201808&amp;orgUnitGroup=UF9kVV05HJ0</value>
                             </entry>
                             <entry>
 <key>SSL Context Service</key>
@@ -366,6 +1183,9 @@
                             </entry>
                             <entry>
 <key>Basic Authentication Password</key>
+                            </entry>
+                            <entry>
+<key>proxy-configuration-service</key>
                             </entry>
                             <entry>
 <key>Proxy Host</key>
@@ -435,6 +1255,7 @@
                         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
                     <name>InvokeHTTP</name>
                     <relationships>
                         <autoTerminate>true</autoTerminate>
@@ -460,126 +1281,10 @@
                     <style/>
                     <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
                 </processors>
-                <processors>
-                    <id>64ba5b2d-a8db-33c9-0000-000000000000</id>
-                    <parentGroupId>41b5326a-d340-358c-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>256.22286010742187</x>
-                        <y>432.4107360839844</y>
-                    </position>
-                    <bundle>
-                        <artifact>nifi-standard-nar</artifact>
-                        <group>org.apache.nifi</group>
-                        <version>1.6.0</version>
-                    </bundle>
-                    <config>
-                        <bulletinLevel>WARN</bulletinLevel>
-                        <comments></comments>
-                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                        <descriptors>
-                            <entry>
-<key>Directory</key>
-<value>
-    <name>Directory</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Conflict Resolution Strategy</key>
-<value>
-    <name>Conflict Resolution Strategy</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Create Missing Directories</key>
-<value>
-    <name>Create Missing Directories</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Maximum File Count</key>
-<value>
-    <name>Maximum File Count</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Last Modified Time</key>
-<value>
-    <name>Last Modified Time</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Permissions</key>
-<value>
-    <name>Permissions</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Owner</key>
-<value>
-    <name>Owner</name>
-</value>
-                            </entry>
-                            <entry>
-<key>Group</key>
-<value>
-    <name>Group</name>
-</value>
-                            </entry>
-                        </descriptors>
-                        <executionNode>ALL</executionNode>
-                        <lossTolerant>false</lossTolerant>
-                        <penaltyDuration>30 sec</penaltyDuration>
-                        <properties>
-                            <entry>
-<key>Directory</key>
-<value>/opt/nifi/output</value>
-                            </entry>
-                            <entry>
-<key>Conflict Resolution Strategy</key>
-<value>fail</value>
-                            </entry>
-                            <entry>
-<key>Create Missing Directories</key>
-<value>true</value>
-                            </entry>
-                            <entry>
-<key>Maximum File Count</key>
-                            </entry>
-                            <entry>
-<key>Last Modified Time</key>
-                            </entry>
-                            <entry>
-<key>Permissions</key>
-                            </entry>
-                            <entry>
-<key>Owner</key>
-                            </entry>
-                            <entry>
-<key>Group</key>
-                            </entry>
-                        </properties>
-                        <runDurationMillis>0</runDurationMillis>
-                        <schedulingPeriod>0 sec</schedulingPeriod>
-                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                        <yieldDuration>1 sec</yieldDuration>
-                    </config>
-                    <name>PutFile</name>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>failure</name>
-                    </relationships>
-                    <relationships>
-                        <autoTerminate>true</autoTerminate>
-                        <name>success</name>
-                    </relationships>
-                    <state>STOPPED</state>
-                    <style/>
-                    <type>org.apache.nifi.processors.standard.PutFile</type>
-                </processors>
             </contents>
-            <name>Get Paludisme data set</name>
+            <name>Sync Paludise Data</name>
             <variables/>
         </processGroups>
     </snippet>
-    <timestamp>10/01/2018 19:35:03 UTC</timestamp>
+    <timestamp>10/12/2018 20:57:25 UTC</timestamp>
 </template>
