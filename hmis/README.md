@@ -1,5 +1,13 @@
-These files are used to transform data from the national HMIS to the Stop Palu database.
+# nifi-palu 
 
-> xsltproc hmis_transform.xsl hmis_output.xml
+### to build it
 
-These are designed to be used by apache nifi.
+> docker build -t nifi-palu .
+
+### then to run it:
+
+> docker run --name nifi-palu -p 8080:8080 -d nifi-palu
+
+### then to connect to it
+
+> docker exec -it nifi-palu bash
