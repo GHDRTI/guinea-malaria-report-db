@@ -86,7 +86,6 @@
   <orgUnit hmisUID="e2YYx8XNpJD" projectUID="FAC00000089"/>
   <orgUnit hmisUID="kssC5OIumM4" projectUID="FAC00000090"/>
   <orgUnit hmisUID="hzXwSpvQEqL" projectUID="FAC00000091"/>
-  <orgUnit hmisUID="FqG9O7Rl41T" projectUID="FAC00000092"/>
   <orgUnit hmisUID="ie3fGBEEPXs" projectUID="FAC00000201"/>
   <orgUnit hmisUID="mCitkPSnRwJ" projectUID="FAC00000105"/>
   <orgUnit hmisUID="EwryfoG5tbb" projectUID="FAC00000106"/>
@@ -221,6 +220,5 @@
   <orgUnit hmisUID="Sgu8va2LUPU" projectUID="FAC00000249"/> <!-- Centre de Santé Rural Sanoyah -->
   <orgUnit hmisUID="zUy4kJaTgha" projectUID="FAC00000234"/> <!-- Centre de Santé Urbain Ansoumania -->
   <orgUnit hmisUID="wPOknJTIuSl" projectUID="FAC00000235"/> <!-- Centre de Santé Urbain Mafoudia -->
-  
 
 </orgUnits>
