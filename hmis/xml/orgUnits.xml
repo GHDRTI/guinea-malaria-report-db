@@ -45,13 +45,12 @@
   <orgUnit hmisUID="zbpAbx7Amn5" projectUID="FAC00000202"/>
   <orgUnit hmisUID="QgDGybwwJQ1" projectUID="FAC00000056"/>
   <orgUnit hmisUID="jt38nFb9Nao" projectUID="FAC00000055"/>
-  <orgUnit hmisUID="eM8XLZt9eST" projectUID="FAC00000057"/>
-  <orgUnit hmisUID="iFsNfOvlaFb" projectUID="FAC00000058"/> <!-- Centre de Santé Rural Kondeyah -->
+  <orgUnit hmisUID="iFsNfOvlaFb" projectUID="FAC00000057"/> <!-- Centre de Santé Rural Kondeyah -->
+  <orgUnit hmisUID="Tr2cfRzLZuY" projectUID="FAC00000058"/> <!-- CMC Kondeyah -->
   <orgUnit hmisUID="hwqhGQbaAx3" projectUID="FAC00000059"/>
   <orgUnit hmisUID="Z7wbff4TpEa" projectUID="FAC00000060"/>
   <orgUnit hmisUID="qflVNnOZGE7" projectUID="FAC00000051"/>
   <orgUnit hmisUID="vplTWFkL8jR" projectUID="FAC00000052"/>
-  <orgUnit hmisUID="wPOknJTIuSl" projectUID="FAC00000053"/>
   <orgUnit hmisUID="m5LtPEwjQPg" projectUID="FAC00000054"/>
   <orgUnit hmisUID="ygJ2Qt6S94J" projectUID="FAC00000070"/>
   <orgUnit hmisUID="lIucdAMe0VP" projectUID="FAC00000071"/>
@@ -209,7 +208,7 @@
   <orgUnit hmisUID="FqG9O7Rl41T" projectUID="FAC00000237"/> <!-- Coronthie -->
   <orgUnit hmisUID="PPab61t3EKZ" projectUID="FAC00000252"/> <!-- ASFEGMASSI -->
   <orgUnit hmisUID="PDWjOCTmhf3" projectUID="FAC00000238"/> <!-- CARAD -->
-  <orgUnit hmisUID="wYLFdrzGgz2" projectUID="FAC00000240"/> <!-- Sangoyah -->
+  <orgUnit hmisUID="YlCPAZ4SA9J" projectUID="FAC00000240"/> <!-- Sangoyah -->
   <orgUnit hmisUID="msdOtKckc4y" projectUID="FAC00000243"/> <!-- Gbessia Cité L'air -->
   <orgUnit hmisUID="Udl1XSyUbbs" projectUID="FAC00000246"/> <!-- Dianfouna -->
   <orgUnit hmisUID="SvWBXueEkix" projectUID="FAC00000253"/> <!-- CM Rocher -->
