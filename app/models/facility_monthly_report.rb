@@ -22,7 +22,7 @@ class FacilityMonthlyReport < ActiveRecord::Base
     num_pregnant_fourth_dose_sp: 'ypyyaHIC2Aw',
     num_awareness_session: 'NwZYQfNezOc',
     llin_dist_cpn: 'wJ1ozdMtQ6d',
-    llin_dist_pev: 'IrY6QtOugnE'
+    llin_dist_pev: 'IrY6QtOugnE',
     population_total: 'Ae1WSY6xKuL',
     population_covered: 'DEHTdi3L3W7'
 
@@ -113,6 +113,25 @@ class FacilityMonthlyReport < ActiveRecord::Base
         value: llin_dist_pev || 0,
         followUp: false
       },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:population_total],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: population_total || 0,
+        followUp: false
+      },
+      {
+        dataElement: ELEMENT_DHIS2_MAPPING[:population_covered],
+        period: workbook_file.workbook.dhis2_period,
+        orgUnit: health_facility.dhis2_id,
+        value: population_covered || 0,
+        followUp: false
+      }
+    ]
+  end
+
+  def dhis2_report_pop_elements
+    [
       {
         dataElement: ELEMENT_DHIS2_MAPPING[:population_total],
         period: workbook_file.workbook.dhis2_period,

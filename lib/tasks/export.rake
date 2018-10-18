@@ -45,13 +45,16 @@ namespace :export do
     puts({"dataValues": elements}.to_json)
   end
 
-  task :values_pregnant_extras => :environment do
+
+  task :population => :environment do
     elements = []
     FacilityMonthlyReport.all.each do |report|
-      elements += report.dhis2_pregnant_elements
+      
+      elements += report.dhis2_report_pop_elements
     end
     puts({"dataValues": elements}.to_json)
   end
+
 
   task :report_value, [:report_id] => :environment do |task, args|
     elements = []
