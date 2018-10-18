@@ -55,4 +55,9 @@ class Workbook < ActiveRecord::Base
     "#{reporting_year.to_s}#{reporting_month.to_s.rjust(2, '0')}"
   end
 
+  def dhis2_period_date
+    # creates a date that can be used for an approimate complete data (and other things)
+    "#{reporting_year.to_s}-#{reporting_month.to_s.rjust(2, '0')}-15"
+  end
+
 end

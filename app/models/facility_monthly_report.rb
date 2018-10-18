@@ -149,6 +149,21 @@ class FacilityMonthlyReport < ActiveRecord::Base
     ]
   end
 
+
+  def dhis2_complete_datasets
+    [
+      {
+        period: workbook_file.workbook.dhis2_period,
+        dataSet: "k2ednnpKPCw", # this is hardcoded to the uid stop palu databasde, get over it
+        organisationUnit: health_facility.dhis2_id,
+        attributeOptionCombo: "HllvX50cXC0", # also hardcoded as the default attribute option combo id
+        date: workbook_file.workbook.dhis2_period_date,
+        storedBy: "importer"
+      }
+      
+    ]
+  end
+
   private
 
     def self.order_by_clause params

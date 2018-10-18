@@ -55,6 +55,15 @@ namespace :export do
     puts({"dataValues": elements}.to_json)
   end
 
+  task :complete_datasets => :environment do
+    elements = []
+    FacilityMonthlyReport.all.each do |report|
+      
+      elements += report.dhis2_complete_datasets
+    end
+    puts({"completeDataSetRegistrations": elements}.to_json)
+  end
+
 
   task :report_value, [:report_id] => :environment do |task, args|
     elements = []
