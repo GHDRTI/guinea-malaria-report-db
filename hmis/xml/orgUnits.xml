@@ -82,6 +82,12 @@
     <orgUnit hmisUID="FqG9O7Rl41T" projectUID="FAC00000237"/> <!-- Coronthie --> 
     <orgUnit hmisUID="PPab61t3EKZ" projectUID="FAC00000252"/> <!-- ASFEGMASSI -->
     <orgUnit hmisUID="ie3fGBEEPXs" projectUID="FAC00000201"/> <!-- Ignace Deen -->
+    <!-- 
+        Add these when OUs created in Stop Plau DB
+        <orgUnit hmisUID="O8XmvZuk3JQ" projectUID=""/>  MARINE  
+        <orgUnit hmisUID="m2MhVjbdigu" projectUID=""/>  CAMP MAKAMBO  
+        <orgUnit hmisUID="fq9tSC3f0QS" projectUID=""/>   CAMP SAMORY    
+    -->
 
     <!-- Matam -->
     <orgUnit hmisUID="EutQVtVItjl" projectUID="FAC00000140"/> <!-- CMC Matam -->
