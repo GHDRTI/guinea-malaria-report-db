@@ -1,223 +1,291 @@
 <orgUnits>
-  <orgUnit hmisUID="YjXr3hgQ7zM" projectUID="FAC00000003"/>
-  <orgUnit hmisUID="JPZThVJtzl1" projectUID="FAC00000004"/>
-  <orgUnit hmisUID="VfgP2NqyAv5" projectUID="FAC00000007"/>
-  <orgUnit hmisUID="j43a35nIno1" projectUID="FAC00000008"/>
-  <orgUnit hmisUID="zl2e16l2dA7" projectUID="FAC00000009"/>
-  <orgUnit hmisUID="KROV6LrY8j2" projectUID="FAC00000005"/>
-  <orgUnit hmisUID="Ci0P4OySWGz" projectUID="FAC00000006"/>
-  <orgUnit hmisUID="kM65X9dP5WS" projectUID="FAC00000002"/>
-  <orgUnit hmisUID="D37scsqqBLs" projectUID="FAC00000001"/>
-  <orgUnit hmisUID="DqCRkk7x0CV" projectUID="FAC00000023"/>
-  <orgUnit hmisUID="R9iI89aX5jj" projectUID="FAC00000018"/>
-  <orgUnit hmisUID="ODHrXQVESbK" projectUID="FAC00000019"/>
-  <orgUnit hmisUID="h0nwreBvmyI" projectUID="FAC00000020"/>
-  <orgUnit hmisUID="WJJkbjdetD1" projectUID="FAC00000021"/>
-  <orgUnit hmisUID="Rj64cGsYmFt" projectUID="FAC00000022"/>
-  <orgUnit hmisUID="anZ56sWC5l5" projectUID="FAC00000010"/>
-  <orgUnit hmisUID="f4WD7EHWqhU" projectUID="FAC00000011"/>
-  <orgUnit hmisUID="OQ9i0HBUcu4" projectUID="FAC00000012"/>
-  <orgUnit hmisUID="MgPGSVqQ0xy" projectUID="FAC00000013"/>
-  <orgUnit hmisUID="drD7MngmJD1" projectUID="FAC00000014"/>
-  <orgUnit hmisUID="SE7ua3imFwx" projectUID="FAC00000015"/>
-  <orgUnit hmisUID="DaMkJM4hF0y" projectUID="FAC00000016"/>
-  <orgUnit hmisUID="gVyPXXmmEh6" projectUID="FAC00000017"/>
-  <orgUnit hmisUID="Bi3hy0HssQa" projectUID="FAC00000028"/>
-  <orgUnit hmisUID="LQDdxRnJlWA" projectUID="FAC00000029"/>
-  <orgUnit hmisUID="X36TUCzthgW" projectUID="FAC00000024"/>
-  <orgUnit hmisUID="DZLZY4ebVPZ" projectUID="FAC00000025"/>
-  <orgUnit hmisUID="f3fgNX7tfzX" projectUID="FAC00000026"/>
-  <orgUnit hmisUID="k72f3eapjIq" projectUID="FAC00000027"/>
-  <orgUnit hmisUID="lGwLFx8lVHt" projectUID="FAC00000042"/>
-  <orgUnit hmisUID="OsUWxBoXNqu" projectUID="FAC00000043"/>
-  <orgUnit hmisUID="GSff1umHFb7" projectUID="FAC00000044"/>
-  <orgUnit hmisUID="WwhuivA3Ssx" projectUID="FAC00000045"/>
-  <orgUnit hmisUID="YFzJ1ZyztRF" projectUID="FAC00000049"/>
-  <orgUnit hmisUID="qgE5wMbSBSS" projectUID="FAC00000050"/> <!-- Hôpital Dinguiraye -->
-  <orgUnit hmisUID="uqtBeX0fI3P" projectUID="FAC00000046"/>
-  <orgUnit hmisUID="FVy3nWfxJKb" projectUID="FAC00000047"/>
-  <orgUnit hmisUID="TKRwgCJ1DHJ" projectUID="FAC00000048"/>
-  <orgUnit hmisUID="al8uudoffXV" projectUID="FAC00000033"/>
-  <orgUnit hmisUID="Wd4rTWJMSDl" projectUID="FAC00000034"/>
-  <orgUnit hmisUID="ert9BmM24na" projectUID="FAC00000030"/>
-  <orgUnit hmisUID="abH6ImDzhID" projectUID="FAC00000031"/>
-  <orgUnit hmisUID="gZjEluiI3Qd" projectUID="FAC00000032"/>
-  <orgUnit hmisUID="zbpAbx7Amn5" projectUID="FAC00000202"/>
-  <orgUnit hmisUID="QgDGybwwJQ1" projectUID="FAC00000056"/>
-  <orgUnit hmisUID="jt38nFb9Nao" projectUID="FAC00000055"/>
-  <orgUnit hmisUID="iFsNfOvlaFb" projectUID="FAC00000057"/> <!-- Centre de Santé Rural Kondeyah -->
-  <orgUnit hmisUID="Tr2cfRzLZuY" projectUID="FAC00000058"/> <!-- CMC Kondeyah -->
-  <orgUnit hmisUID="hwqhGQbaAx3" projectUID="FAC00000059"/>
-  <orgUnit hmisUID="Z7wbff4TpEa" projectUID="FAC00000060"/>
-  <orgUnit hmisUID="qflVNnOZGE7" projectUID="FAC00000051"/>
-  <orgUnit hmisUID="vplTWFkL8jR" projectUID="FAC00000052"/>
-  <orgUnit hmisUID="m5LtPEwjQPg" projectUID="FAC00000054"/>
-  <orgUnit hmisUID="ygJ2Qt6S94J" projectUID="FAC00000070"/>
-  <orgUnit hmisUID="lIucdAMe0VP" projectUID="FAC00000071"/>
-  <orgUnit hmisUID="WoPH8FL0fjN" projectUID="FAC00000061"/>
-  <orgUnit hmisUID="oIRcgNQIHMb" projectUID="FAC00000229"/>
-  <orgUnit hmisUID="jLzJEzigj19" projectUID="FAC00000062"/>
-  <orgUnit hmisUID="EK5y93Ks6zK" projectUID="FAC00000063"/>
-  <orgUnit hmisUID="W7Lkn0XGY9z" projectUID="FAC00000064"/>
-  <orgUnit hmisUID="rUhLHdRSAR4" projectUID="FAC00000065"/>
-  <orgUnit hmisUID="oplRFa9TSrf" projectUID="FAC00000066"/>
-  <orgUnit hmisUID="Sm8gCEtbH2l" projectUID="FAC00000067"/>
-  <orgUnit hmisUID="HMA5gBeYhGM" projectUID="FAC00000068"/>
-  <orgUnit hmisUID="tvuyrVIHzja" projectUID="FAC00000069"/>
-  <orgUnit hmisUID="pmDjXPcx6B4" projectUID="FAC00000072"/>
-  <orgUnit hmisUID="RhAWrhi3zTL" projectUID="FAC00000073"/>
-  <orgUnit hmisUID="rcuXw4FNSOv" projectUID="FAC00000075"/>
-  <orgUnit hmisUID="Mu8GPR5Cmzl" projectUID="FAC00000074"/>
-  <orgUnit hmisUID="E6xnJpgqmE1" projectUID="FAC00000076"/>
-  <orgUnit hmisUID="H1nAgbYbNN2" projectUID="FAC00000077"/>
-  <orgUnit hmisUID="HyqoEFYiJWw" projectUID="FAC00000078"/>
-  <orgUnit hmisUID="PJtZxI9gXB9" projectUID="FAC00000081"/>
-  <orgUnit hmisUID="E1ebCbKxJCc" projectUID="FAC00000079"/>
-  <orgUnit hmisUID="TYUmXUgHSRk" projectUID="FAC00000080"/>
-  <orgUnit hmisUID="N0MMYcpFeMs" projectUID="FAC00000082"/>
-  <orgUnit hmisUID="UDZv2Slmm4u" projectUID="FAC00000083"/>
-  <orgUnit hmisUID="DP4dH9HPM8B" projectUID="FAC00000084"/>
-  <orgUnit hmisUID="Oyko8r86r9w" projectUID="FAC00000085"/>
-  <orgUnit hmisUID="MzrXV1naU6j" projectUID="FAC00000086"/>
-  <orgUnit hmisUID="Bh5nObUJhqA" projectUID="FAC00000087"/>
-  <orgUnit hmisUID="tRjydJIDfjC" projectUID="FAC00000230"/>
-  <orgUnit hmisUID="dsajSrAZxMt" projectUID="FAC00000088"/>
-  <orgUnit hmisUID="e2YYx8XNpJD" projectUID="FAC00000089"/>
-  <orgUnit hmisUID="kssC5OIumM4" projectUID="FAC00000090"/>
-  <orgUnit hmisUID="hzXwSpvQEqL" projectUID="FAC00000091"/>
-  <orgUnit hmisUID="ie3fGBEEPXs" projectUID="FAC00000201"/>
-  <orgUnit hmisUID="mCitkPSnRwJ" projectUID="FAC00000105"/>
-  <orgUnit hmisUID="EwryfoG5tbb" projectUID="FAC00000106"/>
-  <orgUnit hmisUID="Ph6d03qcthy" projectUID="FAC00000107"/>
-  <orgUnit hmisUID="PFR9xVTv7wi" projectUID="FAC00000101"/>
-  <orgUnit hmisUID="MJJfc6F2ldx" projectUID="FAC00000102"/>
-  <orgUnit hmisUID="dXB5MOl3TNT" projectUID="FAC00000103"/>
-  <orgUnit hmisUID="AIFl2JwvDZJ" projectUID="FAC00000104"/>
-  <orgUnit hmisUID="HgB9mDVg5AH" projectUID="FAC00000100"/>
-  <orgUnit hmisUID="i1xnNAyKgGG" projectUID="FAC00000099"/>
-  <orgUnit hmisUID="wbkLDoXgzQW" projectUID="FAC00000093"/>
-  <orgUnit hmisUID="tp5E2fdd9J6" projectUID="FAC00000094"/>
-  <orgUnit hmisUID="FdhHz5N3E2o" projectUID="FAC00000095"/>
-  <orgUnit hmisUID="wrHFNIrr5HW" projectUID="FAC00000096"/>
-  <orgUnit hmisUID="DtALwGrT7vR" projectUID="FAC00000097"/>
-  <orgUnit hmisUID="WUKZ9vnLyG7" projectUID="FAC00000098"/>
-  <orgUnit hmisUID="mH6TfrrS1X0" projectUID="FAC00000109"/>
-  <orgUnit hmisUID="O7jK8mkC0pg" projectUID="FAC00000110"/>
-  <orgUnit hmisUID="EEP89UQ08xm" projectUID="FAC00000111"/>
-  <orgUnit hmisUID="LiYfnAp2P0E" projectUID="FAC00000119"/>
-  <orgUnit hmisUID="evrbgyg9e1L" projectUID="FAC00000120"/>
-  <orgUnit hmisUID="AJbCdZOwxHF" projectUID="FAC00000124"/>
-  <orgUnit hmisUID="p5xjuzz8UZA" projectUID="FAC00000108"/>
-  <orgUnit hmisUID="YMefJBrmn4y" projectUID="FAC00000125"/>
-  <orgUnit hmisUID="Jjdgyyjordl" projectUID="FAC00000126"/>
-  <orgUnit hmisUID="NPAeEXVObH1" projectUID="FAC00000116"/>
-  <orgUnit hmisUID="PtzwobWy8RS" projectUID="FAC00000118"/>
-  <orgUnit hmisUID="Jiz4Fro3HXF" projectUID="FAC00000122"/>
-  <orgUnit hmisUID="RVBoRJYooKd" projectUID="FAC00000112"/>
-  <orgUnit hmisUID="T4YVt2J1EEM" projectUID="FAC00000117"/>
-  <orgUnit hmisUID="vLvfEE6ewRQ" projectUID="FAC00000121"/>
-  <orgUnit hmisUID="cOiftjBTEaS" projectUID="FAC00000123"/>
-  <orgUnit hmisUID="Ah8kNbFM2G7" projectUID="FAC00000113"/>
-  <orgUnit hmisUID="r1cAXDMToBm" projectUID="FAC00000114"/>
-  <orgUnit hmisUID="VtkBIan9Ueu" projectUID="FAC00000115"/>
-  <orgUnit hmisUID="dMRp3qr2nLO" projectUID="FAC00000137"/>
-  <orgUnit hmisUID="URgixZT2nxI" projectUID="FAC00000138"/>
-  <orgUnit hmisUID="XeghT10wRPe" projectUID="FAC00000128"/>
-  <orgUnit hmisUID="g4qG694Z3Cu" projectUID="FAC00000129"/>
-  <orgUnit hmisUID="alasgTfw2Kv" projectUID="FAC00000130"/>
-  <orgUnit hmisUID="CBeBTYGWEru" projectUID="FAC00000131"/>
-  <orgUnit hmisUID="yoffldQd0YO" projectUID="FAC00000132"/>
-  <orgUnit hmisUID="XOVnz4HjuB0" projectUID="FAC00000133"/>
-  <orgUnit hmisUID="gS9qLI4XpL6" projectUID="FAC00000134"/>
+
+<!-- Boke -->
+
+    <!-- Boffa -->
+    <orgUnit hmisUID="YjXr3hgQ7zM" projectUID="FAC00000003"/> <!-- Colia -->
+    <orgUnit hmisUID="kM65X9dP5WS" projectUID="FAC00000002"/> <!-- CSU -->
+    <orgUnit hmisUID="JPZThVJtzl1" projectUID="FAC00000004"/> <!-- Douprou -->
+    <orgUnit hmisUID="D37scsqqBLs" projectUID="FAC00000001"/> <!-- Hopital -->
+    <orgUnit hmisUID="VfgP2NqyAv5" projectUID="FAC00000007"/> <!-- Koba -->
+    <orgUnit hmisUID="zl2e16l2dA7" projectUID="FAC00000009"/> <!-- Lisso -->
+    <orgUnit hmisUID="KROV6LrY8j2" projectUID="FAC00000005"/> <!-- Mankountan -->
+    <orgUnit hmisUID="j43a35nIno1" projectUID="FAC00000008"/> <!-- Tamita -->
+    <orgUnit hmisUID="Ci0P4OySWGz" projectUID="FAC00000006"/> <!-- Tougnifily -->
+
+    <!-- Boke -->
+    <orgUnit hmisUID="anZ56sWC5l5" projectUID="FAC00000010"/> <!-- Hopital -->
+    <orgUnit hmisUID="f4WD7EHWqhU" projectUID="FAC00000011"/> <!-- Bintimodia -->
+    <orgUnit hmisUID="OQ9i0HBUcu4" projectUID="FAC00000012"/> <!-- Correrah -->
+    <orgUnit hmisUID="MgPGSVqQ0xy" projectUID="FAC00000013"/> <!-- Dabiss -->
+    <orgUnit hmisUID="drD7MngmJD1" projectUID="FAC00000014"/> <!-- Dibia -->
+    <orgUnit hmisUID="SE7ua3imFwx" projectUID="FAC00000015"/> <!-- Kanfarandé -->
+    <orgUnit hmisUID="DaMkJM4hF0y" projectUID="FAC00000016"/> <!-- Kassopo -->
+    <orgUnit hmisUID="gVyPXXmmEh6" projectUID="FAC00000017"/> <!-- Kayenguissa -->
+    <orgUnit hmisUID="R9iI89aX5jj" projectUID="FAC00000018"/> <!-- Kollabui -->
+    <orgUnit hmisUID="ODHrXQVESbK" projectUID="FAC00000019"/> <!-- Koulifanya -->
+    <orgUnit hmisUID="h0nwreBvmyI" projectUID="FAC00000020"/> <!-- Malapouya -->
+    <orgUnit hmisUID="WJJkbjdetD1" projectUID="FAC00000021"/> <!-- Sangaredi -->
+    <orgUnit hmisUID="Rj64cGsYmFt" projectUID="FAC00000022"/> <!-- Sansale -->
+    <orgUnit hmisUID="DqCRkk7x0CV" projectUID="FAC00000023"/> <!-- Tanene -->
+
+    <!-- Fria -->
+    <orgUnit hmisUID="pmDjXPcx6B4" projectUID="FAC00000072"/> <!-- Hopital -->
+    <orgUnit hmisUID="RhAWrhi3zTL" projectUID="FAC00000073"/> <!-- Sabende -->
+    <orgUnit hmisUID="Mu8GPR5Cmzl" projectUID="FAC00000074"/> <!-- Aviation -->
+    <orgUnit hmisUID="rcuXw4FNSOv" projectUID="FAC00000075"/> <!-- Tormelin -->
+    <orgUnit hmisUID="E6xnJpgqmE1" projectUID="FAC00000076"/> <!-- Baguinet -->
+    <orgUnit hmisUID="H1nAgbYbNN2" projectUID="FAC00000077"/> <!-- Banguigny -->
+    <orgUnit hmisUID="HyqoEFYiJWw" projectUID="FAC00000078"/> <!-- Tabossy -->
+    <orgUnit hmisUID="tc64nAbPjy7" projectUID="FAC00000245"/> <!-- Rusal -->
+
+    <!-- Gaoual -->
+    <orgUnit hmisUID="E1ebCbKxJCc" projectUID="FAC00000079"/> <!-- Hopital -->
+    <orgUnit hmisUID="TYUmXUgHSRk" projectUID="FAC00000080"/> <!-- CSU -->
+    <orgUnit hmisUID="PJtZxI9gXB9" projectUID="FAC00000081"/> <!-- Touba -->
+    <orgUnit hmisUID="N0MMYcpFeMs" projectUID="FAC00000082"/> <!-- Kakoni -->
+    <orgUnit hmisUID="UDZv2Slmm4u" projectUID="FAC00000083"/> <!-- Foulamori -->
+    <orgUnit hmisUID="DP4dH9HPM8B" projectUID="FAC00000084"/> <!-- Malanta -->
+    <orgUnit hmisUID="Oyko8r86r9w" projectUID="FAC00000085"/> <!-- Kounsitel -->
+    <orgUnit hmisUID="MzrXV1naU6j" projectUID="FAC00000086"/> <!-- Wendou Mbour -->
+    <orgUnit hmisUID="Bh5nObUJhqA" projectUID="FAC00000087"/> <!-- Koumbia -->
+
+    <!-- Koundara -->
+    <orgUnit hmisUID="wbkLDoXgzQW" projectUID="FAC00000093"/> <!-- Hopital -->
+    <orgUnit hmisUID="tp5E2fdd9J6" projectUID="FAC00000094"/> <!-- Sareboido -->
+    <orgUnit hmisUID="FdhHz5N3E2o" projectUID="FAC00000095"/> <!-- Termesse -->
+    <orgUnit hmisUID="wrHFNIrr5HW" projectUID="FAC00000096"/> <!-- Guingan -->
+    <orgUnit hmisUID="DtALwGrT7vR" projectUID="FAC00000097"/> <!-- Youkounkoun -->
+    <orgUnit hmisUID="WUKZ9vnLyG7" projectUID="FAC00000098"/> <!-- Sambailo -->
+    <orgUnit hmisUID="i1xnNAyKgGG" projectUID="FAC00000099"/> <!-- Kamaby -->
+    <orgUnit hmisUID="HgB9mDVg5AH" projectUID="FAC00000100"/> <!-- CSU -->
+
+<!-- Conakry -->
+
+    <!-- Dixinn -->
+    <orgUnit hmisUID="ert9BmM24na" projectUID="FAC00000030"/> <!-- C.S. Macire -->
+    <orgUnit hmisUID="abH6ImDzhID" projectUID="FAC00000031"/> <!-- C.S. Hafia -->
+    <orgUnit hmisUID="gZjEluiI3Qd" projectUID="FAC00000032"/> <!-- C.S. Dixinn -->
+    <orgUnit hmisUID="al8uudoffXV" projectUID="FAC00000033"/> <!-- CMC Miniere -->
+    <orgUnit hmisUID="Wd4rTWJMSDl" projectUID="FAC00000034"/> <!-- FMG -->
+    <orgUnit hmisUID="AHQOjQ8Fnjp" projectUID="FAC00000216"/> <!-- Dispensaire Gamal (U.C) -->
+    <orgUnit hmisUID="psXEj3k7sww" projectUID="FAC00000239"/> <!-- AGUIPSSU -->
+    <orgUnit hmisUID="LSdejPq33sK" projectUID="FAC00000241"/> <!-- Donka -->
+    <orgUnit hmisUID="zbpAbx7Amn5" projectUID="FAC00000035"/> <!-- CMA Dixinn -->
+
+    <!-- Kaloum -->
+    <orgUnit hmisUID="dsajSrAZxMt" projectUID="FAC00000088"/> <!-- Koulewondy -->
+    <orgUnit hmisUID="e2YYx8XNpJD" projectUID="FAC00000089"/> <!-- Boulbinet -->
+    <orgUnit hmisUID="kssC5OIumM4" projectUID="FAC00000090"/> <!-- Kassa -->
+    <orgUnit hmisUID="hzXwSpvQEqL" projectUID="FAC00000091"/> <!-- Port -->
+    <orgUnit hmisUID="tRjydJIDfjC" projectUID="FAC00000230"/> <!-- Archeveché --> 
+    <orgUnit hmisUID="FqG9O7Rl41T" projectUID="FAC00000237"/> <!-- Coronthie --> 
+    <orgUnit hmisUID="PPab61t3EKZ" projectUID="FAC00000252"/> <!-- ASFEGMASSI -->
+    <orgUnit hmisUID="ie3fGBEEPXs" projectUID="FAC00000201"/> <!-- Ignace Deen -->
+
+    <!-- Matam -->
+    <orgUnit hmisUID="EutQVtVItjl" projectUID="FAC00000140"/> <!-- CMC Matam -->
+    <orgUnit hmisUID="JOOKtw8Lp0C" projectUID="FAC00000141"/> <!-- Coleah -->
+    <orgUnit hmisUID="rWzgMu2jTgc" projectUID="FAC00000142"/> <!-- Madina -->
+
+    <orgUnit hmisUID="m6HrAAol2kN" projectUID="FAC00000143"/> <!-- Baptiste -->
+    <orgUnit hmisUID="b2KzZfOcBrQ" projectUID="FAC00000144"/> <!-- Kalima -->
+    <orgUnit hmisUID="OsMpP1skjxJ" projectUID="FAC00000215"/> <!-- Bonfi-->
+
+
+    <!-- Matoto -->
+    <orgUnit hmisUID="iHISgFBrL4g" projectUID="FAC00000145"/> <!-- Tombolia -->
+    <orgUnit hmisUID="M0XRmyVQP44" projectUID="FAC00000146"/> <!-- CS Matoto -->
+    <orgUnit hmisUID="hw0hd2du5LJ" projectUID="FAC00000147"/> <!-- Tanene -->
+    <orgUnit hmisUID="DBRJWF5cmYI" projectUID="FAC00000148"/> <!-- Yimbaya -->
+    <orgUnit hmisUID="D5A8918ucWJ" projectUID="FAC00000149"/> <!-- Dabompa -->
+    <orgUnit hmisUID="R21rlk5ynyV" projectUID="FAC00000150"/> <!-- Gbessia Port 1 -->
+    <orgUnit hmisUID="sR73zSagXoo" projectUID="FAC00000151"/> <!-- Saint Gabriel -->
+    <orgUnit hmisUID="uEzO17t7PfP" projectUID="FAC00000152"/> <!--  Bernay Fotoba -->
+    <orgUnit hmisUID="BGdnTb6ckXI" projectUID="FAC00000153"/> <!--  CSA Siloe -->
+    <orgUnit hmisUID="GyQxDH68966" projectUID="FAC00000226"/> <!-- Accar Roger -->
+    <orgUnit hmisUID="PDWjOCTmhf3" projectUID="FAC00000238"/> <!-- CARAD -->
+    <orgUnit hmisUID="YlCPAZ4SA9J" projectUID="FAC00000240"/> <!-- Sangoyah -->
+    <orgUnit hmisUID="msdOtKckc4y" projectUID="FAC00000243"/> <!-- Gbessia Cité L'air -->
+    <orgUnit hmisUID="Udl1XSyUbbs" projectUID="FAC00000246"/> <!-- Dianfouna -->
+    <orgUnit hmisUID="SvWBXueEkix" projectUID="FAC00000253"/> <!-- CM Rocher -->
+
+    <orgUnit hmisUID="XsJiIYtIUBj" projectUID="FAC00000211"/> <!-- Aammes Guinee-->
+
+    <!-- Ratoma -->
+    <orgUnit hmisUID="AVOL0xGSl3Z" projectUID="FAC00000170"/> <!-- Bomboly -->
+    <orgUnit hmisUID="qKV4BU3qoXa" projectUID="FAC00000171"/> <!-- La Solidarite -->  
+    <orgUnit hmisUID="eKfXJXHB7Mv" projectUID="FAC00000174"/> <!-- ADD Hamdallaye -->
+    <orgUnit hmisUID="maE8twIq691" projectUID="FAC00000175"/> <!-- CS Lambanyi -->
+    <orgUnit hmisUID="gcx7MsXj4KK" projectUID="FAC00000176"/> <!-- CS Koloma -->
+    <orgUnit hmisUID="oivOmoE4eBn" projectUID="FAC00000178"/> <!-- Simbaya Gare -->
+    <orgUnit hmisUID="BpHPShDuXCi" projectUID="FAC00000179"/> <!-- Kobaya -->
+    <orgUnit hmisUID="PHDWuA7hewj" projectUID="FAC00000181"/> <!-- Wanidara -->
+    <orgUnit hmisUID="NC4DT9baDYV" projectUID="FAC00000182"/> <!-- Kaporo Fondis -->
+    <orgUnit hmisUID="YriWthO0uUk" projectUID="FAC00000183"/> <!-- Flamboyant -->
+    <orgUnit hmisUID="maE8twIq691" projectUID="FAC00000184"/> <!-- ADD Lambanyi -->
+    <orgUnit hmisUID="ZMlEzeYsaCI" projectUID="FAC00000197"/> <!-- Sonfonia -->
+    <orgUnit hmisUID="CQLKRMaeIdw" projectUID="FAC00000198"/> <!-- CMC Ratoma -->
+    <orgUnit hmisUID="ceewkrugF71" projectUID="FAC00000205"/> <!-- OSU-->
+    <orgUnit hmisUID="k21n5SeV9td" projectUID="FAC00000206"/> <!-- CM Chérubins -->
+    <orgUnit hmisUID="pe38Qj7uijA" projectUID="FAC00000208"/> <!-- Jean Oury -->
+    <orgUnit hmisUID="uUFzuFhudUn" projectUID="FAC00000209"/> <!-- AMSOG -->
+    <orgUnit hmisUID="ipSkZ3o2tLU" projectUID="FAC00000212"/> <!-- Sesir -->
+    <orgUnit hmisUID="aoZGZUriz3o" projectUID="FAC00000213"/> <!-- Anastasis Nongo --> 
+    <orgUnit hmisUID="lAFZUBYXXaw" projectUID="FAC00000218"/> <!-- Clinique Medicale Yattaya -->
+    <orgUnit hmisUID="ut3JllHDOTJ" projectUID="FAC00000220"/> <!-- AGVS Koloma -->
+    <orgUnit hmisUID="CaUMP1GPbuz" projectUID="FAC00000221"/> <!-- Polyclinique Wanidara -->
+    <orgUnit hmisUID="OXVgXhWeP14" projectUID="FAC00000222"/> <!-- Anastasis Wanidara -->
+    <orgUnit hmisUID="HeYaLCkARpm" projectUID="FAC00000224"/> <!-- Kalima Sonfonia -->
+    <orgUnit hmisUID="m9WAXYfxn4U" projectUID="FAC00000227"/> <!-- HDK Kaporo -->
+
+    <orgUnit hmisUID="lAFZUBYXXaw" projectUID="FAC00000167"/> <!-- AHS Yattaya -->
+    <orgUnit hmisUID="KpZXd1KQRmK" projectUID="FAC00000169"/> <!-- Jean Mermoz -->
+    <orgUnit hmisUID="uokCsIy5JeT" projectUID="FAC00000172"/> <!--Bon Samaritain -->
+    <orgUnit hmisUID="h2kQtnnP1HP" projectUID="FAC00000204"/> <!--Anasagist -->
+    <orgUnit hmisUID="gc1os3rZkvP" projectUID="FAC00000210"/> <!-- Djene Kaba-->
+    <orgUnit hmisUID="T3OP6hLSxn7" projectUID="FAC00000228"/> <!--Aimé -->
+
+<!-- Faranah -->
+
+    <!-- Dinguiraye -->
+    <orgUnit hmisUID="lGwLFx8lVHt" projectUID="FAC00000042"/> <!-- CS Urbain Dinguiraye -->
+    <orgUnit hmisUID="OsUWxBoXNqu" projectUID="FAC00000043"/> <!-- CS Rural Sélouma -->
+    <orgUnit hmisUID="GSff1umHFb7" projectUID="FAC00000044"/> <!-- CS Rural Kalinko -->
+    <orgUnit hmisUID="WwhuivA3Ssx" projectUID="FAC00000045"/> <!-- CS Rural Dialakoro -->
+    <orgUnit hmisUID="uqtBeX0fI3P" projectUID="FAC00000046"/> <!-- CS Rural Diatiféré -->
+    <orgUnit hmisUID="FVy3nWfxJKb" projectUID="FAC00000047"/> <!-- CS Rural Lansanaya -->
+    <orgUnit hmisUID="TKRwgCJ1DHJ" projectUID="FAC00000048"/> <!-- CS Rural M'bonet -->
+    <orgUnit hmisUID="YFzJ1ZyztRF" projectUID="FAC00000049"/> <!-- CS Rural Gagnakaly -->
+    <orgUnit hmisUID="qgE5wMbSBSS" projectUID="FAC00000050"/> <!-- Hôpital Dinguiraye -->
+    
+<!-- Kinda -->
+
+    <!-- Coyah -->
+    <orgUnit hmisUID="X36TUCzthgW" projectUID="FAC00000024"/> <!-- Hôpital préfectoral de Coyah  -->
+    <orgUnit hmisUID="DZLZY4ebVPZ" projectUID="FAC00000025"/> <!-- Centre de Santé Urbain Fily -->
+    <orgUnit hmisUID="f3fgNX7tfzX" projectUID="FAC00000026"/> <!-- Centre de Santé Urbain Doumbouyah -->
+    <orgUnit hmisUID="k72f3eapjIq" projectUID="FAC00000027"/> <!-- Centre de Santé Rural Maneah -->
+    <orgUnit hmisUID="Bi3hy0HssQa" projectUID="FAC00000028"/> <!-- Centre de Santé Rural Kouriah -->
+    <orgUnit hmisUID="LQDdxRnJlWA" projectUID="FAC00000029"/> <!-- Centre de Santé Rural Wonkifong  -->
+    <orgUnit hmisUID="Sgu8va2LUPU" projectUID="FAC00000249"/> <!-- Centre de Santé Rural Sanoyah -->
+
+    <!-- Dubreka -->
+    <orgUnit hmisUID="qflVNnOZGE7" projectUID="FAC00000051"/> <!-- Hôpital préfectoral de Dubreka  -->
+    <orgUnit hmisUID="vplTWFkL8jR" projectUID="FAC00000052"/> <!-- Centre de Santé Rural  Khorira -->
+    <orgUnit hmisUID="m5LtPEwjQPg" projectUID="FAC00000054"/> <!-- Centre de Santé Rural  Ouassou -->
+    <orgUnit hmisUID="jt38nFb9Nao" projectUID="FAC00000055"/> <!-- Centre de Santé Rural Falessadé -->
+    <orgUnit hmisUID="QgDGybwwJQ1" projectUID="FAC00000056"/> <!-- Centre de Santé Amélioré Tanènè -->
+    <orgUnit hmisUID="iFsNfOvlaFb" projectUID="FAC00000057"/> <!-- Centre de Santé Rural Kondeyah -->
+    <orgUnit hmisUID="Tr2cfRzLZuY" projectUID="FAC00000058"/> <!-- CMC Kondeyah -->
+    <orgUnit hmisUID="hwqhGQbaAx3" projectUID="FAC00000059"/> <!-- Centre de Santé Rural  Bady -->
+    <orgUnit hmisUID="Z7wbff4TpEa" projectUID="FAC00000060"/> <!-- Centre de Santé Rural Tondon  -->
+    <orgUnit hmisUID="zUy4kJaTgha" projectUID="FAC00000234"/> <!-- Centre de Santé Urbain Ansoumania -->
+    <orgUnit hmisUID="wPOknJTIuSl" projectUID="FAC00000235"/> <!-- Centre de Santé Urbain Mafoudia -->
+
+    <!-- Forecariyah -->
+    <orgUnit hmisUID="WoPH8FL0fjN" projectUID="FAC00000061"/> <!-- Hôpital Préfectoral de Forecariah  -->
+    <orgUnit hmisUID="EK5y93Ks6zK" projectUID="FAC00000063"/> <!-- Centre de Santé Amélioré Maferinyah   -->
+    <orgUnit hmisUID="W7Lkn0XGY9z" projectUID="FAC00000064"/> <!-- Centre de Santé Rural Farmoriah -->
+    <orgUnit hmisUID="rUhLHdRSAR4" projectUID="FAC00000065"/> <!-- Centre de Santé Rural Bokariah -->
+    <orgUnit hmisUID="oplRFa9TSrf" projectUID="FAC00000066"/> <!-- Centre de Santé Rural Kakossa -->
+    <orgUnit hmisUID="Sm8gCEtbH2l" projectUID="FAC00000067"/> <!-- Centre de Santé Rural Moussayah -->
+    <orgUnit hmisUID="HMA5gBeYhGM" projectUID="FAC00000068"/> <!-- Centre de Santé Rural Benty  -->
+    <orgUnit hmisUID="tvuyrVIHzja" projectUID="FAC00000069"/> <!-- Centre de santé urbain Forecariah  -->
+    <orgUnit hmisUID="ygJ2Qt6S94J" projectUID="FAC00000070"/> <!-- Centre de Santé Rural Sikhourou -->
+    <orgUnit hmisUID="lIucdAMe0VP" projectUID="FAC00000071"/> <!-- Centre de Santé Rural Kaback -->
+    <orgUnit hmisUID="oIRcgNQIHMb" projectUID="FAC00000229"/> <!-- Centre de Santé Rural Allassoyah -->
+
+    <orgUnit hmisUID="jLzJEzigj19" projectUID="FAC00000062"/> <!-- Bassia -->
+
+<!-- Labe -->
+
+  <!-- Koubia -->
+  <orgUnit hmisUID="PFR9xVTv7wi" projectUID="FAC00000101"/> <!-- Hôpital préfectoral -->
+  <orgUnit hmisUID="MJJfc6F2ldx" projectUID="FAC00000102"/> <!-- CS Urbain Koubia -->
+  <orgUnit hmisUID="dXB5MOl3TNT" projectUID="FAC00000103"/> <!-- CS Rural Fafaya -->
+  <orgUnit hmisUID="AIFl2JwvDZJ" projectUID="FAC00000104"/> <!-- CS Rural Gadha Woundou -->
+  <orgUnit hmisUID="mCitkPSnRwJ" projectUID="FAC00000105"/> <!-- CS Rural Matakaou -->
+  <orgUnit hmisUID="EwryfoG5tbb" projectUID="FAC00000106"/> <!-- CS Rural Missira -->
+  <orgUnit hmisUID="Ph6d03qcthy" projectUID="FAC00000107"/> <!-- CS Rural Pilimini -->
+
+  <!-- Labe -->
+  <orgUnit hmisUID="p5xjuzz8UZA" projectUID="FAC00000108"/> <!-- Hôpital régional -->
+  <orgUnit hmisUID="mH6TfrrS1X0" projectUID="FAC00000109"/> <!-- CS Urbain Bowloko -->
+  <orgUnit hmisUID="O7jK8mkC0pg" projectUID="FAC00000110"/> <!-- CS Urbain Bowloko -->
+  <orgUnit hmisUID="EEP89UQ08xm" projectUID="FAC00000111"/> <!-- CS Rural Dalein -->
+  <orgUnit hmisUID="RVBoRJYooKd" projectUID="FAC00000112"/> <!-- CS Rural Dara Labé -->
+  <orgUnit hmisUID="Ah8kNbFM2G7" projectUID="FAC00000113"/> <!-- CS Rural Diari -->
+  <orgUnit hmisUID="r1cAXDMToBm" projectUID="FAC00000114"/> <!-- CS Rural Dionfo -->
+  <orgUnit hmisUID="VtkBIan9Ueu" projectUID="FAC00000115"/> <!-- CS Urbain Fafabhè -->
+  <orgUnit hmisUID="NPAeEXVObH1" projectUID="FAC00000116"/> <!-- CS Rural Garambè -->
+  <orgUnit hmisUID="T4YVt2J1EEM" projectUID="FAC00000117"/> <!-- CS Rural Hafia -->
+  <orgUnit hmisUID="PtzwobWy8RS" projectUID="FAC00000118"/> <!-- CS Rural Kalan -->
+  <orgUnit hmisUID="LiYfnAp2P0E" projectUID="FAC00000119"/> <!-- CS Rural Kouramangui -->
+  <orgUnit hmisUID="evrbgyg9e1L" projectUID="FAC00000120"/> <!-- CS Urbain Leysaré -->
+  <orgUnit hmisUID="vLvfEE6ewRQ" projectUID="FAC00000121"/> <!-- CS Urbain Lombonna -->
+  <orgUnit hmisUID="Jiz4Fro3HXF" projectUID="FAC00000122"/> <!-- CS Urbain Pellel -->
+  <orgUnit hmisUID="cOiftjBTEaS" projectUID="FAC00000123"/> <!-- CS Rural Popodara -->
+  <orgUnit hmisUID="AJbCdZOwxHF" projectUID="FAC00000124"/> <!-- CS Rural Sannoun -->
+  <orgUnit hmisUID="YMefJBrmn4y" projectUID="FAC00000125"/> <!-- CS Rural Tountouroun -->
+  <orgUnit hmisUID="Jjdgyyjordl" projectUID="FAC00000126"/> <!-- CS Rural Noussy -->
+
+  <!-- Lelouma -->
+  <orgUnit hmisUID="t960ZbiFmVI" projectUID="FAC00000127"/> <!-- Hopital -->
+  <orgUnit hmisUID="XeghT10wRPe" projectUID="FAC00000128"/> <!-- CSU -->
+  <orgUnit hmisUID="g4qG694Z3Cu" projectUID="FAC00000129"/> <!-- CS Rural Balaya -->
+  <orgUnit hmisUID="alasgTfw2Kv" projectUID="FAC00000130"/> <!-- CS Rural Sagalé -->
+  <orgUnit hmisUID="CBeBTYGWEru" projectUID="FAC00000131"/> <!-- CS Rural Hériko -->
+  <orgUnit hmisUID="yoffldQd0YO" projectUID="FAC00000132"/> <!-- Parawol -->
+  <orgUnit hmisUID="XOVnz4HjuB0" projectUID="FAC00000133"/> <!-- Korbe -->
+  <orgUnit hmisUID="gS9qLI4XpL6" projectUID="FAC00000134"/> <!-- CS Rural Diountou -->
   <orgUnit hmisUID="ZRk0mZdC4ZR" projectUID="FAC00000135"/> <!-- CS Rural Lafou -->
-  <orgUnit hmisUID="rj26APWCwre" projectUID="FAC00000136"/>
-  <orgUnit hmisUID="t960ZbiFmVI" projectUID="FAC00000127"/>
-  <orgUnit hmisUID="RlAJ6qFo8bg" projectUID="FAC00000164"/>
-  <orgUnit hmisUID="JtAQ6SLCKJG" projectUID="FAC00000165"/>
-  <orgUnit hmisUID="OQ3wlyiW1KS" projectUID="FAC00000163"/>
-  <orgUnit hmisUID="aRObHMfdgjm" projectUID="FAC00000196"/>
-  <orgUnit hmisUID="Yd6QBVflVjZ" projectUID="FAC00000166"/>
-  <orgUnit hmisUID="k1QbbiPXdyb" projectUID="FAC00000162"/>
-  <orgUnit hmisUID="NLUhZWpPnDt" projectUID="FAC00000154"/>
-  <orgUnit hmisUID="t4YNPuq2xhV" projectUID="FAC00000160"/>
-  <orgUnit hmisUID="jFtZ8NIIsdT" projectUID="FAC00000158"/>
-  <orgUnit hmisUID="G7EHQx0UZjy" projectUID="FAC00000156"/>
-  <orgUnit hmisUID="Gm17r63t8wC" projectUID="FAC00000155"/>
-  <orgUnit hmisUID="w56LPkOgVZ9" projectUID="FAC00000161"/>
-  <orgUnit hmisUID="IkP97HoztF3" projectUID="FAC00000157"/>
-  <orgUnit hmisUID="RFvw8GS8OXL" projectUID="FAC00000159"/>
-  <orgUnit hmisUID="OsMpP1skjxJ" projectUID="FAC00000215"/>
-  <orgUnit hmisUID="EutQVtVItjl" projectUID="FAC00000140"/>
-  <orgUnit hmisUID="JOOKtw8Lp0C" projectUID="FAC00000141"/>
-  <orgUnit hmisUID="rWzgMu2jTgc" projectUID="FAC00000142"/>
-  <orgUnit hmisUID="m6HrAAol2kN" projectUID="FAC00000143"/>
-  <orgUnit hmisUID="b2KzZfOcBrQ" projectUID="FAC00000144"/>
-  <orgUnit hmisUID="BGdnTb6ckXI" projectUID="FAC00000153"/>
-  <orgUnit hmisUID="XsJiIYtIUBj" projectUID="FAC00000211"/>
-  <orgUnit hmisUID="GyQxDH68966" projectUID="FAC00000226"/>
-  <orgUnit hmisUID="R21rlk5ynyV" projectUID="FAC00000150"/>
-  <orgUnit hmisUID="sR73zSagXoo" projectUID="FAC00000151"/>
-  <orgUnit hmisUID="uEzO17t7PfP" projectUID="FAC00000152"/>
-  <orgUnit hmisUID="iHISgFBrL4g" projectUID="FAC00000145"/>
-  <orgUnit hmisUID="M0XRmyVQP44" projectUID="FAC00000146"/>
-  <orgUnit hmisUID="hw0hd2du5LJ" projectUID="FAC00000147"/>
-  <orgUnit hmisUID="DBRJWF5cmYI" projectUID="FAC00000148"/>
-  <orgUnit hmisUID="D5A8918ucWJ" projectUID="FAC00000149"/>
-  <orgUnit hmisUID="uokCsIy5JeT" projectUID="FAC00000172"/>
-  <orgUnit hmisUID="eKfXJXHB7Mv" projectUID="FAC00000174"/>
-  <orgUnit hmisUID="maE8twIq691" projectUID="FAC00000175"/> <!-- CS Lambanyi -->
-  <orgUnit hmisUID="gcx7MsXj4KK" projectUID="FAC00000176"/>
-  <orgUnit hmisUID="ut3JllHDOTJ" projectUID="FAC00000220"/>
-  <orgUnit hmisUID="lAFZUBYXXaw" projectUID="FAC00000218"/>
-  <orgUnit hmisUID="CaUMP1GPbuz" projectUID="FAC00000221"/>
-  <orgUnit hmisUID="m9WAXYfxn4U" projectUID="FAC00000227"/>
-  <orgUnit hmisUID="T3OP6hLSxn7" projectUID="FAC00000228"/>
-  <orgUnit hmisUID="uUFzuFhudUn" projectUID="FAC00000209"/>
-  <orgUnit hmisUID="BpHPShDuXCi" projectUID="FAC00000179"/>
-  <orgUnit hmisUID="PHDWuA7hewj" projectUID="FAC00000181"/>
-  <orgUnit hmisUID="NC4DT9baDYV" projectUID="FAC00000182"/>
-  <orgUnit hmisUID="OXVgXhWeP14" projectUID="FAC00000222"/>
-  <orgUnit hmisUID="YriWthO0uUk" projectUID="FAC00000183"/>
-  <orgUnit hmisUID="maE8twIq691" projectUID="FAC00000184"/>
-  <orgUnit hmisUID="ZMlEzeYsaCI" projectUID="FAC00000197"/>
-  <orgUnit hmisUID="CQLKRMaeIdw" projectUID="FAC00000198"/>
-  <orgUnit hmisUID="pe38Qj7uijA" projectUID="FAC00000208"/>
-  <orgUnit hmisUID="gc1os3rZkvP" projectUID="FAC00000210"/>
-  <orgUnit hmisUID="ipSkZ3o2tLU" projectUID="FAC00000212"/>
-  <orgUnit hmisUID="h2kQtnnP1HP" projectUID="FAC00000204"/>
-  <orgUnit hmisUID="ceewkrugF71" projectUID="FAC00000205"/>
-  <orgUnit hmisUID="k21n5SeV9td" projectUID="FAC00000206"/> <!-- CM Chérubins -->
-  <orgUnit hmisUID="oivOmoE4eBn" projectUID="FAC00000178"/>
-  <orgUnit hmisUID="lAFZUBYXXaw" projectUID="FAC00000167"/>
-  <orgUnit hmisUID="KpZXd1KQRmK" projectUID="FAC00000169"/>
-  <orgUnit hmisUID="kq9sgvPVuYw" projectUID="FAC00000185"/>
-  <orgUnit hmisUID="ZTIpaOY3iTB" projectUID="FAC00000186"/>
-  <orgUnit hmisUID="k6l1HDNajPB" projectUID="FAC00000187"/>
-  <orgUnit hmisUID="T48ex5I35R4" projectUID="FAC00000188"/>
-  <orgUnit hmisUID="YwE48KrawWF" projectUID="FAC00000189"/>
-  <orgUnit hmisUID="LBa3a6dtU5v" projectUID="FAC00000190"/>
-  <orgUnit hmisUID="mfhDGvNP9rI" projectUID="FAC00000191"/>
-  <orgUnit hmisUID="V1zbouvJ31N" projectUID="FAC00000192"/>
-  <orgUnit hmisUID="aKxyFEzUzl5" projectUID="FAC00000193"/>
-  <orgUnit hmisUID="jwNS648Ny7J" projectUID="FAC00000194"/>
-  <orgUnit hmisUID="eOazGU11seA" projectUID="FAC00000195"/>
-  <orgUnit hmisUID="tc64nAbPjy7" projectUID="FAC00000245"/>
-  <orgUnit hmisUID="AHQOjQ8Fnjp" projectUID="FAC00000216"/>
-  <orgUnit hmisUID="psXEj3k7sww" projectUID="FAC00000239"/>
-  <orgUnit hmisUID="LSdejPq33sK" projectUID="FAC00000241"/>
-  <orgUnit hmisUID="FqG9O7Rl41T" projectUID="FAC00000237"/> <!-- Coronthie -->
-  <orgUnit hmisUID="PPab61t3EKZ" projectUID="FAC00000252"/> <!-- ASFEGMASSI -->
-  <orgUnit hmisUID="PDWjOCTmhf3" projectUID="FAC00000238"/> <!-- CARAD -->
-  <orgUnit hmisUID="YlCPAZ4SA9J" projectUID="FAC00000240"/> <!-- Sangoyah -->
-  <orgUnit hmisUID="msdOtKckc4y" projectUID="FAC00000243"/> <!-- Gbessia Cité L'air -->
-  <orgUnit hmisUID="Udl1XSyUbbs" projectUID="FAC00000246"/> <!-- Dianfouna -->
-  <orgUnit hmisUID="SvWBXueEkix" projectUID="FAC00000253"/> <!-- CM Rocher -->
-  <orgUnit hmisUID="AVOL0xGSl3Z" projectUID="FAC00000170"/> <!-- Bomboly -->
-  <orgUnit hmisUID="qKV4BU3qoXa" projectUID="FAC00000171"/> <!-- La Solidarite -->  
-  <orgUnit hmisUID="aoZGZUriz3o" projectUID="FAC00000213"/> <!-- Anastasis Nongo -->  
-  <orgUnit hmisUID="HeYaLCkARpm" projectUID="FAC00000224"/> <!-- Kalima Sonfonia -->
-  <orgUnit hmisUID="Sgu8va2LUPU" projectUID="FAC00000249"/> <!-- Centre de Santé Rural Sanoyah -->
-  <orgUnit hmisUID="zUy4kJaTgha" projectUID="FAC00000234"/> <!-- Centre de Santé Urbain Ansoumania -->
-  <orgUnit hmisUID="wPOknJTIuSl" projectUID="FAC00000235"/> <!-- Centre de Santé Urbain Mafoudia -->
+  <orgUnit hmisUID="rj26APWCwre" projectUID="FAC00000136"/> <!-- CS Rural Thiaguel Bori -->
+  <orgUnit hmisUID="dMRp3qr2nLO" projectUID="FAC00000137"/> <!-- CS Rural Manda Saran -->
+  <orgUnit hmisUID="URgixZT2nxI" projectUID="FAC00000138"/> <!-- CS Rural Linsan Saran -->
+
+  <!-- Mali -->
+  <orgUnit hmisUID="NLUhZWpPnDt" projectUID="FAC00000154"/> <!-- Hôpital préfectoral -->
+  <orgUnit hmisUID="Gm17r63t8wC" projectUID="FAC00000155"/> <!-- CS Urbain Mali -->
+  <orgUnit hmisUID="G7EHQx0UZjy" projectUID="FAC00000156"/> <!-- CS Rural Balaki-->
+  <orgUnit hmisUID="IkP97HoztF3" projectUID="FAC00000157"/> <!-- CS Rural Donghel Sigon -->
+  <orgUnit hmisUID="jFtZ8NIIsdT" projectUID="FAC00000158"/> <!-- CS Rural Dougountounny -->
+  <orgUnit hmisUID="RFvw8GS8OXL" projectUID="FAC00000159"/> <!-- CS Rural Gayah -->
+  <orgUnit hmisUID="t4YNPuq2xhV" projectUID="FAC00000160"/> <!-- CS Rural Hidayatou -->
+  <orgUnit hmisUID="w56LPkOgVZ9" projectUID="FAC00000161"/> <!-- CS Rural Lébékéré -->
+  <orgUnit hmisUID="k1QbbiPXdyb" projectUID="FAC00000162"/> <!-- CS Rural Madina Wora -->
+  <orgUnit hmisUID="OQ3wlyiW1KS" projectUID="FAC00000163"/> <!-- CS Rural Salambandé -->
+  <orgUnit hmisUID="RlAJ6qFo8bg" projectUID="FAC00000164"/> <!-- CS Rural Téliré -->
+  <orgUnit hmisUID="JtAQ6SLCKJG" projectUID="FAC00000165"/> <!-- CS Rural Touba -->
+  <orgUnit hmisUID="Yd6QBVflVjZ" projectUID="FAC00000166"/> <!-- CSA Yembéring -->
+  <orgUnit hmisUID="aRObHMfdgjm" projectUID="FAC00000196"/> <!-- CS Rural Fougou -->
+
+  <!-- Tougue -->
+  <orgUnit hmisUID="kq9sgvPVuYw" projectUID="FAC00000185"/> <!-- Hôpital préfectoral -->
+  <orgUnit hmisUID="ZTIpaOY3iTB" projectUID="FAC00000186"/> <!-- CS Rural Fatako -->
+  <orgUnit hmisUID="k6l1HDNajPB" projectUID="FAC00000187"/> <!-- CS Rural Fello koundoua -->
+  <orgUnit hmisUID="T48ex5I35R4" projectUID="FAC00000188"/> <!-- CS Rural Kansangui -->
+  <orgUnit hmisUID="YwE48KrawWF" projectUID="FAC00000189"/> <!-- CS Rural Koïn -->
+  <orgUnit hmisUID="LBa3a6dtU5v" projectUID="FAC00000190"/> <!-- CS Rural Kollangui -->
+  <orgUnit hmisUID="mfhDGvNP9rI" projectUID="FAC00000191"/> <!-- CS Rural Kollet -->
+  <orgUnit hmisUID="V1zbouvJ31N" projectUID="FAC00000192"/> <!-- CS Rural Konah -->
+  <orgUnit hmisUID="aKxyFEzUzl5" projectUID="FAC00000193"/> <!-- CS Rural Kouratongo -->
+  <orgUnit hmisUID="jwNS648Ny7J" projectUID="FAC00000194"/> <!-- CS Rural Tangaly -->
+  <orgUnit hmisUID="eOazGU11seA" projectUID="FAC00000195"/> <!-- CS Urbain Tougué -->
+
+
+
+ 
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
 
 </orgUnits>
