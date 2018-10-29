@@ -9,7 +9,7 @@ xmlns:dxf="http://dhis2.org/schema/dxf/2.0">
 
 <!-- Load up the lookup tables: -->
 <xsl:variable name="orgUnits" select="document('orgUnits.xml')/orgUnits/orgUnit"/>
-<xsl:variable name="dataElements" select="document('dataElements.xml')/dataElements/dataElement"/>
+
 
 <!-- xsl template declaration:  
 template tells the xlst processor about the section of xml 
