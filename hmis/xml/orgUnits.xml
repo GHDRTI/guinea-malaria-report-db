@@ -82,12 +82,11 @@
     <orgUnit hmisUID="FqG9O7Rl41T" projectUID="FAC00000237"/> <!-- Coronthie --> 
     <orgUnit hmisUID="PPab61t3EKZ" projectUID="FAC00000252"/> <!-- ASFEGMASSI -->
     <orgUnit hmisUID="ie3fGBEEPXs" projectUID="FAC00000201"/> <!-- Ignace Deen -->
-    <!-- 
-        Add these when OUs created in Stop Plau DB
-        <orgUnit hmisUID="O8XmvZuk3JQ" projectUID=""/>  MARINE  
-        <orgUnit hmisUID="m2MhVjbdigu" projectUID=""/>  CAMP MAKAMBO  
-        <orgUnit hmisUID="fq9tSC3f0QS" projectUID=""/>   CAMP SAMORY    
-    -->
+
+    <orgUnit hmisUID="O8XmvZuk3JQ" projectUID="FAC00000256"/>  <!-- Infirm. Marine Nationale -->
+    <orgUnit hmisUID="m2MhVjbdigu" projectUID="FAC00000255"/>  <!-- CAMP MAKAMBO   -->
+    <orgUnit hmisUID="fq9tSC3f0QS" projectUID="FAC00000254"/>  <!-- Camp Samory   -->   
+    
 
     <!-- Matam -->
     <orgUnit hmisUID="EutQVtVItjl" projectUID="FAC00000140"/> <!-- CMC Matam -->
@@ -117,6 +116,9 @@
     <orgUnit hmisUID="SvWBXueEkix" projectUID="FAC00000253"/> <!-- CM Rocher -->
 
     <orgUnit hmisUID="XsJiIYtIUBj" projectUID="FAC00000211"/> <!-- Aammes Guinee-->
+
+    <!-- Not found in MOH
+        <orgUnit hmisUID="" projectUID="FAC00000257"/>  Matoto Kondebounyi -->
 
     <!-- Ratoma -->
     <orgUnit hmisUID="AVOL0xGSl3Z" projectUID="FAC00000170"/> <!-- Bomboly -->
@@ -280,18 +282,6 @@
   <orgUnit hmisUID="eOazGU11seA" projectUID="FAC00000195"/> <!-- CS Urbain Tougué -->
 
 
-
- 
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
 
 </orgUnits>
