@@ -83,9 +83,9 @@
     <orgUnit hmisUID="PPab61t3EKZ" projectUID="FAC00000252"/> <!-- ASFEGMASSI -->
     <orgUnit hmisUID="ie3fGBEEPXs" projectUID="FAC00000201"/> <!-- Ignace Deen -->
 
-    <orgUnit hmisUID="O8XmvZuk3JQ" projectUID="FAC00000256"/>  <!-- Infirm. Marine Nationale -->
-    <orgUnit hmisUID="m2MhVjbdigu" projectUID="FAC00000255"/>  <!-- CAMP MAKAMBO   -->
-    <orgUnit hmisUID="fq9tSC3f0QS" projectUID="FAC00000254"/>  <!-- Camp Samory   -->   
+    <orgUnit hmisUID="O8XmvZuk3JQ" projectUID="w7uePApR4aY"/>  <!-- Infirm. Marine Nationale -->
+    <orgUnit hmisUID="m2MhVjbdigu" projectUID="b7ZAPyh1Cui"/>  <!-- CAMP MAKAMBO   -->
+    <orgUnit hmisUID="fq9tSC3f0QS" projectUID="vWmT84G6fAb"/>  <!-- Camp Samory   -->   
     
 
     <!-- Matam -->
@@ -118,7 +118,7 @@
     <orgUnit hmisUID="XsJiIYtIUBj" projectUID="FAC00000211"/> <!-- Aammes Guinee-->
 
     <!-- Not found in MOH
-        <orgUnit hmisUID="" projectUID="FAC00000257"/>  Matoto Kondebounyi -->
+        <orgUnit hmisUID="" projectUID="WmUJ4cZLrjn"/>  Matoto Kondebounyi -->
 
     <!-- Ratoma -->
     <orgUnit hmisUID="AVOL0xGSl3Z" projectUID="FAC00000170"/> <!-- Bomboly -->
