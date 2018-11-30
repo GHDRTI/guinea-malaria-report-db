@@ -83,7 +83,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     pg (0.19.0)
     puma (3.12.0)
-    rack (1.6.10)
+    rack (1.6.11)
     rack-protection (2.0.4)
       rack
     rack-test (0.6.3)
@@ -202,4 +202,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.16.5
+   1.17.1
