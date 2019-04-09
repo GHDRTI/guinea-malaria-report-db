@@ -1,0 +1,297 @@
+<orgUnits>
+
+<!-- Boke -->
+
+    <!-- Boffa -->
+    <orgUnit region="Boke" district="Boffa" facility="Colia" hmisUID="YjXr3hgQ7zM" projectUID="FAC00000003"/> <!-- Colia -->
+    <orgUnit region="Boke" district="Boffa" facility="CSU" hmisUID="kM65X9dP5WS" projectUID="FAC00000002"/> <!-- CSU -->
+    <orgUnit region="Boke" district="Boffa" facility="Douprou" hmisUID="JPZThVJtzl1" projectUID="FAC00000004"/> <!-- Douprou -->
+    <orgUnit region="Boke" district="Boffa" facility="Hopital" hmisUID="D37scsqqBLs" projectUID="FAC00000001"/> <!-- Hopital -->
+    <orgUnit region="Boke" district="Boffa" facility="Koba" hmisUID="VfgP2NqyAv5" projectUID="FAC00000007"/> <!-- Koba -->
+    <orgUnit region="Boke" district="Boffa" facility="Lisso" hmisUID="zl2e16l2dA7" projectUID="FAC00000009"/> <!-- Lisso -->
+    <orgUnit region="Boke" district="Boffa" facility="Mankountan" hmisUID="KROV6LrY8j2" projectUID="FAC00000005"/> <!-- Mankountan -->
+    <orgUnit region="Boke" district="Boffa" facility="Tamita" hmisUID="j43a35nIno1" projectUID="FAC00000008"/> <!-- Tamita -->
+    <orgUnit region="Boke" district="Boffa" facility="Tougnifily" hmisUID="Ci0P4OySWGz" projectUID="FAC00000006"/> <!-- Tougnifily -->
+
+    <!-- Boke -->
+    <orgUnit region="Boke" district="Boke" facility="Hopital" hmisUID="anZ56sWC5l5" projectUID="FAC00000010"/> <!-- Hopital -->
+    <orgUnit region="Boke" district="Boke" facility="Bintimodia" hmisUID="f4WD7EHWqhU" projectUID="FAC00000011"/> <!-- Bintimodia -->
+    <orgUnit region="Boke" district="Boke" facility="Correrah" hmisUID="OQ9i0HBUcu4" projectUID="FAC00000012"/> <!-- Correrah -->
+    <orgUnit region="Boke" district="Boke" facility="Dabiss" hmisUID="MgPGSVqQ0xy" projectUID="FAC00000013"/> <!-- Dabiss -->
+    <orgUnit region="Boke" district="Boke" facility="Dibia" hmisUID="drD7MngmJD1" projectUID="FAC00000014"/> <!-- Dibia -->
+    <orgUnit region="Boke" district="Boke" facility="Kanfarandé" hmisUID="SE7ua3imFwx" projectUID="FAC00000015"/> <!-- Kanfarandé -->
+    <orgUnit region="Boke" district="Boke" facility="Kassopo" hmisUID="DaMkJM4hF0y" projectUID="FAC00000016"/> <!-- Kassopo -->
+    <orgUnit region="Boke" district="Boke" facility="Kayenguissa" hmisUID="gVyPXXmmEh6" projectUID="FAC00000017"/> <!-- Kayenguissa -->
+    <orgUnit region="Boke" district="Boke" facility="Kollabui" hmisUID="R9iI89aX5jj" projectUID="FAC00000018"/> <!-- Kollabui -->
+    <orgUnit region="Boke" district="Boke" facility="Koulifanya" hmisUID="ODHrXQVESbK" projectUID="FAC00000019"/> <!-- Koulifanya -->
+    <orgUnit region="Boke" district="Boke" facility="Malapouya" hmisUID="h0nwreBvmyI" projectUID="FAC00000020"/> <!-- Malapouya -->
+    <orgUnit region="Boke" district="Boke" facility="Sangaredi" hmisUID="WJJkbjdetD1" projectUID="FAC00000021"/> <!-- Sangaredi -->
+    <orgUnit region="Boke" district="Boke" facility="Sansale" hmisUID="Rj64cGsYmFt" projectUID="FAC00000022"/> <!-- Sansale -->
+    <orgUnit region="Boke" district="Boke" facility="Tanene" hmisUID="DqCRkk7x0CV" projectUID="FAC00000023"/> <!-- Tanene -->
+
+    <!-- Fria -->
+    <orgUnit region="Boke" district="Fria" facility="Hopital" hmisUID="pmDjXPcx6B4" projectUID="FAC00000072"/> <!-- Hopital -->
+    <orgUnit region="Boke" district="Fria" facility="Sabende" hmisUID="RhAWrhi3zTL" projectUID="FAC00000073"/> <!-- Sabende -->
+    <orgUnit region="Boke" district="Fria" facility="Aviation" hmisUID="Mu8GPR5Cmzl" projectUID="FAC00000074"/> <!-- Aviation -->
+    <orgUnit region="Boke" district="Fria" facility="Tormelin" hmisUID="rcuXw4FNSOv" projectUID="FAC00000075"/> <!-- Tormelin -->
+    <orgUnit region="Boke" district="Fria" facility="Baguinet" hmisUID="E6xnJpgqmE1" projectUID="FAC00000076"/> <!-- Baguinet -->
+    <orgUnit region="Boke" district="Fria" facility="Banguigny" hmisUID="H1nAgbYbNN2" projectUID="FAC00000077"/> <!-- Banguigny -->
+    <orgUnit region="Boke" district="Fria" facility="Tabossy" hmisUID="HyqoEFYiJWw" projectUID="FAC00000078"/> <!-- Tabossy -->
+    <orgUnit region="Boke" district="Fria" facility="Rusal" hmisUID="tc64nAbPjy7" projectUID="FAC00000245"/> <!-- Rusal -->
+
+    <!-- Gaoual -->
+    <orgUnit region="Boke" district="Gaoual" facility="Hopital" hmisUID="E1ebCbKxJCc" projectUID="FAC00000079"/> <!-- Hopital -->
+    <orgUnit region="Boke" district="Gaoual" facility="CSU" hmisUID="TYUmXUgHSRk" projectUID="FAC00000080"/> <!-- CSU -->
+    <orgUnit region="Boke" district="Gaoual" facility="Touba" hmisUID="PJtZxI9gXB9" projectUID="FAC00000081"/> <!-- Touba -->
+    <orgUnit region="Boke" district="Gaoual" facility="Kakoni" hmisUID="N0MMYcpFeMs" projectUID="FAC00000082"/> <!-- Kakoni -->
+    <orgUnit region="Boke" district="Gaoual" facility="Foulamori" hmisUID="UDZv2Slmm4u" projectUID="FAC00000083"/> <!-- Foulamori -->
+    <orgUnit region="Boke" district="Gaoual" facility="Malanta" hmisUID="DP4dH9HPM8B" projectUID="FAC00000084"/> <!-- Malanta -->
+    <orgUnit region="Boke" district="Gaoual" facility="Kounsitel" hmisUID="Oyko8r86r9w" projectUID="FAC00000085"/> <!-- Kounsitel -->
+    <orgUnit region="Boke" district="Gaoual" facility="Wendou Mbour" hmisUID="MzrXV1naU6j" projectUID="FAC00000086"/> <!-- Wendou Mbour -->
+    <orgUnit region="Boke" district="Gaoual" facility="Koumbia" hmisUID="Bh5nObUJhqA" projectUID="FAC00000087"/> <!-- Koumbia -->
+
+    <!-- Koundara -->
+    <orgUnit region="Boke" district="Koundara" facility="Hopital" hmisUID="wbkLDoXgzQW" projectUID="FAC00000093"/> <!-- Hopital -->
+    <orgUnit region="Boke" district="Koundara" facility="Sareboido" hmisUID="tp5E2fdd9J6" projectUID="FAC00000094"/> <!-- Sareboido -->
+    <orgUnit region="Boke" district="Koundara" facility="Termesse" hmisUID="FdhHz5N3E2o" projectUID="FAC00000095"/> <!-- Termesse -->
+    <orgUnit region="Boke" district="Koundara" facility="Guingan" hmisUID="wrHFNIrr5HW" projectUID="FAC00000096"/> <!-- Guingan -->
+    <orgUnit region="Boke" district="Koundara" facility="Youkounkoun" hmisUID="DtALwGrT7vR" projectUID="FAC00000097"/> <!-- Youkounkoun -->
+    <orgUnit region="Boke" district="Koundara" facility="Sambailo" hmisUID="WUKZ9vnLyG7" projectUID="FAC00000098"/> <!-- Sambailo -->
+    <orgUnit region="Boke" district="Koundara" facility="Kamaby" hmisUID="i1xnNAyKgGG" projectUID="FAC00000099"/> <!-- Kamaby -->
+    <orgUnit region="Boke" district="Koundara" facility="CSU" hmisUID="HgB9mDVg5AH" projectUID="FAC00000100"/> <!-- CSU -->
+
+<!-- Conakry -->
+
+    <!-- Dixinn -->
+    <orgUnit region="Conakry" district="Dixinn" facility="C.S. Macire" hmisUID="ert9BmM24na" projectUID="FAC00000030"/> <!-- C.S. Macire -->
+    <orgUnit region="Conakry" district="Dixinn" facility="C.S. Hafia" hmisUID="abH6ImDzhID" projectUID="FAC00000031"/> <!-- C.S. Hafia -->
+    <orgUnit region="Conakry" district="Dixinn" facility="C.S. Dixinn" hmisUID="gZjEluiI3Qd" projectUID="FAC00000032"/> <!-- C.S. Dixinn -->
+    <orgUnit region="Conakry" district="Dixinn" facility="CMC Miniere" hmisUID="al8uudoffXV" projectUID="FAC00000033"/> <!-- CMC Miniere -->
+    <orgUnit region="Conakry" district="Dixinn" facility="FMG" hmisUID="Wd4rTWJMSDl" projectUID="FAC00000034"/> <!-- FMG -->
+    <orgUnit region="Conakry" district="Dixinn" facility="Dispensaire Gamal (U.C)" hmisUID="AHQOjQ8Fnjp" projectUID="FAC00000216"/> <!-- Dispensaire Gamal (U.C) -->
+    <orgUnit region="Conakry" district="Dixinn" facility="AGUIPSSU" hmisUID="psXEj3k7sww" projectUID="FAC00000239"/> <!-- AGUIPSSU -->
+    <orgUnit region="Conakry" district="Dixinn" facility="Donka" hmisUID="LSdejPq33sK" projectUID="FAC00000241"/> <!-- Donka -->
+    <orgUnit region="Conakry" district="Dixinn" facility="CMA Dixinn" hmisUID="zbpAbx7Amn5" projectUID="FAC00000035"/> <!-- CMA Dixinn -->
+
+    <!-- Kaloum -->
+    <orgUnit region="Conakry" district="Kaloum" facility="Koulewondy" hmisUID="dsajSrAZxMt" projectUID="FAC00000088"/> <!-- Koulewondy -->
+    <orgUnit region="Conakry" district="Kaloum" facility="Boulbinet" hmisUID="e2YYx8XNpJD" projectUID="FAC00000089"/> <!-- Boulbinet -->
+    <orgUnit region="Conakry" district="Kaloum" facility="Kassa" hmisUID="kssC5OIumM4" projectUID="FAC00000090"/> <!-- Kassa -->
+    <orgUnit region="Conakry" district="Kaloum" facility="Port" hmisUID="hzXwSpvQEqL" projectUID="FAC00000091"/> <!-- Port -->
+    <orgUnit region="Conakry" district="Kaloum" facility="Archeveché" hmisUID="tRjydJIDfjC" projectUID="FAC00000230"/> <!-- Archeveché --> 
+    <orgUnit region="Conakry" district="Kaloum" facility="Coronthie" hmisUID="FqG9O7Rl41T" projectUID="FAC00000237"/> <!-- Coronthie --> 
+    <orgUnit region="Conakry" district="Kaloum" facility="ASFEGMASSI" hmisUID="PPab61t3EKZ" projectUID="FAC00000252"/> <!-- ASFEGMASSI -->
+    <orgUnit region="Conakry" district="Kaloum" facility="Ignace Deen" hmisUID="ie3fGBEEPXs" projectUID="FAC00000201"/> <!-- Ignace Deen -->
+
+    <!-- Matam -->
+    <!-- Leaving these out until the IDs can be created with the right project id convention -->
+    <!-- <orgUnit region="" district="" facility="" hmisUID="O8XmvZuk3JQ" projectUID="w7uePApR4aY"/> --> <!-- Infirm. Marine Nationale -->
+    <!-- <orgUnit region="" district="" facility="" hmisUID="m2MhVjbdigu" projectUID="b7ZAPyh1Cui"/> --> <!-- CAMP MAKAMBO   -->
+    <!-- <orgUnit region="" district="" facility="" hmisUID="fq9tSC3f0QS" projectUID="vWmT84G6fAb"/> --> <!-- Camp Samory   -->   
+    
+
+    <!-- Matam -->
+    <orgUnit region="Conakry" district="Matam" facility="CMC Matam" hmisUID="EutQVtVItjl" projectUID="FAC00000140"/> <!-- CMC Matam -->
+    <orgUnit region="Conakry" district="Matam" facility="Coleah" hmisUID="JOOKtw8Lp0C" projectUID="FAC00000141"/> <!-- Coleah -->
+    <orgUnit region="Conakry" district="Matam" facility="Madina" hmisUID="rWzgMu2jTgc" projectUID="FAC00000142"/> <!-- Madina -->
+
+    <!-- Not in LISTEDESSTRUCTURESSANITAIRES_ER, 
+    <orgUnit region="Conakry" district="Matam" facility="Baptiste" hmisUID="m6HrAAol2kN" projectUID="FAC00000143"/>  -->
+   <!-- Not in LISTEDESSTRUCTURESSANITAIRES_ER, 
+   <orgUnit region="Conakry" district="Matam" facility="Kalima" hmisUID="b2KzZfOcBrQ" projectUID="FAC00000144"/>  -->
+   <!-- Not in LISTEDESSTRUCTURESSANITAIRES_ER, 
+    <orgUnit region="Conakry" district="Matam" facility="Bonfi" hmisUID="OsMpP1skjxJ" projectUID="FAC00000215"/> -->
+
+
+    <!-- Matoto -->
+    <orgUnit region="Conakry" district="Matoto" facility="Tombolia" hmisUID="iHISgFBrL4g" projectUID="FAC00000145"/> <!-- Tombolia -->
+    <orgUnit region="Conakry" district="Matoto" facility="CS Matoto" hmisUID="M0XRmyVQP44" projectUID="FAC00000146"/> <!-- CS Matoto -->
+    <orgUnit region="Conakry" district="Matoto" facility="Tanene" hmisUID="hw0hd2du5LJ" projectUID="FAC00000147"/> <!-- Tanene -->
+    <orgUnit region="Conakry" district="Matoto" facility="Yimbaya" hmisUID="DBRJWF5cmYI" projectUID="FAC00000148"/> <!-- Yimbaya -->
+    <orgUnit region="Conakry" district="Matoto" facility="Dabompa" hmisUID="D5A8918ucWJ" projectUID="FAC00000149"/> <!-- Dabompa -->
+    <orgUnit region="Conakry" district="Matoto" facility="Gbessia Port 1" hmisUID="R21rlk5ynyV" projectUID="FAC00000150"/> <!-- Gbessia Port 1 -->
+    <orgUnit region="Conakry" district="Matoto" facility="Saint Gabriel" hmisUID="sR73zSagXoo" projectUID="FAC00000151"/> <!-- Saint Gabriel -->
+    <orgUnit region="Conakry" district="Matoto" facility="Bernay Fotoba" hmisUID="uEzO17t7PfP" projectUID="FAC00000152"/> <!--  Bernay Fotoba -->
+    <orgUnit region="Conakry" district="Matoto" facility="CSA Siloe" hmisUID="BGdnTb6ckXI" projectUID="FAC00000153"/> <!--  CSA Siloe -->
+    <orgUnit region="Conakry" district="Matoto" facility="Accar Roger" hmisUID="GyQxDH68966" projectUID="FAC00000226"/> <!-- Accar Roger -->
+    <orgUnit region="Conakry" district="Matoto" facility="CARAD" hmisUID="PDWjOCTmhf3" projectUID="FAC00000238"/> <!-- CARAD -->
+    <orgUnit region="Conakry" district="Matoto" facility="Sangoyah" hmisUID="YlCPAZ4SA9J" projectUID="FAC00000240"/> <!-- Sangoyah -->
+    <orgUnit region="Conakry" district="Matoto" facility="Gbessia Cité L'air" hmisUID="msdOtKckc4y" projectUID="FAC00000243"/> <!-- Gbessia Cité L'air -->
+    <orgUnit region="Conakry" district="Matoto" facility="Dianfouna" hmisUID="Udl1XSyUbbs" projectUID="FAC00000246"/> <!-- Dianfouna -->
+    <orgUnit region="Conakry" district="Matoto" facility="CM Rocher" hmisUID="SvWBXueEkix" projectUID="FAC00000253"/> <!-- CM Rocher -->
+
+    <orgUnit region="Conakry" district="Matoto" facility="Aammes Guinee" hmisUID="XsJiIYtIUBj" projectUID="FAC00000211"/> <!-- Aammes Guinee-->
+
+    <!-- Not found in MOH
+        <orgUnit region="" district="" facility="" hmisUID="" projectUID="WmUJ4cZLrjn"/>  Matoto Kondebounyi -->
+
+    <!-- Ratoma -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Bomboly" hmisUID="AVOL0xGSl3Z" projectUID="FAC00000170"/> <!-- Bomboly -->
+    <orgUnit region="Conakry" district="Ratoma" facility="La Solidarite" hmisUID="qKV4BU3qoXa" projectUID="FAC00000171"/> <!-- La Solidarite -->  
+    <orgUnit region="Conakry" district="Ratoma" facility="ADD Hamdallaye" hmisUID="eKfXJXHB7Mv" projectUID="FAC00000174"/> <!-- ADD Hamdallaye -->
+    <orgUnit region="Conakry" district="Ratoma" facility="CS Lambanyi" hmisUID="maE8twIq691" projectUID="FAC00000175"/> <!-- CS Lambanyi -->
+    <orgUnit region="Conakry" district="Ratoma" facility="CS Koloma" hmisUID="gcx7MsXj4KK" projectUID="FAC00000176"/> <!-- CS Koloma -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Simbaya Gare" hmisUID="oivOmoE4eBn" projectUID="FAC00000178"/> <!-- Simbaya Gare -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Kobaya" hmisUID="BpHPShDuXCi" projectUID="FAC00000179"/> <!-- Kobaya -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Wanidara" hmisUID="PHDWuA7hewj" projectUID="FAC00000181"/> <!-- Wanidara -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Kaporo Fondis" hmisUID="NC4DT9baDYV" projectUID="FAC00000182"/> <!-- Kaporo Fondis -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Flamboyant" hmisUID="YriWthO0uUk" projectUID="FAC00000183"/> <!-- Flamboyant -->
+    <orgUnit region="Conakry" district="Ratoma" facility="ADD Lambanyi" hmisUID="maE8twIq691" projectUID="FAC00000184"/> <!-- ADD Lambanyi -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Sonfonia" hmisUID="ZMlEzeYsaCI" projectUID="FAC00000197"/> <!-- Sonfonia -->
+    <orgUnit region="Conakry" district="Ratoma" facility="CMC Ratoma" hmisUID="CQLKRMaeIdw" projectUID="FAC00000198"/> <!-- CMC Ratoma -->
+    <orgUnit region="Conakry" district="Ratoma" facility="OSU" hmisUID="ceewkrugF71" projectUID="FAC00000205"/> <!-- OSU-->
+    <orgUnit region="Conakry" district="Ratoma" facility="CM Chérubins" hmisUID="k21n5SeV9td" projectUID="FAC00000206"/> <!-- CM Chérubins -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Jean Oury" hmisUID="pe38Qj7uijA" projectUID="FAC00000208"/> <!-- Jean Oury -->
+    <orgUnit region="Conakry" district="Ratoma" facility="AMSOG" hmisUID="uUFzuFhudUn" projectUID="FAC00000209"/> <!-- AMSOG -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Sesir" hmisUID="ipSkZ3o2tLU" projectUID="FAC00000212"/> <!-- Sesir -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Anastasis Nongo" hmisUID="aoZGZUriz3o" projectUID="FAC00000213"/> <!-- Anastasis Nongo --> 
+    <orgUnit region="Conakry" district="Ratoma" facility="Clinique Medicale Yattaya" hmisUID="lAFZUBYXXaw" projectUID="FAC00000218"/> <!-- Clinique Medicale Yattaya -->
+    <orgUnit region="Conakry" district="Ratoma" facility="AGVS Koloma" hmisUID="ut3JllHDOTJ" projectUID="FAC00000220"/> <!-- AGVS Koloma -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Polyclinique Wanidara" hmisUID="CaUMP1GPbuz" projectUID="FAC00000221"/> <!-- Polyclinique Wanidara -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Anastasis Wanidara" hmisUID="OXVgXhWeP14" projectUID="FAC00000222"/> <!-- Anastasis Wanidara -->
+    <orgUnit region="Conakry" district="Ratoma" facility="Kalima Sonfonia" hmisUID="HeYaLCkARpm" projectUID="FAC00000224"/> <!-- Kalima Sonfonia -->
+    <orgUnit region="Conakry" district="Ratoma" facility="HDK Kaporo" hmisUID="m9WAXYfxn4U" projectUID="FAC00000227"/> <!-- HDK Kaporo -->
+    <!-- Not in LISTEDESSTRUCTURESSANITAIRES_ER, 
+    <orgUnit region="Conakry" district="Ratoma" facility="AHS Yattaya" hmisUID="lAFZUBYXXaw" projectUID="FAC00000167"/> --> <!-- AHS Yattaya -->
+    <!-- Not in LISTEDESSTRUCTURESSANITAIRES_ER,
+    <orgUnit region="Conakry" district="Ratoma" facility="AHS Yattaya" hmisUID="KpZXd1KQRmK" projectUID="FAC00000169"/> --> 
+    <!-- Not in LISTEDESSTRUCTURESSANITAIRES_ER,
+    <orgUnit region="Conakry" district="Ratoma" facility="Bon Samaritain" hmisUID="uokCsIy5JeT" projectUID="FAC00000172"/> -->
+    <!-- Not in LISTEDESSTRUCTURESSANITAIRES_ER,
+    <orgUnit region="Conakry" district="Ratoma" facility="Anasagist" hmisUID="h2kQtnnP1HP" projectUID="FAC00000204"/>  -->
+    <!-- Not in LISTEDESSTRUCTURESSANITAIRES_ER,
+    <orgUnit region="Conakry" district="Ratoma" facility="Djene Kaba" hmisUID="gc1os3rZkvP" projectUID="FAC00000210"/> -->
+    <!-- Not in LISTEDESSTRUCTURESSANITAIRES_ER, 
+    <orgUnit region="Conakry" district="Ratoma" facility="Aimé" hmisUID="T3OP6hLSxn7" projectUID="FAC00000228"/>  -->
+
+<!-- Faranah -->
+
+    <!-- Dinguiraye -->
+    <orgUnit region="Faranah" district="Dinguiraye" facility="CS Urbain Dinguiraye" hmisUID="lGwLFx8lVHt" projectUID="FAC00000042"/> <!-- CS Urbain Dinguiraye -->
+    <orgUnit region="Faranah" district="Dinguiraye" facility="CS Rural Sélouma" hmisUID="OsUWxBoXNqu" projectUID="FAC00000043"/> <!-- CS Rural Sélouma -->
+    <orgUnit region="Faranah" district="Dinguiraye" facility="CS Rural Kalinko" hmisUID="GSff1umHFb7" projectUID="FAC00000044"/> <!-- CS Rural Kalinko -->
+    <orgUnit region="Faranah" district="Dinguiraye" facility="CS Rural Dialakoro" hmisUID="WwhuivA3Ssx" projectUID="FAC00000045"/> <!-- CS Rural Dialakoro -->
+    <orgUnit region="Faranah" district="Dinguiraye" facility="CS Rural Diatiféré" hmisUID="uqtBeX0fI3P" projectUID="FAC00000046"/> <!-- CS Rural Diatiféré -->
+    <orgUnit region="Faranah" district="Dinguiraye" facility="CS Rural Lansanaya" hmisUID="FVy3nWfxJKb" projectUID="FAC00000047"/> <!-- CS Rural Lansanaya -->
+    <orgUnit region="Faranah" district="Dinguiraye" facility="CS Rural M'bonet" hmisUID="TKRwgCJ1DHJ" projectUID="FAC00000048"/> <!-- CS Rural M'bonet -->
+    <orgUnit region="Faranah" district="Dinguiraye" facility="CS Rural Gagnakaly" hmisUID="YFzJ1ZyztRF" projectUID="FAC00000049"/> <!-- CS Rural Gagnakaly -->
+    <orgUnit region="Faranah" district="Dinguiraye" facility="Hôpital Dinguiraye" hmisUID="qgE5wMbSBSS" projectUID="FAC00000050"/> <!-- Hôpital Dinguiraye -->
+    
+<!-- Kinda -->
+
+    <!-- Coyah -->
+    <orgUnit region="Kinda" district="Coyah" facility="Hôpital préfectoral de Coyah" hmisUID="X36TUCzthgW" projectUID="FAC00000024"/> <!-- Hôpital préfectoral de Coyah  -->
+    <orgUnit region="Kinda" district="Coyah" facility="Centre de Santé Urbain Fily" hmisUID="DZLZY4ebVPZ" projectUID="FAC00000025"/> <!-- Centre de Santé Urbain Fily -->
+    <orgUnit region="Kinda" district="Coyah" facility="Centre de Santé Urbain Doumbouyah" hmisUID="f3fgNX7tfzX" projectUID="FAC00000026"/> <!-- Centre de Santé Urbain Doumbouyah -->
+    <orgUnit region="Kinda" district="Coyah" facility="Centre de Santé Rural Maneah" hmisUID="k72f3eapjIq" projectUID="FAC00000027"/> <!-- Centre de Santé Rural Maneah -->
+    <orgUnit region="Kinda" district="Coyah" facility="Centre de Santé Rural Kouriah" hmisUID="Bi3hy0HssQa" projectUID="FAC00000028"/> <!-- Centre de Santé Rural Kouriah -->
+    <orgUnit region="Kinda" district="Coyah" facility="Centre de Santé Rural Wonkifong" hmisUID="LQDdxRnJlWA" projectUID="FAC00000029"/> <!-- Centre de Santé Rural Wonkifong  -->
+    <orgUnit region="Kinda" district="Coyah" facility="Centre de Santé Rural Sanoyah" hmisUID="Sgu8va2LUPU" projectUID="FAC00000249"/> <!-- Centre de Santé Rural Sanoyah -->
+
+    <!-- Dubreka -->
+    <orgUnit region="Kinda" district="Dubreka" facility="Hôpital préfectoral de Dubreka" hmisUID="qflVNnOZGE7" projectUID="FAC00000051"/> <!-- Hôpital préfectoral de Dubreka  -->
+    <orgUnit region="Kinda" district="Dubreka" facility="Centre de Santé Rural  Khorira" hmisUID="vplTWFkL8jR" projectUID="FAC00000052"/> <!-- Centre de Santé Rural  Khorira -->
+    <orgUnit region="Kinda" district="Dubreka" facility="entre de Santé Rural  Ouassou" hmisUID="m5LtPEwjQPg" projectUID="FAC00000054"/> <!-- Centre de Santé Rural  Ouassou -->
+    <orgUnit region="Kinda" district="Dubreka" facility="Centre de Santé Rural Falessadé" hmisUID="jt38nFb9Nao" projectUID="FAC00000055"/> <!-- Centre de Santé Rural Falessadé -->
+    <orgUnit region="Kinda" district="Dubreka" facility="Centre de Santé Amélioré Tanènè " hmisUID="QgDGybwwJQ1" projectUID="FAC00000056"/> <!-- Centre de Santé Amélioré Tanènè -->
+    <orgUnit region="Kinda" district="Dubreka" facility="Centre de Santé Rural Kondeyah" hmisUID="iFsNfOvlaFb" projectUID="FAC00000057"/> <!-- Centre de Santé Rural Kondeyah -->
+    <orgUnit region="Kinda" district="Dubreka" facility="CMC Kondeyah" hmisUID="Tr2cfRzLZuY" projectUID="FAC00000058"/> <!-- CMC Kondeyah -->
+    <orgUnit region="Kinda" district="Dubreka" facility="Centre de Santé Rural  Bady" hmisUID="hwqhGQbaAx3" projectUID="FAC00000059"/> <!-- Centre de Santé Rural  Bady -->
+    <orgUnit region="Kinda" district="Dubreka" facility="Centre de Santé Rural Tondon" hmisUID="Z7wbff4TpEa" projectUID="FAC00000060"/> <!-- Centre de Santé Rural Tondon  -->
+    <orgUnit region="Kinda" district="Dubreka" facility="Centre de Santé Urbain Ansoumania" hmisUID="zUy4kJaTgha" projectUID="FAC00000234"/> <!-- Centre de Santé Urbain Ansoumania -->
+    <orgUnit region="Kinda" district="Dubreka" facility="Centre de Santé Urbain Mafoudia" hmisUID="wPOknJTIuSl" projectUID="FAC00000235"/> <!-- Centre de Santé Urbain Mafoudia -->
+
+    <!-- Forecariyah -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Hôpital Préfectoral de Forecariah" hmisUID="WoPH8FL0fjN" projectUID="FAC00000061"/> <!-- Hôpital Préfectoral de Forecariah  -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de Santé Amélioré Maferinyah" hmisUID="EK5y93Ks6zK" projectUID="FAC00000063"/> <!-- Centre de Santé Amélioré Maferinyah   -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de Santé Rural Farmoriah" hmisUID="W7Lkn0XGY9z" projectUID="FAC00000064"/> <!-- Centre de Santé Rural Farmoriah -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de Santé Rural Bokariah" hmisUID="rUhLHdRSAR4" projectUID="FAC00000065"/> <!-- Centre de Santé Rural Bokariah -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de Santé Rural Kakossa" hmisUID="oplRFa9TSrf" projectUID="FAC00000066"/> <!-- Centre de Santé Rural Kakossa -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de Santé Rural Moussayah" hmisUID="Sm8gCEtbH2l" projectUID="FAC00000067"/> <!-- Centre de Santé Rural Moussayah -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de Santé Rural Benty" hmisUID="HMA5gBeYhGM" projectUID="FAC00000068"/> <!-- Centre de Santé Rural Benty  -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de santé urbain Forecariah" hmisUID="tvuyrVIHzja" projectUID="FAC00000069"/> <!-- Centre de santé urbain Forecariah  -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de Santé Rural Sikhourou" hmisUID="ygJ2Qt6S94J" projectUID="FAC00000070"/> <!-- Centre de Santé Rural Sikhourou -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de Santé Rural Kaback" hmisUID="lIucdAMe0VP" projectUID="FAC00000071"/> <!-- Centre de Santé Rural Kaback -->
+    <orgUnit region="Kinda" district="Forecariyah" facility="Centre de Santé Rural Allassoyah" hmisUID="oIRcgNQIHMb" projectUID="FAC00000229"/> <!-- Centre de Santé Rural Allassoyah -->
+
+    <orgUnit region="Kinda" district="Forecariyah" facility="Bassia" hmisUID="jLzJEzigj19" projectUID="FAC00000062"/> <!-- Bassia -->
+
+<!-- Labe -->
+
+  <!-- Koubia -->
+  <orgUnit region="Labe" district="Koubia" facility="Hôpital préfectoral" hmisUID="PFR9xVTv7wi" projectUID="FAC00000101"/> <!-- Hôpital préfectoral -->
+  <orgUnit region="Labe" district="Koubia" facility="CS Urbain Koubia" hmisUID="MJJfc6F2ldx" projectUID="FAC00000102"/> <!-- CS Urbain Koubia -->
+  <orgUnit region="Labe" district="Koubia" facility="CS Rural Fafaya" hmisUID="dXB5MOl3TNT" projectUID="FAC00000103"/> <!-- CS Rural Fafaya -->
+  <orgUnit region="Labe" district="Koubia" facility="CS Rural Gadha Woundou" hmisUID="AIFl2JwvDZJ" projectUID="FAC00000104"/> <!-- CS Rural Gadha Woundou -->
+  <orgUnit region="Labe" district="Koubia" facility="CS Rural Matakaou" hmisUID="mCitkPSnRwJ" projectUID="FAC00000105"/> <!-- CS Rural Matakaou -->
+  <orgUnit region="Labe" district="Koubia" facility="CS Rural Missira" hmisUID="EwryfoG5tbb" projectUID="FAC00000106"/> <!-- CS Rural Missira -->
+  <orgUnit region="Labe" district="Koubia" facility="CS Rural Pilimini" hmisUID="Ph6d03qcthy" projectUID="FAC00000107"/> <!-- CS Rural Pilimini -->
+
+  <!-- Labe -->
+  <orgUnit region="Labe" district="Labe" facility="Hôpital régional" hmisUID="p5xjuzz8UZA" projectUID="FAC00000108"/> <!-- Hôpital régional -->
+  <orgUnit region="Labe" district="Labe" facility="CS Urbain Bowloko" hmisUID="mH6TfrrS1X0" projectUID="FAC00000109"/> <!-- CS Urbain Bowloko -->
+  <orgUnit region="Labe" district="Labe" facility="Urbain Bowloko" hmisUID="O7jK8mkC0pg" projectUID="FAC00000110"/> <!-- CS Urbain Bowloko -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Dalein" hmisUID="EEP89UQ08xm" projectUID="FAC00000111"/> <!-- CS Rural Dalein -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Dara Labé" hmisUID="RVBoRJYooKd" projectUID="FAC00000112"/> <!-- CS Rural Dara Labé -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Diari" hmisUID="Ah8kNbFM2G7" projectUID="FAC00000113"/> <!-- CS Rural Diari -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Dionfo" hmisUID="r1cAXDMToBm" projectUID="FAC00000114"/> <!-- CS Rural Dionfo -->
+  <orgUnit region="Labe" district="Labe" facility="CS Urbain Fafabhè" hmisUID="VtkBIan9Ueu" projectUID="FAC00000115"/> <!-- CS Urbain Fafabhè -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Garambè" hmisUID="NPAeEXVObH1" projectUID="FAC00000116"/> <!-- CS Rural Garambè -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Hafia" hmisUID="T4YVt2J1EEM" projectUID="FAC00000117"/> <!-- CS Rural Hafia -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Kalan" hmisUID="PtzwobWy8RS" projectUID="FAC00000118"/> <!-- CS Rural Kalan -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Kouramangui" hmisUID="LiYfnAp2P0E" projectUID="FAC00000119"/> <!-- CS Rural Kouramangui -->
+  <orgUnit region="Labe" district="Labe" facility="CS Urbain Leysaré" hmisUID="evrbgyg9e1L" projectUID="FAC00000120"/> <!-- CS Urbain Leysaré -->
+  <orgUnit region="Labe" district="Labe" facility="CS Urbain Lombonna" hmisUID="vLvfEE6ewRQ" projectUID="FAC00000121"/> <!-- CS Urbain Lombonna -->
+  <orgUnit region="Labe" district="Labe" facility="CS Urbain Pellel" hmisUID="Jiz4Fro3HXF" projectUID="FAC00000122"/> <!-- CS Urbain Pellel -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Popodara" hmisUID="cOiftjBTEaS" projectUID="FAC00000123"/> <!-- CS Rural Popodara -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Sannoun" hmisUID="AJbCdZOwxHF" projectUID="FAC00000124"/> <!-- CS Rural Sannoun -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Tountouroun" hmisUID="YMefJBrmn4y" projectUID="FAC00000125"/> <!-- CS Rural Tountouroun -->
+  <orgUnit region="Labe" district="Labe" facility="CS Rural Noussy" hmisUID="Jjdgyyjordl" projectUID="FAC00000126"/> <!-- CS Rural Noussy -->
+
+  <!-- Lelouma -->
+  <orgUnit region="Labe" district="Lelouma" facility="Hopital" hmisUID="t960ZbiFmVI" projectUID="FAC00000127"/> <!-- Hopital -->
+  <orgUnit region="Labe" district="Lelouma" facility="CSU" hmisUID="XeghT10wRPe" projectUID="FAC00000128"/> <!-- CSU -->
+  <orgUnit region="Labe" district="Lelouma" facility="CS Rural Balaya" hmisUID="g4qG694Z3Cu" projectUID="FAC00000129"/> <!-- CS Rural Balaya -->
+  <orgUnit region="Labe" district="Lelouma" facility="CS Rural Sagalé" hmisUID="alasgTfw2Kv" projectUID="FAC00000130"/> <!-- CS Rural Sagalé -->
+  <orgUnit region="Labe" district="Lelouma" facility="CS Rural Hériko" hmisUID="CBeBTYGWEru" projectUID="FAC00000131"/> <!-- CS Rural Hériko -->
+  <orgUnit region="Labe" district="Lelouma" facility="Parawol" hmisUID="yoffldQd0YO" projectUID="FAC00000132"/> <!-- Parawol -->
+  <orgUnit region="Labe" district="Lelouma" facility="Korbe" hmisUID="XOVnz4HjuB0" projectUID="FAC00000133"/> <!-- Korbe -->
+  <orgUnit region="Labe" district="Lelouma" facility="CS Rural Diountou" hmisUID="gS9qLI4XpL6" projectUID="FAC00000134"/> <!-- CS Rural Diountou -->
+  <orgUnit region="Labe" district="Lelouma" facility="CS Rural Lafou" hmisUID="ZRk0mZdC4ZR" projectUID="FAC00000135"/> <!-- CS Rural Lafou -->
+  <orgUnit region="Labe" district="Lelouma" facility="CS Rural Thiaguel Bori" hmisUID="rj26APWCwre" projectUID="FAC00000136"/> <!-- CS Rural Thiaguel Bori -->
+  <orgUnit region="Labe" district="Lelouma" facility="CS Rural Manda Saran" hmisUID="dMRp3qr2nLO" projectUID="FAC00000137"/> <!-- CS Rural Manda Saran -->
+  <orgUnit region="Labe" district="Lelouma" facility="CS Rural Linsan Saran" hmisUID="URgixZT2nxI" projectUID="FAC00000138"/> <!-- CS Rural Linsan Saran -->
+
+  <!-- Mali -->
+  <orgUnit region="Labe" district="Mali" facility="Hôpital préfectoral" hmisUID="NLUhZWpPnDt" projectUID="FAC00000154"/> <!-- Hôpital préfectoral -->
+  <orgUnit region="Labe" district="Mali" facility="CS Urbain Mali" hmisUID="Gm17r63t8wC" projectUID="FAC00000155"/> <!-- CS Urbain Mali -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Balaki" hmisUID="G7EHQx0UZjy" projectUID="FAC00000156"/> <!-- CS Rural Balaki-->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Donghel Sigon" hmisUID="IkP97HoztF3" projectUID="FAC00000157"/> <!-- CS Rural Donghel Sigon -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Dougountounny" hmisUID="jFtZ8NIIsdT" projectUID="FAC00000158"/> <!-- CS Rural Dougountounny -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Gayah" hmisUID="RFvw8GS8OXL" projectUID="FAC00000159"/> <!-- CS Rural Gayah -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Hidayatou" hmisUID="t4YNPuq2xhV" projectUID="FAC00000160"/> <!-- CS Rural Hidayatou -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Lébékéré" hmisUID="w56LPkOgVZ9" projectUID="FAC00000161"/> <!-- CS Rural Lébékéré -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Madina Wora" hmisUID="k1QbbiPXdyb" projectUID="FAC00000162"/> <!-- CS Rural Madina Wora -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Salambandé" hmisUID="OQ3wlyiW1KS" projectUID="FAC00000163"/> <!-- CS Rural Salambandé -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Téliré" hmisUID="RlAJ6qFo8bg" projectUID="FAC00000164"/> <!-- CS Rural Téliré -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Touba" hmisUID="JtAQ6SLCKJG" projectUID="FAC00000165"/> <!-- CS Rural Touba -->
+  <orgUnit region="Labe" district="Mali" facility="CSA Yembéring" hmisUID="Yd6QBVflVjZ" projectUID="FAC00000166"/> <!-- CSA Yembéring -->
+  <orgUnit region="Labe" district="Mali" facility="CS Rural Fougou" hmisUID="aRObHMfdgjm" projectUID="FAC00000196"/> <!-- CS Rural Fougou -->
+
+  <!-- Tougue -->
+  <orgUnit region="Labe" district="Tougue" facility="Hôpital préfectoral" hmisUID="kq9sgvPVuYw" projectUID="FAC00000185"/> <!-- Hôpital préfectoral -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Rural Fatako" hmisUID="ZTIpaOY3iTB" projectUID="FAC00000186"/> <!-- CS Rural Fatako -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Rural Fello koundoua" hmisUID="k6l1HDNajPB" projectUID="FAC00000187"/> <!-- CS Rural Fello koundoua -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Rural Kansangui" hmisUID="T48ex5I35R4" projectUID="FAC00000188"/> <!-- CS Rural Kansangui -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Rural Koïn" hmisUID="YwE48KrawWF" projectUID="FAC00000189"/> <!-- CS Rural Koïn -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Rural Kollangui" hmisUID="LBa3a6dtU5v" projectUID="FAC00000190"/> <!-- CS Rural Kollangui -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Rural Kollet" hmisUID="mfhDGvNP9rI" projectUID="FAC00000191"/> <!-- CS Rural Kollet -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Rural Konah" hmisUID="V1zbouvJ31N" projectUID="FAC00000192"/> <!-- CS Rural Konah -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Rural Kouratongo" hmisUID="aKxyFEzUzl5" projectUID="FAC00000193"/> <!-- CS Rural Kouratongo -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Rural Tangaly" hmisUID="jwNS648Ny7J" projectUID="FAC00000194"/> <!-- CS Rural Tangaly -->
+  <orgUnit region="Labe" district="Tougue" facility="CS Urbain Tougué" hmisUID="eOazGU11seA" projectUID="FAC00000195"/> <!-- CS Urbain Tougué -->
+
+
+
+
+</orgUnits>
