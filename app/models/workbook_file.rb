@@ -18,7 +18,7 @@ class WorkbookFile < ActiveRecord::Base
     'SS Armees',
     /Rapport Palu/,
     /Feuil/,
-    /SSA/,
+    'SSA',
     /^CS [0-9]/
   ]
   # make sure that there is a date, heath facility and cases tested for RDT
