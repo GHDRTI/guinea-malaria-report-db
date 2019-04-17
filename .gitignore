@@ -8,6 +8,9 @@
 /.bundle
 /.vscode
 
+
+*dataset-comparison-report.csv
+
 /vendor/bundle
 
 .ipynb_checkpoints
