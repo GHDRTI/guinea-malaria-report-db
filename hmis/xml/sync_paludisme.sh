@@ -34,7 +34,7 @@ echo ""
 echo "Completing Datasets."
 echo ""
 
-curl -u $stoppalu_user:$stoppalu_pass -H "Content-Type: application/xml"  "https://stoppaludhis2.rti-ghd.org/api/26/completeDataSetRegistrations.xml" --data @paludisme_stoppalu_${period}_completes.xml
+curl -u $DHIS2_USER:$DHIS2_PASS -H "Content-Type: application/xml"  "https://stoppaludhis2.rti-ghd.org/api/26/completeDataSetRegistrations.xml" --data @paludisme_stoppalu_${period}_completes.xml
 
 
 echo ""
