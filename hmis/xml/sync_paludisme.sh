@@ -25,7 +25,9 @@ curl -u $GUINEA_HMIS_USER:$GUINEA_HMIS_PASS "https://dhis2.sante.gov.gn/dhis/api
 saxon -xsl:paludisme_transform.xsl -s:paludisme_moh_${period}.xml -o:paludisme_stoppalu_${period}.xml
 
 
-curl -u $DHIS2_USER:$DHIS2_PASS -H "Content-Type: application/xml"  "https://stoppaludhis2.rti-ghd.org/api/26/dataValueSets?importStrategy=CREATE" --data @paludisme_stoppalu_${period}.xml
+curl -u $DHIS2_USER:$DHIS2_PASS -H "Content-Type: application/xml"  "https://stoppaludhis2.rti-ghd.org/api/dataValueSets.xml?importStrategy=CREATE" --data @paludisme_stoppalu_${period}.xml
+
+
 
 
 saxon -xsl:paludisme_complete_registrations.xsl -s:paludisme_moh_${period}.xml -o:paludisme_stoppalu_${period}_completes.xml
@@ -34,7 +36,7 @@ echo ""
 echo "Completing Datasets."
 echo ""
 
-curl -u $DHIS2_USER:$DHIS2_PASS -H "Content-Type: application/xml"  "https://stoppaludhis2.rti-ghd.org/api/26/completeDataSetRegistrations.xml" --data @paludisme_stoppalu_${period}_completes.xml
+curl -u $DHIS2_USER:$DHIS2_PASS -H "Content-Type: application/xml"  "https://stoppaludhis2.rti-ghd.org/api/completeDataSetRegistrations.xml" --data @paludisme_stoppalu_${period}_completes.xml
 
 
 echo ""
