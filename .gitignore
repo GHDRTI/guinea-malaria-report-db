@@ -17,6 +17,8 @@
 hmis/xml/population_*.xml
 hmis/xml/paludisme_*.xml
 
+hmis/reconcile/*.csv
+
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
