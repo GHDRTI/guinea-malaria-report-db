@@ -319,4 +319,22 @@
 <dataElement hmisUID="eGJ4FSuGkRE" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="IrY6QtOugnE" projectCategoryOptionCombo="HllvX50cXC0"/>
 
 
+<!-- MILDA Stock: Palu Stock initial de MILDA -->
+<dataElement hmisUID="TaBzXRHV2Sz" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="SPoWdoQc3Cz" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!-- MILDA Stock: Palu Quantité reçue de MILDA -->
+<dataElement hmisUID="jWn76FAmehK" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="fUHd7JqNmoS" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!-- MILDA Stock: Palu Quantité consommées de MILDA  -->
+<dataElement hmisUID="yQFHY0Qboww" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="EHb8uFuVk4w" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!-- MILDA Stock: Palu Pertes de MILDA  -->
+<dataElement hmisUID="P59dpuTXiAJ" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="QIsXBAW4J9G" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!-- MILDA Stock: Palu Ajustements positifs de MILDA  -->
+<dataElement hmisUID="AaPX5JXsj64" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="uoDGQmJq2jZ" projectCategoryOptionCombo="HllvX50cXC0"/>
+
+<!-- MILDA Stock: Palu Ajustements négatifs de MILDA  -->
+<dataElement hmisUID="E7QDezz0rcu" hmisCategoryOptionCombo="HllvX50cXC0" projectUID="f6tWix3BxFw" projectCategoryOptionCombo="HllvX50cXC0"/>
+
 </dataElements>
