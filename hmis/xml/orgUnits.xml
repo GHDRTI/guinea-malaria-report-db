@@ -92,19 +92,21 @@
     <orgUnit hmisUID="EutQVtVItjl" projectUID="FAC00000140"/> <!-- CMC Matam -->
     <orgUnit hmisUID="JOOKtw8Lp0C" projectUID="FAC00000141"/> <!-- Coleah -->
     <orgUnit hmisUID="rWzgMu2jTgc" projectUID="FAC00000142"/> <!-- Madina -->
-
+    <orgUnit hmisUID="WjAjJkgW45h" projectUID="FAytNrwNqAY"/> <!-- Cabinet Medical Dr Leno -->
     <orgUnit hmisUID="m6HrAAol2kN" projectUID="FAC00000143"/> <!-- Baptiste -->
     <orgUnit hmisUID="b2KzZfOcBrQ" projectUID="FAC00000144"/> <!-- Kalima -->
     <orgUnit hmisUID="OsMpP1skjxJ" projectUID="FAC00000215"/> <!-- Bonfi-->
 
 
     <!-- Matoto -->
+    
     <orgUnit hmisUID="iHISgFBrL4g" projectUID="FAC00000145"/> <!-- Tombolia -->
     <orgUnit hmisUID="M0XRmyVQP44" projectUID="FAC00000146"/> <!-- CS Matoto -->
     <orgUnit hmisUID="hw0hd2du5LJ" projectUID="FAC00000147"/> <!-- Tanene -->
     <orgUnit hmisUID="DBRJWF5cmYI" projectUID="FAC00000148"/> <!-- Yimbaya -->
     <orgUnit hmisUID="D5A8918ucWJ" projectUID="FAC00000149"/> <!-- Dabompa -->
     <orgUnit hmisUID="R21rlk5ynyV" projectUID="FAC00000150"/> <!-- Gbessia Port 1 -->
+    <orgUnit hmisUID="MBMvxGsMDtH" projectUID="o8Qca4T35xA"/> <!-- Gbessia Port 2 -->
     <orgUnit hmisUID="sR73zSagXoo" projectUID="FAC00000151"/> <!-- Saint Gabriel -->
     <orgUnit hmisUID="uEzO17t7PfP" projectUID="FAC00000152"/> <!--  Bernay Fotoba -->
     <orgUnit hmisUID="BGdnTb6ckXI" projectUID="FAC00000153"/> <!--  CSA Siloe -->
@@ -114,8 +116,24 @@
     <orgUnit hmisUID="msdOtKckc4y" projectUID="FAC00000243"/> <!-- Gbessia Cité L'air -->
     <orgUnit hmisUID="Udl1XSyUbbs" projectUID="FAC00000246"/> <!-- Dianfouna -->
     <orgUnit hmisUID="SvWBXueEkix" projectUID="FAC00000253"/> <!-- CM Rocher -->
-
     <orgUnit hmisUID="XsJiIYtIUBj" projectUID="FAC00000211"/> <!-- Aammes Guinee-->
+
+    <orgUnit hmisUID="Ap9jZf1Swn0" projectUID="js2McFOFzXC"/> <!-- CSU Mission Alpha le Rocher de Tombolia-->
+    <orgUnit hmisUID="cHZNHRSeSm1" projectUID="yB1gzyqn5wp"/> <!-- Compagnie Bauxite Kindia -->
+    <orgUnit hmisUID="lM2Bby7zubu" projectUID="KQ8NZFd2P7a"/> <!-- Polyclinique Esperence de Kissosso -->
+    <orgUnit hmisUID="XdH4n99cpLH" projectUID="vHDQrfhq8x8"/> <!-- CS Condegbe -->
+    <orgUnit hmisUID="W963jHO6o1y" projectUID="BVbSibmsvDg"/> <!-- ANAMEG -->
+    <orgUnit hmisUID="OghArTrV9ax" projectUID="CE7A3HkSYat"/> <!-- CMC Sangoya -->
+    <orgUnit hmisUID="OcTbVUczsAY" projectUID="uPzEfzYKd6c"/> <!-- CM Camp Alpha Yaya -->
+    <orgUnit hmisUID="ef16u4xzDce" projectUID="yfTk5fKaKny"/> <!-- Clinique AGDS Matoto de Secteur III -->
+    <orgUnit hmisUID="RVMKRk8P8M9" projectUID="FcTtcZb8HKc"/> <!-- CS Dabompa Plateau -->
+
+
+
+
+
+
+
 
     <!-- Not found in MOH
         <orgUnit hmisUID="" projectUID="WmUJ4cZLrjn"/>  Matoto Kondebounyi -->
