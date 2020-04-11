@@ -85,8 +85,10 @@
 
     <orgUnit hmisUID="O8XmvZuk3JQ" projectUID="w7uePApR4aY"/>  <!-- Infirm. Marine Nationale -->
     <orgUnit hmisUID="m2MhVjbdigu" projectUID="b7ZAPyh1Cui"/>  <!-- CAMP MAKAMBO   -->
-    <orgUnit hmisUID="fq9tSC3f0QS" projectUID="vWmT84G6fAb"/>  <!-- Camp Samory   -->   
-    
+    <orgUnit hmisUID="fq9tSC3f0QS" projectUID="vWmT84G6fAb"/>  <!-- Camp Samory   -->  
+    <orgUnit hmisUID="v9Wj342cP7H" projectUID="EuwuCZ3rRFW"/>  <!-- CSC saint Toussint de Manquepas   -->  
+    <orgUnit hmisUID="klwfTRTT2eg" projectUID="McBoZmQi5LF"/>  <!-- Maison centrale   -->
+    <orgUnit hmisUID="cakS0W9ar8k" projectUID="sXbsr0Nu3v0"/>  <!-- Clinique de Maawal   -->
 
     <!-- Matam -->
     <orgUnit hmisUID="EutQVtVItjl" projectUID="FAC00000140"/> <!-- CMC Matam -->
@@ -127,11 +129,6 @@
     <orgUnit hmisUID="OcTbVUczsAY" projectUID="uPzEfzYKd6c"/> <!-- CM Camp Alpha Yaya -->
     <orgUnit hmisUID="ef16u4xzDce" projectUID="yfTk5fKaKny"/> <!-- Clinique AGDS Matoto de Secteur III -->
     <orgUnit hmisUID="RVMKRk8P8M9" projectUID="FcTtcZb8HKc"/> <!-- CS Dabompa Plateau -->
-
-
-
-
-
 
 
 
